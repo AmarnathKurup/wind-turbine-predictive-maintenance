@@ -1,0 +1,32 @@
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\features.py:54: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  m = med.reset_index().melt(id_vars="asset_id", var_name="feature", value_name="median")
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\features.py:55: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  q = iqr.reset_index().melt(id_vars="asset_id", var_name="feature", value_name="iqr")
+[00:35:34] Loaded 1789847 labelled records, 235 candidate features (avg_selfref)
+[00:35:36] fold 1 dummy_majority: PR-AUC=0.0353 ROC-AUC=0.5000 F1@0.5=0.0000 (0.2s, 190265 train rows)
+[00:36:36] fold 1 rf_leaf5_sqrt_bal: PR-AUC=0.0770 ROC-AUC=0.7336 F1@0.5=0.0000 (59.9s, 190265 train rows)
+[00:38:06] fold 1 rf_leaf5_sqrt_none: PR-AUC=0.0701 ROC-AUC=0.7114 F1@0.5=0.0000 (89.4s, 190265 train rows)
+[00:38:08] fold 2 dummy_majority: PR-AUC=0.0225 ROC-AUC=0.5000 F1@0.5=0.0000 (0.3s, 184086 train rows)
+[00:39:08] fold 2 rf_leaf5_sqrt_bal: PR-AUC=0.0566 ROC-AUC=0.6286 F1@0.5=0.0000 (59.4s, 184086 train rows)
+[00:40:27] fold 2 rf_leaf5_sqrt_none: PR-AUC=0.0332 ROC-AUC=0.5962 F1@0.5=0.0000 (79.1s, 184086 train rows)
+[00:40:29] fold 3 dummy_majority: PR-AUC=0.0430 ROC-AUC=0.5000 F1@0.5=0.0000 (0.2s, 199512 train rows)
+[00:41:20] fold 3 rf_leaf5_sqrt_bal: PR-AUC=0.0718 ROC-AUC=0.6679 F1@0.5=0.0000 (51.5s, 199512 train rows)
+[00:42:37] fold 3 rf_leaf5_sqrt_none: PR-AUC=0.0798 ROC-AUC=0.6992 F1@0.5=0.0000 (76.3s, 199512 train rows)
+[00:42:39] fold 4 dummy_majority: PR-AUC=0.0375 ROC-AUC=0.5000 F1@0.5=0.0000 (0.2s, 203017 train rows)
+[00:43:41] fold 4 rf_leaf5_sqrt_bal: PR-AUC=0.0946 ROC-AUC=0.7513 F1@0.5=0.0000 (61.9s, 203017 train rows)
+[00:45:14] fold 4 rf_leaf5_sqrt_none: PR-AUC=0.0572 ROC-AUC=0.6776 F1@0.5=0.0000 (92.9s, 203017 train rows)
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\metrics.py:65: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  w = windows.assign(pred=(proba >= threshold).astype(int), proba=proba)
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\metrics.py:65: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  w = windows.assign(pred=(proba >= threshold).astype(int), proba=proba)
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\metrics.py:65: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  w = windows.assign(pred=(proba >= threshold).astype(int), proba=proba)
+[00:45:18] CV summary:
+             model  pr_auc_mean  pr_auc_std  roc_auc_mean  cv_threshold  pooled_f1  events_anomaly_events_detected  events_anomaly_events  events_normal_events_with_false_alarm
+ rf_leaf5_sqrt_bal     0.075005    0.013586      0.695346      0.106632   0.113674                              20                     22                                     14
+rf_leaf5_sqrt_none     0.060091    0.017491      0.671125      0.032941   0.101813                              22                     22                                     23
+    dummy_majority     0.034555    0.007533      0.500000      0.500000   0.000000                               0                     22                                      0
+[00:45:18] Selected rf_leaf5_sqrt_bal (mean CV PR-AUC 0.0750), CV threshold 0.1066
+[00:46:50] Final model fitted on 258960 rows x 235 features in 90s
+[00:46:50] Saved artifacts/model_avg_selfref.joblib and model_metadata_avg_selfref.json
+exit=0

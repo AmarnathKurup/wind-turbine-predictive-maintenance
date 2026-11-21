@@ -1,0 +1,82 @@
+[23:54:32] turbine 2: read event 12 (56107 rows)
+[23:54:37] turbine 2: read event 36 (55448 rows)
+[23:54:38] turbine 2: 111555 rows -> 62623 unique records, 0 relabelled
+[23:54:43] turbine 5: read event 89 (54577 rows)
+[23:54:43] turbine 5: 54577 rows -> 54577 unique records, 0 relabelled
+[23:54:48] turbine 12: read event 15 (54433 rows)
+[23:54:53] turbine 12: read event 50 (55153 rows)
+[23:54:58] turbine 12: read event 66 (53503 rows)
+[23:55:00] turbine 12: 163089 rows -> 67969 unique records, 3824 relabelled
+[23:55:05] turbine 13: read event 29 (54865 rows)
+[23:55:06] turbine 13: 54865 rows -> 54865 unique records, 0 relabelled
+[23:55:10] turbine 14: read event 85 (52417 rows)
+[23:55:10] turbine 14: 52417 rows -> 52417 unique records, 0 relabelled
+[23:55:15] turbine 15: read event 64 (54433 rows)
+[23:55:20] turbine 15: read event 78 (53146 rows)
+[23:55:21] turbine 15: 107579 rows -> 107579 unique records, 0 relabelled
+[23:55:27] turbine 16: read event 30 (56111 rows)
+[23:55:32] turbine 16: read event 46 (55133 rows)
+[23:55:37] turbine 16: read event 65 (55918 rows)
+[23:55:42] turbine 16: read event 79 (53281 rows)
+[23:55:47] turbine 16: 220443 rows -> 126371 unique records, 2062 relabelled
+[23:55:52] turbine 21: read event 47 (53993 rows)
+[23:55:57] turbine 21: read event 62 (53448 rows)
+[23:55:58] turbine 21: 107441 rows -> 60641 unique records, 1032 relabelled
+[23:56:03] turbine 23: read event 37 (53713 rows)
+[23:56:08] turbine 23: read event 70 (56038 rows)
+[23:56:13] turbine 23: read event 80 (54913 rows)
+[23:56:16] turbine 23: 164664 rows -> 114718 unique records, 2065 relabelled
+[23:56:21] turbine 32: read event 5 (52795 rows)
+[23:56:26] turbine 32: read event 59 (54865 rows)
+[23:56:28] turbine 32: 107660 rows -> 57025 unique records, 0 relabelled
+[23:56:33] turbine 33: read event 41 (55666 rows)
+[23:56:38] turbine 33: read event 49 (53014 rows)
+[23:56:39] turbine 33: 108680 rows -> 63496 unique records, 0 relabelled
+[23:56:45] turbine 34: read event 4 (56449 rows)
+[23:56:50] turbine 34: read event 18 (52848 rows)
+[23:56:55] turbine 34: read event 56 (53416 rows)
+[23:57:00] turbine 34: read event 94 (54865 rows)
+[23:57:05] turbine 34: 217578 rows -> 155551 unique records, 2008 relabelled
+[23:57:10] turbine 35: read event 31 (54589 rows)
+[23:57:15] turbine 35: read event 48 (55297 rows)
+[23:57:21] turbine 35: read event 58 (54433 rows)
+[23:57:27] turbine 35: read event 67 (61489 rows)
+[23:57:31] turbine 35: 225808 rows -> 123770 unique records, 8929 relabelled
+[23:57:37] turbine 38: read event 6 (54865 rows)
+[23:57:42] turbine 38: read event 81 (53932 rows)
+[23:57:43] turbine 38: 108797 rows -> 57297 unique records, 1372 relabelled
+[23:57:48] turbine 42: read event 32 (55009 rows)
+[23:57:54] turbine 42: read event 91 (56608 rows)
+[23:57:55] turbine 42: 111617 rows -> 58361 unique records, 696 relabelled
+[23:58:00] turbine 43: read event 11 (56437 rows)
+[23:58:06] turbine 43: read event 33 (55873 rows)
+[23:58:11] turbine 43: read event 61 (55585 rows)
+[23:58:16] turbine 43: read event 93 (55873 rows)
+[23:58:21] turbine 43: 223768 rows -> 80272 unique records, 8481 relabelled
+[23:58:27] turbine 44: read event 44 (63003 rows)
+[23:58:32] turbine 44: read event 75 (56161 rows)
+[23:58:33] turbine 44: 119164 rows -> 76412 unique records, 2737 relabelled
+[23:58:38] turbine 50: read event 8 (54802 rows)
+[23:58:44] turbine 50: read event 55 (55753 rows)
+[23:58:45] turbine 50: 110555 rows -> 65080 unique records, 0 relabelled
+[23:58:50] turbine 52: read event 28 (55918 rows)
+[23:58:56] turbine 52: read event 39 (53727 rows)
+[23:59:01] turbine 52: read event 43 (55153 rows)
+[23:59:07] turbine 52: read event 54 (55585 rows)
+[23:59:11] turbine 52: 220383 rows -> 91045 unique records, 3458 relabelled
+[23:59:16] turbine 53: read event 1 (53569 rows)
+[23:59:21] turbine 53: read event 16 (53568 rows)
+[23:59:26] turbine 53: read event 20 (54001 rows)
+[23:59:31] turbine 53: read event 35 (52615 rows)
+[23:59:36] turbine 53: read event 60 (54433 rows)
+[23:59:41] turbine 53: read event 76 (52086 rows)
+[23:59:52] turbine 53: 320272 rows -> 98421 unique records, 4233 relabelled
+[23:59:58] turbine 55: read event 9 (56029 rows)
+[00:00:03] turbine 55: read event 57 (55009 rows)
+[00:00:09] turbine 55: read event 88 (55441 rows)
+[00:00:12] turbine 55: 166479 rows -> 119189 unique records, 0 relabelled
+[00:00:17] turbine 56: read event 63 (54865 rows)
+[00:00:23] turbine 56: read event 90 (54880 rows)
+[00:00:24] turbine 56: 109745 rows -> 59727 unique records, 0 relabelled
+[00:03:12] Saved 1806551 records, 120080 event-window rows. Checks: {'every_fold_has_pos_and_neg': True, 'turbine_in_single_fold': True, 'fingerprints_shared_test_vs_trainval_after_guard': 0, 'fingerprint_collisions_fp1_same_fp2_differs': 0, 'status_type_id_is_feature': False}
+exit=0

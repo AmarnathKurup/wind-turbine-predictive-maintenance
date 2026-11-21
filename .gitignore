@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Data (raw dataset is licensed/large and must never be committed) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Model artifacts: only the two released models (10-13 MB) are tracked for hand-over ---
+artifacts/*.joblib
+artifacts/*.pkl
+!artifacts/model_avg.joblib
+!artifacts/model_avg_selfref.joblib
+
+# --- Notebooks / tooling ---
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Secrets / local config ---
+.env
+*.env
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

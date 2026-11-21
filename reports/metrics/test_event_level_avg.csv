@@ -1,0 +1,13 @@
+event_id,asset_id,event_label,window_rows,window_gaps,share_records_flagged,mean_probability,alarm,first_alarm,detection_delay_h,lead_time_before_event_end_h,event_duration_h
+4,34,anomaly,2737,0,0.0022,0.0677,False,,,,456.0
+18,34,anomaly,576,0,0.0,0.0539,False,,,,95.8
+29,13,normal,2017,0,0.0015,0.1003,False,,,,336.0
+37,23,normal,1729,0,0.0012,0.089,False,,,,288.0
+41,33,normal,3970,0,0.0063,0.11,True,2023-01-16 14:40:00,9.7,651.8,661.5
+44,44,anomaly,9435,0,0.0369,0.1024,True,2023-08-29 09:00:00,619.0,953.3,1572.3
+49,33,anomaly,598,0,0.0017,0.1065,False,,,,99.5
+56,34,normal,2008,0,0.0,0.0591,False,,,,334.5
+70,23,anomaly,2902,0,0.0024,0.0798,False,,,,483.5
+75,44,normal,2737,0,0.0011,0.0673,False,,,,456.0
+80,23,normal,2065,0,0.0,0.0577,False,,,,344.0
+94,34,normal,1441,0,0.0028,0.0692,False,,,,240.0

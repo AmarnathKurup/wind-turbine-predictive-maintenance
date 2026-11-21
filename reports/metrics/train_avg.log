@@ -1,0 +1,42 @@
+[00:04:01] Loaded 1789847 labelled records, 238 candidate features (avg)
+[00:04:07] fold 1 dummy_majority: PR-AUC=0.0353 ROC-AUC=0.5000 F1@0.5=0.0000 (0.8s, 190265 train rows)
+[00:04:55] fold 1 logreg_balanced: PR-AUC=0.0249 ROC-AUC=0.3268 F1@0.5=0.0271 (48.2s, 190265 train rows)
+[00:06:46] fold 1 rf_leaf1_sqrt_bal: PR-AUC=0.0317 ROC-AUC=0.3239 F1@0.5=0.0000 (111.3s, 190265 train rows)
+[00:08:53] fold 1 rf_leaf5_sqrt_bal: PR-AUC=0.0300 ROC-AUC=0.3269 F1@0.5=0.0000 (125.8s, 190265 train rows)
+[00:11:19] fold 1 rf_leaf5_sqrt_none: PR-AUC=0.0388 ROC-AUC=0.3902 F1@0.5=0.0002 (146.4s, 190265 train rows)
+[00:12:54] fold 1 rf_depth20_leaf5_bal: PR-AUC=0.0247 ROC-AUC=0.2793 F1@0.5=0.0000 (94.5s, 190265 train rows)
+[00:15:43] fold 1 rf_leaf5_f0.1_bal: PR-AUC=0.0300 ROC-AUC=0.3234 F1@0.5=0.0000 (168.8s, 190265 train rows)
+[00:15:48] fold 2 dummy_majority: PR-AUC=0.0225 ROC-AUC=0.5000 F1@0.5=0.0000 (0.7s, 184086 train rows)
+[00:16:39] fold 2 logreg_balanced: PR-AUC=0.0263 ROC-AUC=0.5561 F1@0.5=0.0376 (50.6s, 184086 train rows)
+[00:18:17] fold 2 rf_leaf1_sqrt_bal: PR-AUC=0.0200 ROC-AUC=0.4827 F1@0.5=0.0000 (98.3s, 184086 train rows)
+[00:20:01] fold 2 rf_leaf5_sqrt_bal: PR-AUC=0.0218 ROC-AUC=0.5242 F1@0.5=0.0000 (103.5s, 184086 train rows)
+[00:21:58] fold 2 rf_leaf5_sqrt_none: PR-AUC=0.0161 ROC-AUC=0.3740 F1@0.5=0.0000 (116.5s, 184086 train rows)
+[00:22:39] fold 2 rf_depth20_leaf5_bal: PR-AUC=0.0190 ROC-AUC=0.4635 F1@0.5=0.0000 (41.0s, 184086 train rows)
+[00:23:48] fold 2 rf_leaf5_f0.1_bal: PR-AUC=0.0207 ROC-AUC=0.5123 F1@0.5=0.0000 (69.7s, 184086 train rows)
+[00:23:50] fold 3 dummy_majority: PR-AUC=0.0430 ROC-AUC=0.5000 F1@0.5=0.0000 (0.2s, 199512 train rows)
+[00:24:31] fold 3 logreg_balanced: PR-AUC=0.2278 ROC-AUC=0.7565 F1@0.5=0.1288 (41.1s, 199512 train rows)
+[00:25:13] fold 3 rf_leaf1_sqrt_bal: PR-AUC=0.0675 ROC-AUC=0.5296 F1@0.5=0.0000 (41.4s, 199512 train rows)
+[00:25:52] fold 3 rf_leaf5_sqrt_bal: PR-AUC=0.0783 ROC-AUC=0.6252 F1@0.5=0.0000 (39.0s, 199512 train rows)
+[00:26:41] fold 3 rf_leaf5_sqrt_none: PR-AUC=0.0573 ROC-AUC=0.5942 F1@0.5=0.0000 (49.7s, 199512 train rows)
+[00:27:18] fold 3 rf_depth20_leaf5_bal: PR-AUC=0.0725 ROC-AUC=0.5576 F1@0.5=0.0000 (36.3s, 199512 train rows)
+[00:28:19] fold 3 rf_leaf5_f0.1_bal: PR-AUC=0.0501 ROC-AUC=0.5407 F1@0.5=0.0000 (61.3s, 199512 train rows)
+[00:28:21] fold 4 dummy_majority: PR-AUC=0.0375 ROC-AUC=0.5000 F1@0.5=0.0000 (0.2s, 203017 train rows)
+[00:29:00] fold 4 logreg_balanced: PR-AUC=0.0669 ROC-AUC=0.7067 F1@0.5=0.1175 (39.0s, 203017 train rows)
+[00:29:51] fold 4 rf_leaf1_sqrt_bal: PR-AUC=0.2392 ROC-AUC=0.7323 F1@0.5=0.0000 (50.8s, 203017 train rows)
+[00:30:37] fold 4 rf_leaf5_sqrt_bal: PR-AUC=0.3765 ROC-AUC=0.7729 F1@0.5=0.0000 (46.0s, 203017 train rows)
+[00:31:39] fold 4 rf_leaf5_sqrt_none: PR-AUC=0.3942 ROC-AUC=0.7409 F1@0.5=0.0000 (61.6s, 203017 train rows)
+[00:32:23] fold 4 rf_depth20_leaf5_bal: PR-AUC=0.3517 ROC-AUC=0.7744 F1@0.5=0.0000 (44.6s, 203017 train rows)
+[00:33:32] fold 4 rf_leaf5_f0.1_bal: PR-AUC=0.1624 ROC-AUC=0.7808 F1@0.5=0.0000 (69.0s, 203017 train rows)
+[00:33:41] CV summary:
+               model  pr_auc_mean  pr_auc_std  roc_auc_mean  cv_threshold  pooled_f1  events_anomaly_events_detected  events_anomaly_events  events_normal_events_with_false_alarm
+   rf_leaf5_sqrt_bal     0.126630    0.145843      0.562295      0.177537   0.124316                              16                     22                                      4
+  rf_leaf5_sqrt_none     0.126576    0.155188      0.524841      0.173092   0.105236                              11                     22                                      2
+rf_depth20_leaf5_bal     0.116963    0.137106      0.518714      0.192628   0.123044                              15                     22                                      7
+   rf_leaf1_sqrt_bal     0.089622    0.088129      0.517134      0.145000   0.121384                              16                     22                                      7
+     logreg_balanced     0.086471    0.083301      0.586534      1.000000   0.122051                              11                     22                                      6
+   rf_leaf5_f0.1_bal     0.065797    0.056767      0.539292      0.152081   0.088799                              17                     22                                      8
+      dummy_majority     0.034555    0.007533      0.500000      0.500000   0.000000                               0                     22                                      0
+[00:33:41] Selected rf_leaf5_sqrt_bal (mean CV PR-AUC 0.1266), CV threshold 0.1775
+[00:34:46] Final model fitted on 258960 rows x 238 features in 64s
+[00:34:47] Saved artifacts/model_avg.joblib and model_metadata_avg.json
+exit=0

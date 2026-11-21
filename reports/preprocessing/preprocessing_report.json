@@ -1,0 +1,1061 @@
+{
+  "generated": "2026-11-22 00:03:12",
+  "farm": "C",
+  "turbines": [
+    2,
+    5,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21,
+    23,
+    32,
+    33,
+    34,
+    35,
+    38,
+    42,
+    43,
+    44,
+    50,
+    52,
+    53,
+    55,
+    56
+  ],
+  "n_feature_columns_stored": 476,
+  "sentinel_cells_set_missing": 964322,
+  "records_total": 1806551,
+  "label_counts": {
+    "assumed_normal": 1669905,
+    "anomaly_window": 60897,
+    "normal_window": 59045,
+    "excluded_post_event": 12096,
+    "excluded_pre_event": 4608
+  },
+  "dedup_totals": {
+    "rows_in_files": 3187136,
+    "unique_records": 1807406,
+    "duplicates_removed": 1379730,
+    "records_with_conflicting_labels": 70699,
+    "records_relabelled_by_priority": 40897,
+    "within_file_repeated_fingerprints_kept": 6647
+  },
+  "cross_turbine_identical_vectors": {
+    "fingerprints": 1,
+    "records": 3502,
+    "label_sources": {
+      "assumed_normal": 3459,
+      "normal_window": 30,
+      "anomaly_window": 13
+    },
+    "dropped_from_test_fold": 855
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "role": "test",
+      "turbines": [
+        13,
+        23,
+        33,
+        34,
+        44
+      ],
+      "anomaly_events": 5,
+      "normal_events": 7,
+      "positives": 16248,
+      "negatives": 443043,
+      "negatives_confirmed": 15967,
+      "negatives_assumed": 427076,
+      "excluded": 4896
+    },
+    {
+      "fold": 1,
+      "role": "cv",
+      "turbines": [
+        14,
+        21,
+        32,
+        35,
+        56
+      ],
+      "anomaly_events": 5,
+      "normal_events": 6,
+      "positives": 12354,
+      "negatives": 338058,
+      "negatives_confirmed": 9245,
+      "negatives_assumed": 328813,
+      "excluded": 3168
+    },
+    {
+      "fold": 2,
+      "role": "cv",
+      "turbines": [
+        15,
+        38,
+        42,
+        50,
+        55
+      ],
+      "anomaly_events": 5,
+      "normal_events": 6,
+      "positives": 9068,
+      "negatives": 394838,
+      "negatives_confirmed": 10911,
+      "negatives_assumed": 383927,
+      "excluded": 3600
+    },
+    {
+      "fold": 3,
+      "role": "cv",
+      "turbines": [
+        2,
+        5,
+        43,
+        53
+      ],
+      "anomaly_events": 6,
+      "normal_events": 7,
+      "positives": 12622,
+      "negatives": 280967,
+      "negatives_confirmed": 13388,
+      "negatives_assumed": 267579,
+      "excluded": 2304
+    },
+    {
+      "fold": 4,
+      "role": "cv",
+      "turbines": [
+        12,
+        16,
+        52
+      ],
+      "anomaly_events": 6,
+      "normal_events": 5,
+      "positives": 10605,
+      "negatives": 272044,
+      "negatives_confirmed": 9534,
+      "negatives_assumed": 262510,
+      "excluded": 2736
+    }
+  ],
+  "checks": {
+    "every_fold_has_pos_and_neg": true,
+    "turbine_in_single_fold": true,
+    "fingerprints_shared_test_vs_trainval_after_guard": 0,
+    "fingerprint_collisions_fp1_same_fp2_differs": 0,
+    "status_type_id_is_feature": false
+  },
+  "per_turbine_dedup": {
+    "2": {
+      "rows_in_files": 111555,
+      "unique_records": 62623,
+      "duplicates_removed": 48932,
+      "records_with_conflicting_labels": 3547,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 96,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 50122,
+          "unique_fp_matches": 48915,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 48932,
+          "coincidental": 1190,
+          "file_prev": 12,
+          "file_new": 36
+        }
+      ]
+    },
+    "5": {
+      "rows_in_files": 54577,
+      "unique_records": 54577,
+      "duplicates_removed": 0,
+      "records_with_conflicting_labels": 0,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 234,
+      "file_pairs": []
+    },
+    "12": {
+      "rows_in_files": 163089,
+      "unique_records": 67969,
+      "duplicates_removed": 95120,
+      "records_with_conflicting_labels": 3824,
+      "records_relabelled_by_priority": 3824,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 2017,
+        "assumed_normal->anomaly_window": 943,
+        "assumed_normal->excluded_post_event": 864
+      },
+      "within_file_repeated_fingerprints_kept": 687,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 94287,
+          "unique_fp_matches": 41387,
+          "dominant_offset": "365 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 41617,
+          "coincidental": 52670,
+          "file_prev": 15,
+          "file_new": 50
+        },
+        {
+          "fingerprint_matches": 103581,
+          "unique_fp_matches": 50681,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 50911,
+          "coincidental": 52670,
+          "file_prev": 15,
+          "file_new": 66
+        },
+        {
+          "fingerprint_matches": 2592,
+          "unique_fp_matches": 2592,
+          "dominant_offset": "-365 days +00:00:00",
+          "offset_share": 1.0,
+          "accepted": 2592,
+          "coincidental": 0,
+          "file_prev": 50,
+          "file_new": 66
+        }
+      ]
+    },
+    "13": {
+      "rows_in_files": 54865,
+      "unique_records": 54865,
+      "duplicates_removed": 0,
+      "records_with_conflicting_labels": 0,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 6,
+      "file_pairs": []
+    },
+    "14": {
+      "rows_in_files": 52417,
+      "unique_records": 52417,
+      "duplicates_removed": 0,
+      "records_with_conflicting_labels": 0,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 436,
+      "file_pairs": []
+    },
+    "15": {
+      "rows_in_files": 107579,
+      "unique_records": 107579,
+      "duplicates_removed": 0,
+      "records_with_conflicting_labels": 0,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 190,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 380,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 380,
+          "file_prev": 64,
+          "file_new": 78
+        }
+      ]
+    },
+    "16": {
+      "rows_in_files": 220443,
+      "unique_records": 126371,
+      "duplicates_removed": 94072,
+      "records_with_conflicting_labels": 4059,
+      "records_relabelled_by_priority": 2062,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 2062
+      },
+      "within_file_repeated_fingerprints_kept": 199,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 198,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 198,
+          "file_prev": 30,
+          "file_new": 46
+        },
+        {
+          "fingerprint_matches": 59652,
+          "unique_fp_matches": 49653,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 49752,
+          "coincidental": 9900,
+          "file_prev": 30,
+          "file_new": 65
+        },
+        {
+          "fingerprint_matches": 4,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 4,
+          "file_prev": 46,
+          "file_new": 65
+        },
+        {
+          "fingerprint_matches": 99,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 99,
+          "file_prev": 30,
+          "file_new": 79
+        },
+        {
+          "fingerprint_matches": 44322,
+          "unique_fp_matches": 44320,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 44320,
+          "coincidental": 2,
+          "file_prev": 46,
+          "file_new": 79
+        },
+        {
+          "fingerprint_matches": 101,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 101,
+          "file_prev": 65,
+          "file_new": 79
+        }
+      ]
+    },
+    "21": {
+      "rows_in_files": 107441,
+      "unique_records": 60641,
+      "duplicates_removed": 46800,
+      "records_with_conflicting_labels": 1032,
+      "records_relabelled_by_priority": 1032,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 1032
+      },
+      "within_file_repeated_fingerprints_kept": 198,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 56700,
+          "unique_fp_matches": 46700,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 46800,
+          "coincidental": 9900,
+          "file_prev": 47,
+          "file_new": 62
+        }
+      ]
+    },
+    "23": {
+      "rows_in_files": 164664,
+      "unique_records": 114718,
+      "duplicates_removed": 49946,
+      "records_with_conflicting_labels": 2065,
+      "records_relabelled_by_priority": 2065,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 2065
+      },
+      "within_file_repeated_fingerprints_kept": 130,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 630,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 630,
+          "file_prev": 37,
+          "file_new": 70
+        },
+        {
+          "fingerprint_matches": 252,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 252,
+          "file_prev": 37,
+          "file_new": 80
+        },
+        {
+          "fingerprint_matches": 49955,
+          "unique_fp_matches": 49945,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 49946,
+          "coincidental": 9,
+          "file_prev": 70,
+          "file_new": 80
+        }
+      ]
+    },
+    "32": {
+      "rows_in_files": 107660,
+      "unique_records": 57025,
+      "duplicates_removed": 50635,
+      "records_with_conflicting_labels": 667,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 330,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 56817,
+          "unique_fp_matches": 50381,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 50635,
+          "coincidental": 6182,
+          "file_prev": 5,
+          "file_new": 59
+        }
+      ]
+    },
+    "33": {
+      "rows_in_files": 108680,
+      "unique_records": 63496,
+      "duplicates_removed": 45184,
+      "records_with_conflicting_labels": 3970,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 706,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 170146,
+          "unique_fp_matches": 44830,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 45184,
+          "coincidental": 124962,
+          "file_prev": 41,
+          "file_new": 49
+        }
+      ]
+    },
+    "34": {
+      "rows_in_files": 217578,
+      "unique_records": 155551,
+      "duplicates_removed": 62027,
+      "records_with_conflicting_labels": 3736,
+      "records_relabelled_by_priority": 2008,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 2008
+      },
+      "within_file_repeated_fingerprints_kept": 586,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 209,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 209,
+          "file_prev": 4,
+          "file_new": 18
+        },
+        {
+          "fingerprint_matches": 209,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 209,
+          "file_prev": 4,
+          "file_new": 56
+        },
+        {
+          "fingerprint_matches": 90443,
+          "unique_fp_matches": 46762,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 46971,
+          "coincidental": 43472,
+          "file_prev": 18,
+          "file_new": 56
+        },
+        {
+          "fingerprint_matches": 171,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 171,
+          "file_prev": 4,
+          "file_new": 94
+        },
+        {
+          "fingerprint_matches": 50775,
+          "unique_fp_matches": 15036,
+          "dominant_offset": "-365 days +00:00:00",
+          "offset_share": 1.0,
+          "accepted": 15056,
+          "coincidental": 35719,
+          "file_prev": 18,
+          "file_new": 94
+        },
+        {
+          "fingerprint_matches": 31559,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 31559,
+          "file_prev": 56,
+          "file_new": 94
+        }
+      ]
+    },
+    "35": {
+      "rows_in_files": 225808,
+      "unique_records": 123770,
+      "duplicates_removed": 102038,
+      "records_with_conflicting_labels": 10958,
+      "records_relabelled_by_priority": 8929,
+      "relabel_transitions": {
+        "assumed_normal->anomaly_window": 8353,
+        "assumed_normal->excluded_post_event": 432,
+        "assumed_normal->excluded_pre_event": 144
+      },
+      "within_file_repeated_fingerprints_kept": 114,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 40717,
+          "unique_fp_matches": 40546,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 40549,
+          "coincidental": 168,
+          "file_prev": 31,
+          "file_new": 48
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 31,
+          "file_new": 58
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 48,
+          "file_new": 58
+        },
+        {
+          "fingerprint_matches": 55477,
+          "unique_fp_matches": 52228,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 52285,
+          "coincidental": 3192,
+          "file_prev": 31,
+          "file_new": 67
+        },
+        {
+          "fingerprint_matches": 9204,
+          "unique_fp_matches": 9204,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 9204,
+          "coincidental": 0,
+          "file_prev": 48,
+          "file_new": 67
+        }
+      ]
+    },
+    "38": {
+      "rows_in_files": 108797,
+      "unique_records": 57297,
+      "duplicates_removed": 51500,
+      "records_with_conflicting_labels": 1372,
+      "records_relabelled_by_priority": 1372,
+      "relabel_transitions": {
+        "assumed_normal->excluded_post_event": 864,
+        "assumed_normal->anomaly_window": 364,
+        "assumed_normal->excluded_pre_event": 144
+      },
+      "within_file_repeated_fingerprints_kept": 0,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 51500,
+          "unique_fp_matches": 51500,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 51500,
+          "coincidental": 0,
+          "file_prev": 6,
+          "file_new": 81
+        }
+      ]
+    },
+    "42": {
+      "rows_in_files": 111617,
+      "unique_records": 58361,
+      "duplicates_removed": 53256,
+      "records_with_conflicting_labels": 2449,
+      "records_relabelled_by_priority": 696,
+      "relabel_transitions": {
+        "assumed_normal->anomaly_window": 552,
+        "normal_window->excluded_pre_event": 120,
+        "assumed_normal->excluded_pre_event": 24
+      },
+      "within_file_repeated_fingerprints_kept": 2,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 53258,
+          "unique_fp_matches": 53254,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 53256,
+          "coincidental": 2,
+          "file_prev": 32,
+          "file_new": 91
+        }
+      ]
+    },
+    "43": {
+      "rows_in_files": 223768,
+      "unique_records": 80272,
+      "duplicates_removed": 143496,
+      "records_with_conflicting_labels": 8481,
+      "records_relabelled_by_priority": 8481,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 5168,
+        "assumed_normal->anomaly_window": 2881,
+        "assumed_normal->excluded_pre_event": 288,
+        "assumed_normal->excluded_post_event": 144
+      },
+      "within_file_repeated_fingerprints_kept": 655,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 90850,
+          "unique_fp_matches": 48010,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 48100,
+          "coincidental": 42750,
+          "file_prev": 11,
+          "file_new": 33
+        },
+        {
+          "fingerprint_matches": 32702,
+          "unique_fp_matches": 31750,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 31750,
+          "coincidental": 952,
+          "file_prev": 11,
+          "file_new": 61
+        },
+        {
+          "fingerprint_matches": 7953,
+          "unique_fp_matches": 7773,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 7773,
+          "coincidental": 180,
+          "file_prev": 33,
+          "file_new": 61
+        },
+        {
+          "fingerprint_matches": 88031,
+          "unique_fp_matches": 44715,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 44805,
+          "coincidental": 43226,
+          "file_prev": 11,
+          "file_new": 93
+        },
+        {
+          "fingerprint_matches": 7863,
+          "unique_fp_matches": 7773,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 7773,
+          "coincidental": 90,
+          "file_prev": 33,
+          "file_new": 93
+        },
+        {
+          "fingerprint_matches": 3296,
+          "unique_fp_matches": 3294,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 3295,
+          "coincidental": 1,
+          "file_prev": 61,
+          "file_new": 93
+        }
+      ]
+    },
+    "44": {
+      "rows_in_files": 119164,
+      "unique_records": 76412,
+      "duplicates_removed": 42752,
+      "records_with_conflicting_labels": 2737,
+      "records_relabelled_by_priority": 2737,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 2737
+      },
+      "within_file_repeated_fingerprints_kept": 0,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 42752,
+          "unique_fp_matches": 42752,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 42752,
+          "coincidental": 0,
+          "file_prev": 44,
+          "file_new": 75
+        }
+      ]
+    },
+    "50": {
+      "rows_in_files": 110555,
+      "unique_records": 65080,
+      "duplicates_removed": 45475,
+      "records_with_conflicting_labels": 1954,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 0,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 45475,
+          "unique_fp_matches": 45475,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 45475,
+          "coincidental": 0,
+          "file_prev": 8,
+          "file_new": 55
+        }
+      ]
+    },
+    "52": {
+      "rows_in_files": 220383,
+      "unique_records": 91045,
+      "duplicates_removed": 129338,
+      "records_with_conflicting_labels": 6816,
+      "records_relabelled_by_priority": 3458,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 3458
+      },
+      "within_file_repeated_fingerprints_kept": 0,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 35326,
+          "unique_fp_matches": 35326,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 35326,
+          "coincidental": 0,
+          "file_prev": 28,
+          "file_new": 39
+        },
+        {
+          "fingerprint_matches": 44601,
+          "unique_fp_matches": 44601,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 44601,
+          "coincidental": 0,
+          "file_prev": 28,
+          "file_new": 43
+        },
+        {
+          "fingerprint_matches": 10552,
+          "unique_fp_matches": 10552,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 10552,
+          "coincidental": 0,
+          "file_prev": 39,
+          "file_new": 43
+        },
+        {
+          "fingerprint_matches": 38859,
+          "unique_fp_matches": 38859,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 38859,
+          "coincidental": 0,
+          "file_prev": 28,
+          "file_new": 54
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 39,
+          "file_new": 54
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 43,
+          "file_new": 54
+        }
+      ]
+    },
+    "53": {
+      "rows_in_files": 320272,
+      "unique_records": 98421,
+      "duplicates_removed": 221851,
+      "records_with_conflicting_labels": 8122,
+      "records_relabelled_by_priority": 4233,
+      "relabel_transitions": {
+        "assumed_normal->normal_window": 3026,
+        "assumed_normal->anomaly_window": 919,
+        "assumed_normal->excluded_pre_event": 288
+      },
+      "within_file_repeated_fingerprints_kept": 2073,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 183494,
+          "unique_fp_matches": 41280,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 41617,
+          "coincidental": 141877,
+          "file_prev": 1,
+          "file_new": 16
+        },
+        {
+          "fingerprint_matches": 151889,
+          "unique_fp_matches": 42027,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 42344,
+          "coincidental": 109545,
+          "file_prev": 1,
+          "file_new": 20
+        },
+        {
+          "fingerprint_matches": 3798,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 3798,
+          "file_prev": 16,
+          "file_new": 20
+        },
+        {
+          "fingerprint_matches": 164551,
+          "unique_fp_matches": 50982,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 51319,
+          "coincidental": 113232,
+          "file_prev": 1,
+          "file_new": 35
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 16,
+          "file_new": 35
+        },
+        {
+          "fingerprint_matches": 1296,
+          "unique_fp_matches": 1296,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 1296,
+          "coincidental": 0,
+          "file_prev": 20,
+          "file_new": 35
+        },
+        {
+          "fingerprint_matches": 103613,
+          "unique_fp_matches": 22059,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 22066,
+          "coincidental": 81547,
+          "file_prev": 1,
+          "file_new": 60
+        },
+        {
+          "fingerprint_matches": 99170,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 99170,
+          "file_prev": 16,
+          "file_new": 60
+        },
+        {
+          "fingerprint_matches": 88258,
+          "unique_fp_matches": 11648,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 11657,
+          "coincidental": 76601,
+          "file_prev": 20,
+          "file_new": 60
+        },
+        {
+          "fingerprint_matches": 76162,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 76162,
+          "file_prev": 35,
+          "file_new": 60
+        },
+        {
+          "fingerprint_matches": 179126,
+          "unique_fp_matches": 39271,
+          "dominant_offset": "-365 days +00:00:00",
+          "offset_share": 1.0,
+          "accepted": 39601,
+          "coincidental": 139525,
+          "file_prev": 1,
+          "file_new": 76
+        },
+        {
+          "fingerprint_matches": 47736,
+          "unique_fp_matches": 11866,
+          "dominant_offset": "-365 days +00:00:00",
+          "offset_share": 1.0,
+          "accepted": 11951,
+          "coincidental": 35785,
+          "file_prev": 16,
+          "file_new": 76
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 20,
+          "file_new": 76
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 35,
+          "file_new": 76
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 60,
+          "file_new": 76
+        }
+      ]
+    },
+    "55": {
+      "rows_in_files": 166479,
+      "unique_records": 119189,
+      "duplicates_removed": 47290,
+      "records_with_conflicting_labels": 3469,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 5,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 9,
+          "file_new": 57
+        },
+        {
+          "fingerprint_matches": 47298,
+          "unique_fp_matches": 47288,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 47290,
+          "coincidental": 8,
+          "file_prev": 9,
+          "file_new": 88
+        },
+        {
+          "fingerprint_matches": 0,
+          "unique_fp_matches": 0,
+          "dominant_offset": null,
+          "offset_share": null,
+          "accepted": 0,
+          "coincidental": 0,
+          "file_prev": 57,
+          "file_new": 88
+        }
+      ]
+    },
+    "56": {
+      "rows_in_files": 109745,
+      "unique_records": 59727,
+      "duplicates_removed": 50018,
+      "records_with_conflicting_labels": 1441,
+      "records_relabelled_by_priority": 0,
+      "relabel_transitions": {},
+      "within_file_repeated_fingerprints_kept": 0,
+      "file_pairs": [
+        {
+          "fingerprint_matches": 50018,
+          "unique_fp_matches": 50018,
+          "dominant_offset": "0 days 00:00:00",
+          "offset_share": 1.0,
+          "accepted": 50018,
+          "coincidental": 0,
+          "file_prev": 63,
+          "file_new": 90
+        }
+      ]
+    }
+  },
+  "seconds": 525.0
+}

@@ -1,0 +1,953 @@
+column,n_files,missing_frac_overall,files_all_missing,files_constant,min,max,mean,sensor,description,unit,is_angle,is_counter
+sensor_0_avg,58,0.0,0,0,0.0,3650722.0,29.663216284055654,sensor_0,"ABB-LS Input K1, IL1",A,False,False
+sensor_0_max,58,0.0,0,0,0.0,429496736.0,170.37535840955644,sensor_0,"ABB-LS Input K1, IL1",A,False,False
+sensor_0_min,58,0.0,0,0,0.0,89.4,21.694737030362056,sensor_0,"ABB-LS Input K1, IL1",A,False,False
+sensor_0_std,58,0.0,0,0,0.0,39432280.0,15.519522117349243,sensor_0,"ABB-LS Input K1, IL1",A,False,False
+sensor_1_avg,58,9.036326030643186e-05,0,0,-10.7,1.551,-3.721363554207795e-05,sensor_1,Generator acceleration,rpm/s,False,False
+sensor_1_max,58,9.036326030643186e-05,0,0,0.0,263.04,0.9580017979520831,sensor_1,Generator acceleration,rpm/s,False,False
+sensor_1_min,58,9.036326030643186e-05,0,0,-284.0,0.0,-0.8263771335187622,sensor_1,Generator acceleration,rpm/s,False,False
+sensor_1_std,58,9.036326030643186e-05,0,0,0.0,21.337,0.25453971441374046,sensor_1,Generator acceleration,rpm/s,False,False
+power_2_avg,58,9.036326030643186e-05,0,0,-0.33355999999999997,1.08964,0.3308865718695777,power_2,ABB-LS Active Power,kW,False,False
+power_2_max,58,9.036326030643186e-05,0,0,-0.03136,1.2419200000000001,0.4068302019483389,power_2,ABB-LS Active Power,kW,False,False
+power_2_min,58,9.036326030643186e-05,0,0,-1.7160400000000002,1.04554,0.25643887308713187,power_2,ABB-LS Active Power,kW,False,False
+power_2_std,58,9.036326030643186e-05,0,0,0.0,0.5646399999999999,0.03490518674226697,power_2,ABB-LS Active Power,kW,False,False
+sensor_3_avg,58,4.518163015321593e-05,0,37,0.0,88.925,8.655730941558685,sensor_3,Active power aeration motor A,%,False,False
+sensor_3_max,58,4.518163015321593e-05,0,37,0.0,187.26,10.342139001290244,sensor_3,Active power aeration motor A,%,False,False
+sensor_3_min,58,4.518163015321593e-05,0,39,0.0,87.353,8.040475800692315,sensor_3,Active power aeration motor A,%,False,False
+sensor_3_std,58,4.518163015321593e-05,0,37,0.0,78.238,0.5615623642293422,sensor_3,Active power aeration motor A,%,False,False
+sensor_4_avg,58,4.518163015321593e-05,0,10,0.0,112.79,26.48540728134868,sensor_4,Active power aeration motor B,%,False,False
+sensor_4_max,58,4.518163015321593e-05,0,10,0.0,191.41,33.58493531957407,sensor_4,Active power aeration motor B,%,False,False
+sensor_4_min,58,4.518163015321593e-05,0,16,0.0,106.81,23.865082517307858,sensor_4,Active power aeration motor B,%,False,False
+sensor_4_std,58,4.518163015321593e-05,0,10,0.0,72.96,2.8731733085931817,sensor_4,Active power aeration motor B,%,False,False
+power_5_avg,58,0.0,0,0,-0.043382,1.07138,0.3237058370456736,power_5,Active power grid side converter,kW,False,False
+power_5_max,58,0.0,0,0,-0.0432,1.1818,0.3938875372748448,power_5,Active power grid side converter,kW,False,False
+power_5_min,58,0.0,0,0,-0.8208,1.032,0.254263913996767,power_5,Active power grid side converter,kW,False,False
+power_5_std,58,0.0,0,0,0.0,0.5253,0.0334465279552865,power_5,Active power grid side converter,kW,False,False
+power_6_avg,58,0.0,0,0,-0.043382,1.07138,0.32370583704698513,power_6,Active power HV grid,kW,False,False
+power_6_max,58,0.0,0,0,-0.0432,1.1818,0.3938875372748448,power_6,Active power HV grid,kW,False,False
+power_6_min,58,0.0,0,0,-0.8208,1.032,0.254263913996767,power_6,Active power HV grid,kW,False,False
+power_6_std,58,0.0,0,0,0.0,0.5253,0.033446527962747746,power_6,Active power HV grid,kW,False,False
+sensor_7_avg,58,9.036326030643186e-05,0,0,-44.0,1044.3,28.00035248621836,sensor_7,Ambient temperature,Celsius,False,False
+sensor_7_max,58,9.036326030643186e-05,0,0,-44.0,1228.6,28.085980191085365,sensor_7,Ambient temperature,Celsius,False,False
+sensor_7_min,58,9.036326030643186e-05,0,0,-1013.2,850.0,27.907751483597586,sensor_7,Ambient temperature,Celsius,False,False
+sensor_7_std,58,9.036326030643186e-05,0,0,0.0,581.88,0.053835090942523776,sensor_7,Ambient temperature,Celsius,False,False
+sensor_8_avg,58,0.0,0,0,-6.529,187.09,109.30419222380219,sensor_8,Generator angle speed,rad/s,False,False
+sensor_8_max,58,0.0,0,0,0.0,327.67,118.87827933382825,sensor_8,Generator angle speed,rad/s,False,False
+sensor_8_min,58,0.0,0,0,-327.68,185.42,99.02468869025358,sensor_8,Generator angle speed,rad/s,False,False
+sensor_8_std,58,0.0,0,0,0.0,101.5,4.6618918936311475,sensor_8,Generator angle speed,rad/s,False,False
+sensor_9_avg,58,9.036326030643186e-05,0,0,-1.2,1.17,-0.009403927077789706,sensor_9,Battery charge 1,A,False,False
+sensor_9_max,58,9.036326030643186e-05,0,0,-1.2,5.0,0.2785259112765968,sensor_9,Battery charge 1,A,False,False
+sensor_9_min,58,9.036326030643186e-05,0,0,-1.2,1.1,-0.02729207659103916,sensor_9,Battery charge 1,A,False,False
+sensor_9_std,58,9.036326030643186e-05,0,0,0.0,0.9579,0.020240561991033145,sensor_9,Battery charge 1,A,False,False
+sensor_10_avg,58,9.036326030643186e-05,0,0,-1.2,1.1,-0.005714175856520296,sensor_10,Battery charge 2,A,False,False
+sensor_10_max,58,9.036326030643186e-05,0,0,-1.2,5.0,0.27027064601135664,sensor_10,Battery charge 2,A,False,False
+sensor_10_min,58,9.036326030643186e-05,0,0,-1.2,1.1,-0.027614520397584063,sensor_10,Battery charge 2,A,False,False
+sensor_10_std,58,9.036326030643186e-05,0,0,0.0,0.8707,0.019472176897046865,sensor_10,Battery charge 2,A,False,False
+sensor_11_avg,58,9.036326030643186e-05,0,0,-1.2,0.9253,0.03811295756810491,sensor_11,Battery charge 3,A,False,False
+sensor_11_max,58,9.036326030643186e-05,0,0,-1.2,5.0,0.25949535801519247,sensor_11,Battery charge 3,A,False,False
+sensor_11_min,58,9.036326030643186e-05,0,0,-1.2,0.4,0.013416046199881513,sensor_11,Battery charge 3,A,False,False
+sensor_11_std,58,9.036326030643186e-05,0,0,0.0,0.8926,0.016304336416421494,sensor_11,Battery charge 3,A,False,False
+sensor_12_avg,58,9.036326030643186e-05,0,0,-49.9,2.402,-0.05823757603123837,sensor_12,Battery discharge current axis 1,A,False,False
+sensor_12_max,58,9.036326030643186e-05,0,0,-49.9,200.0,0.42959836302202054,sensor_12,Battery discharge current axis 1,A,False,False
+sensor_12_min,58,9.036326030643186e-05,0,0,-49.9,1.5,-0.17104403115554928,sensor_12,Battery discharge current axis 1,A,False,False
+sensor_12_std,58,9.036326030643186e-05,0,0,0.0,25.537,0.052969732381337294,sensor_12,Battery discharge current axis 1,A,False,False
+sensor_13_avg,58,9.036326030643186e-05,0,0,-49.9,3.149,-0.17806197487297792,sensor_13,Battery discharge current axis 2,A,False,False
+sensor_13_max,58,9.036326030643186e-05,0,0,-49.9,200.0,0.3175366597967647,sensor_13,Battery discharge current axis 2,A,False,False
+sensor_13_min,58,9.036326030643186e-05,0,0,-49.9,0.8,-0.29077426868178213,sensor_13,Battery discharge current axis 2,A,False,False
+sensor_13_std,58,9.036326030643186e-05,0,0,0.0,30.514,0.05337141426261937,sensor_13,Battery discharge current axis 2,A,False,False
+sensor_14_avg,58,9.036326030643186e-05,0,0,-49.9,1.98,-0.10841396520951109,sensor_14,Battery discharge current axis 3,A,False,False
+sensor_14_max,58,9.036326030643186e-05,0,0,-49.9,200.0,0.3568612088496219,sensor_14,Battery discharge current axis 3,A,False,False
+sensor_14_min,58,9.036326030643186e-05,0,0,-49.9,1.7,-0.2327068130014359,sensor_14,Battery discharge current axis 3,A,False,False
+sensor_14_std,58,9.036326030643186e-05,0,0,0.0,25.649,0.052502496636174685,sensor_14,Battery discharge current axis 3,A,False,False
+sensor_15_avg,58,9.036326030643186e-05,0,0,-130.22,87.936,32.492010697403835,sensor_15,Board temperature,Celsius,False,False
+sensor_15_max,58,9.036326030643186e-05,0,0,-127.5,843.0,32.586832035917624,sensor_15,Board temperature,Celsius,False,False
+sensor_15_min,58,9.036326030643186e-05,0,0,-135.8,50.0,32.36168383305385,sensor_15,Board temperature,Celsius,False,False
+sensor_15_std,58,9.036326030643186e-05,0,0,0.0,187.66,0.07051980106989728,sensor_15,Board temperature,Celsius,False,False
+sensor_16_avg,58,0.0,0,0,-8.0,4.487,0.6149721248481396,sensor_16,Compensation angle I/U converter,deg,True,False
+sensor_16_max,58,0.0,0,0,-8.0,4.487,0.6158934774041648,sensor_16,Compensation angle I/U converter,deg,True,False
+sensor_16_min,58,0.0,0,0,-9.629,4.487,0.614128384700245,sensor_16,Compensation angle I/U converter,deg,True,False
+sensor_16_std,58,0.0,0,0,0.0,5.483,0.00044573981154240046,sensor_16,Compensation angle I/U converter,deg,True,False
+power_17_avg,58,0.0,0,0,-0.0039398,1.08988,0.3379922887599525,power_17,Active power converter,kW,False,False
+power_17_max,58,0.0,0,0,0.0,1.2158,0.41730534617914017,power_17,Active power converter,kW,False,False
+power_17_min,58,0.0,0,0,-0.0442,1.0482,0.2617479921158055,power_17,Active power converter,kW,False,False
+power_17_std,58,0.0,0,0,0.0,0.53208,0.03511076778011356,power_17,Active power converter,kW,False,False
+sensor_18_avg,58,4.518163015321593e-05,0,0,-18.169,74.894,48.04968626341077,sensor_18,Generator cooling air temperature A,Celsius,False,False
+sensor_18_max,58,4.518163015321593e-05,0,0,0.0,75.1,48.25018158188034,sensor_18,Generator cooling air temperature A,Celsius,False,False
+sensor_18_min,58,4.518163015321593e-05,0,0,-25.9,74.5,47.839791220059546,sensor_18,Generator cooling air temperature A,Celsius,False,False
+sensor_18_std,58,4.518163015321593e-05,0,0,0.0,24.002,0.11955604795995724,sensor_18,Generator cooling air temperature A,Celsius,False,False
+sensor_19_avg,58,4.518163015321593e-05,0,0,-2088.6,74.834,48.087207677019585,sensor_19,Generator cooling air temperature B,Celsius,False,False
+sensor_19_max,58,4.518163015321593e-05,0,0,0.0,75.1,48.29493983668613,sensor_19,Generator cooling air temperature B,Celsius,False,False
+sensor_19_min,58,4.518163015321593e-05,0,0,-2470.5,74.8,47.8695695815992,sensor_19,Generator cooling air temperature B,Celsius,False,False
+sensor_19_std,58,4.518163015321593e-05,0,0,0.0,1204.5,0.1230440211334073,sensor_19,Generator cooling air temperature B,Celsius,False,False
+sensor_20_avg,58,4.518163015321593e-05,0,0,-48.911,74.063,47.729946245550664,sensor_20,Generator cooling air temperature C,Celsius,False,False
+sensor_20_max,58,4.518163015321593e-05,0,0,0.0,74.2,47.94192668196218,sensor_20,Generator cooling air temperature C,Celsius,False,False
+sensor_20_min,58,4.518163015321593e-05,0,0,-62.0,73.9,47.51570038456325,sensor_20,Generator cooling air temperature C,Celsius,False,False
+sensor_20_std,58,4.518163015321593e-05,0,0,0.0,41.197,0.1213327187203482,sensor_20,Generator cooling air temperature C,Celsius,False,False
+sensor_21_avg,58,4.518163015321593e-05,0,0,-1297.4,74.106,47.72243476638787,sensor_21,Generator cooling air temperature D,Celsius,False,False
+sensor_21_max,58,4.518163015321593e-05,0,0,0.0,74.3,47.93099144899015,sensor_21,Generator cooling air temperature D,Celsius,False,False
+sensor_21_min,58,4.518163015321593e-05,0,0,-1536.1,73.9,47.505138262035175,sensor_21,Generator cooling air temperature D,Celsius,False,False
+sensor_21_std,58,4.518163015321593e-05,0,0,0.0,752.92,0.12165661928238287,sensor_21,Generator cooling air temperature D,Celsius,False,False
+sensor_22_avg,58,9.036326030643186e-05,0,4,0.0,1.212,0.024952360325939612,sensor_22,Current hydraulic tank heating,A,False,False
+sensor_22_max,58,9.036326030643186e-05,0,4,0.0,2.14,0.028965206153541055,sensor_22,Current hydraulic tank heating,A,False,False
+sensor_22_min,58,9.036326030643186e-05,0,4,0.0,1.21,0.0206792038089046,sensor_22,Current hydraulic tank heating,A,False,False
+sensor_22_std,58,9.036326030643186e-05,0,4,0.0,0.6051,0.0030500619734609245,sensor_22,Current hydraulic tank heating,A,False,False
+sensor_23_avg,58,4.518163015321593e-05,0,0,0.0,3.641,1.2535372978972024,sensor_23,Current water cooler pump 1,A,False,False
+sensor_23_max,58,4.518163015321593e-05,0,0,0.0,24.3,2.2428306064150774,sensor_23,Current water cooler pump 1,A,False,False
+sensor_23_min,58,4.518163015321593e-05,0,0,0.0,3.47,1.2178135997831188,sensor_23,Current water cooler pump 1,A,False,False
+sensor_23_std,58,4.518163015321593e-05,0,0,0.0,1.925,0.0601941838887578,sensor_23,Current water cooler pump 1,A,False,False
+sensor_24_avg,58,4.518163015321593e-05,0,0,0.0,3.472,1.2550604926526332,sensor_24,Current water cooler pump 2,A,False,False
+sensor_24_max,58,4.518163015321593e-05,0,0,0.0,24.3,2.228112646658668,sensor_24,Current water cooler pump 2,A,False,False
+sensor_24_min,58,4.518163015321593e-05,0,0,0.0,3.47,1.2201982621857856,sensor_24,Current water cooler pump 2,A,False,False
+sensor_24_std,58,4.518163015321593e-05,0,0,0.0,1.998,0.06011766716075848,sensor_24,Current water cooler pump 2,A,False,False
+sensor_25_avg,58,9.036326030643186e-05,0,0,-24.9,31.166,17.42900382167584,sensor_25,Current drain 24V nacelle,A,False,False
+sensor_25_max,58,9.036326030643186e-05,0,0,-24.9,58.1,24.24754205409232,sensor_25,Current drain 24V nacelle,A,False,False
+sensor_25_min,58,9.036326030643186e-05,0,0,-24.9,27.6,15.238176059856007,sensor_25,Current drain 24V nacelle,A,False,False
+sensor_25_std,58,9.036326030643186e-05,0,0,0.0,18.685,1.2330346251531292,sensor_25,Current drain 24V nacelle,A,False,False
+sensor_26_avg,58,9.036326030643186e-05,0,0,-37.4,17.437,4.50198094242336,sensor_26,Current drain pitch L1,A,False,False
+sensor_26_max,58,9.036326030643186e-05,0,0,-37.4,150.0,7.714235947243169,sensor_26,Current drain pitch L1,A,False,False
+sensor_26_min,58,9.036326030643186e-05,0,0,-37.4,12.8,3.9347482517835806,sensor_26,Current drain pitch L1,A,False,False
+sensor_26_std,58,9.036326030643186e-05,0,0,0.0,20.469,0.42821447185432127,sensor_26,Current drain pitch L1,A,False,False
+sensor_27_avg,58,9.036326030643186e-05,0,0,-29.045,8.449,0.2241738555149163,sensor_27,Current yaw motor A,A,False,False
+sensor_27_max,58,9.036326030643186e-05,0,0,-24.0,100.0,20.257458153008866,sensor_27,Current yaw motor A,A,False,False
+sensor_27_min,58,9.036326030643186e-05,0,7,-34.0,8.0,-0.032785686672222834,sensor_27,Current yaw motor A,A,False,False
+sensor_27_std,58,9.036326030643186e-05,0,0,0.0,16.571,1.166676501922903,sensor_27,Current yaw motor A,A,False,False
+sensor_28_avg,58,9.036326030643186e-05,0,0,-55.527,8.444,0.22458247845520088,sensor_28,Current yaw motor B,A,False,False
+sensor_28_max,58,9.036326030643186e-05,0,0,-24.0,83.0,20.36358056612678,sensor_28,Current yaw motor B,A,False,False
+sensor_28_min,58,9.036326030643186e-05,0,5,-65.0,8.0,-0.03279886583859663,sensor_28,Current yaw motor B,A,False,False
+sensor_28_std,58,9.036326030643186e-05,0,0,0.0,31.679,1.167620741591692,sensor_28,Current yaw motor B,A,False,False
+sensor_29_avg,58,9.036326030643186e-05,0,0,-24.0,8.651,0.22365777724572997,sensor_29,Current yaw motor C,A,False,False
+sensor_29_max,58,9.036326030643186e-05,0,0,-24.0,100.0,20.2923807473717,sensor_29,Current yaw motor C,A,False,False
+sensor_29_min,58,9.036326030643186e-05,0,7,-24.0,8.0,-0.032759328339475244,sensor_29,Current yaw motor C,A,False,False
+sensor_29_std,58,9.036326030643186e-05,0,0,0.0,12.202,1.1637322520559499,sensor_29,Current yaw motor C,A,False,False
+sensor_30_avg,58,9.036326030643186e-05,0,0,-24.0,66.632,0.22553693856751247,sensor_30,Current yaw motor D,A,False,False
+sensor_30_max,58,9.036326030643186e-05,0,0,-24.0,100.0,20.296315669903304,sensor_30,Current yaw motor D,A,False,False
+sensor_30_min,58,9.036326030643186e-05,0,7,-24.0,8.0,-0.03276089728785308,sensor_30,Current yaw motor D,A,False,False
+sensor_30_std,58,9.036326030643186e-05,0,0,0.0,38.015,1.169683079707598,sensor_30,Current yaw motor D,A,False,False
+sensor_31_avg,58,9.036326030643186e-05,0,0,-101.66,8.774,0.22573323883034271,sensor_31,Current yaw motor E,A,False,False
+sensor_31_max,58,9.036326030643186e-05,0,0,-24.0,87.0,20.286967247888825,sensor_31,Current yaw motor E,A,False,False
+sensor_31_min,58,9.036326030643186e-05,0,6,-119.0,8.0,-0.032836520599664624,sensor_31,Current yaw motor E,A,False,False
+sensor_31_std,58,9.036326030643186e-05,0,0,0.0,57.997,1.1708465051361094,sensor_31,Current yaw motor E,A,False,False
+sensor_32_avg,58,9.036326030643186e-05,0,0,-53.818,8.142,0.22491726499036038,sensor_32,Current yaw motor F,A,False,False
+sensor_32_max,58,9.036326030643186e-05,0,0,-24.0,85.0,20.323612547570516,sensor_32,Current yaw motor F,A,False,False
+sensor_32_min,58,9.036326030643186e-05,0,7,-63.0,8.0,-0.032799493417947766,sensor_32,Current yaw motor F,A,False,False
+sensor_32_std,58,9.036326030643186e-05,0,0,0.0,30.705,1.1659751385695207,sensor_32,Current yaw motor F,A,False,False
+sensor_33_avg,58,9.036326030643186e-05,0,0,-80.3,8.455,0.22801414918439789,sensor_33,Current yaw motor G,A,False,False
+sensor_33_max,58,9.036326030643186e-05,0,0,-24.0,85.0,20.619628234543974,sensor_33,Current yaw motor G,A,False,False
+sensor_33_min,58,9.036326030643186e-05,0,7,-94.0,8.0,-0.032817693219130625,sensor_33,Current yaw motor G,A,False,False
+sensor_33_std,58,9.036326030643186e-05,0,0,0.0,45.813,1.1837315538425428,sensor_33,Current yaw motor G,A,False,False
+sensor_34_avg,58,9.036326030643186e-05,0,0,-24.0,83.717,0.23097740877506553,sensor_34,Current yaw motor H,A,False,False
+sensor_34_max,58,9.036326030643186e-05,0,0,-24.0,100.0,20.52414391900712,sensor_34,Current yaw motor H,A,False,False
+sensor_34_min,58,9.036326030643186e-05,0,4,-24.0,8.0,-0.032761838656879774,sensor_34,Current yaw motor H,A,False,False
+sensor_34_std,58,9.036326030643186e-05,0,0,0.0,47.763,1.1977116639701673,sensor_34,Current yaw motor H,A,False,False
+sensor_35_avg,58,0.0,0,0,-1.998,5166.0,4530.528329515277,sensor_35,DC link voltage converter,V,False,False
+sensor_35_max,58,0.0,0,0,-1.0,6034.0,4588.349369151489,sensor_35,DC link voltage converter,V,False,False
+sensor_35_min,58,0.0,0,0,-3.0,5166.0,4473.384154614048,sensor_35,DC link voltage converter,V,False,False
+sensor_35_std,58,0.0,0,0,0.0,2553.2,25.266924009173128,sensor_35,DC link voltage converter,V,False,False
+sensor_36_avg,58,9.036326030643186e-05,0,0,-5.6,711.93,540.5201487771303,sensor_36,Direct current link volt axis 1,V,False,False
+sensor_36_max,58,9.036326030643186e-05,0,0,-5.6,843.1,566.4266709919644,sensor_36,Direct current link volt axis 1,V,False,False
+sensor_36_min,58,9.036326030643186e-05,0,0,-6.6,583.6,526.7583373651332,sensor_36,Direct current link volt axis 1,V,False,False
+sensor_36_std,58,9.036326030643186e-05,0,0,0.0,282.09,3.9659191833121628,sensor_36,Direct current link volt axis 1,V,False,False
+sensor_37_avg,58,0.00013554489045964778,0,0,-5.6,719.67,541.8688916136234,sensor_37,Direct current link volt axis 2,V,False,False
+sensor_37_max,58,0.00013554489045964778,0,0,-5.6,840.2,568.6577111842519,sensor_37,Direct current link volt axis 2,V,False,False
+sensor_37_min,58,0.00013554489045964778,0,0,-5.6,629.6,528.6119457499975,sensor_37,Direct current link volt axis 2,V,False,False
+sensor_37_std,58,0.00013554489045964778,0,0,0.0,308.92,4.06817398001195,sensor_37,Direct current link volt axis 2,V,False,False
+sensor_38_avg,58,9.036326030643186e-05,0,0,-2.444,672.1,540.7690853397777,sensor_38,Direct current link volt axis 3,V,False,False
+sensor_38_max,58,9.036326030643186e-05,0,0,-1.3,835.9,566.6991663226486,sensor_38,Direct current link volt axis 3,V,False,False
+sensor_38_min,58,9.036326030643186e-05,0,0,-2.9,672.1,527.3247957313621,sensor_38,Direct current link volt axis 3,V,False,False
+sensor_38_std,58,9.036326030643186e-05,0,0,0.0,280.84,3.9707175393052947,sensor_38,Direct current link volt axis 3,V,False,False
+sensor_39_avg,58,4.518163015321593e-05,0,0,0.0,34.8,17.299352938131,sensor_39,Electrical cabinet ambient temperature,Celsius,False,False
+sensor_39_max,58,4.518163015321593e-05,0,0,0.0,34.8,17.376184220104726,sensor_39,Electrical cabinet ambient temperature,Celsius,False,False
+sensor_39_min,58,4.518163015321593e-05,0,0,0.0,34.8,17.217537132192362,sensor_39,Electrical cabinet ambient temperature,Celsius,False,False
+sensor_39_std,58,4.518163015321593e-05,0,0,0.0,6.337,0.05023738158112728,sensor_39,Electrical cabinet ambient temperature,Celsius,False,False
+sensor_40_avg,58,9.036326030643186e-05,0,0,0.0,1100.0,997.3161134669743,sensor_40,Nacelle external air pressure,hPa,False,False
+sensor_40_max,58,9.036326030643186e-05,0,0,0.0,1100.0,997.4395338277822,sensor_40,Nacelle external air pressure,hPa,False,False
+sensor_40_min,58,9.036326030643186e-05,0,0,0.0,1100.0,997.0458608945264,sensor_40,Nacelle external air pressure,hPa,False,False
+sensor_40_std,58,9.036326030643186e-05,0,0,0.0,477.33,0.07723825221661026,sensor_40,Nacelle external air pressure,hPa,False,False
+sensor_41_avg,58,9.036326030643186e-05,0,0,-116.83,70.0,11.081083330488307,sensor_41,Nacelle outside temperature,Celsius,False,False
+sensor_41_max,58,9.036326030643186e-05,0,0,-54.9,70.0,11.158128183270742,sensor_41,Nacelle outside temperature,Celsius,False,False
+sensor_41_min,58,9.036326030643186e-05,0,0,-141.0,70.0,11.00506731817771,sensor_41,Nacelle outside temperature,Celsius,False,False
+sensor_41_std,58,9.036326030643186e-05,0,0,0.0,76.237,0.05024699772314212,sensor_41,Nacelle outside temperature,Celsius,False,False
+sensor_42_avg,58,4.518163015321593e-05,0,0,-19.9,77.41,44.03018128752755,sensor_42,Rotor bearing flow rate,L/min,False,False
+sensor_42_max,58,4.518163015321593e-05,0,0,-19.9,80.0,45.535967645792645,sensor_42,Rotor bearing flow rate,L/min,False,False
+sensor_42_min,58,4.518163015321593e-05,0,0,-19.9,68.2,42.64705248676495,sensor_42,Rotor bearing flow rate,L/min,False,False
+sensor_42_std,58,4.518163015321593e-05,0,0,0.0,30.392,0.444610111666424,sensor_42,Rotor bearing flow rate,L/min,False,False
+sensor_43_avg,58,4.518163015321593e-05,0,0,-15686.0,19584.0,14404.26710562954,sensor_43,Flow meter stator cooler,l/h,False,False
+sensor_43_max,58,4.518163015321593e-05,0,0,-4999.0,19767.0,15790.519544134406,sensor_43,Flow meter stator cooler,l/h,False,False
+sensor_43_min,58,4.518163015321593e-05,0,0,-18343.0,19462.0,13969.337622748975,sensor_43,Flow meter stator cooler,l/h,False,False
+sensor_43_std,58,4.518163015321593e-05,0,0,0.0,9633.5,543.1425447548033,sensor_43,Flow meter stator cooler,l/h,False,False
+sensor_44_avg,58,9.036326030643186e-05,0,0,-57.99,28.077,-0.6345868543149845,sensor_44,Fluid level oil container A1,%,False,False
+sensor_44_max,58,9.036326030643186e-05,0,0,-57.99,99.84,-0.47887141077955375,sensor_44,Fluid level oil container A1,%,False,False
+sensor_44_min,58,9.036326030643186e-05,0,0,-103.19,28.02,-0.8986511299880012,sensor_44,Fluid level oil container A1,%,False,False
+sensor_44_std,58,9.036326030643186e-05,0,0,0.0,53.082,0.08527609220772375,sensor_44,Fluid level oil container A1,%,False,False
+sensor_45_avg,58,9.036326030643186e-05,0,0,-25.72,27.039,-3.519810601697979,sensor_45,Fluid level oil container A2,%,False,False
+sensor_45_max,58,9.036326030643186e-05,0,0,-24.99,100.0,-3.409716915585557,sensor_45,Fluid level oil container A2,%,False,False
+sensor_45_min,58,9.036326030643186e-05,0,1,-126.86,27.01,-3.7497638136490985,sensor_45,Fluid level oil container A2,%,False,False
+sensor_45_std,58,9.036326030643186e-05,0,0,0.0,84.047,0.06698163458062636,sensor_45,Fluid level oil container A2,%,False,False
+sensor_46_avg,58,0.0,0,0,-25.0,54.275,29.229365998815236,sensor_46,Water temperature flow TT1,Celsius,False,False
+sensor_46_max,58,0.0,0,0,-25.0,55.3,30.172725199050184,sensor_46,Water temperature flow TT1,Celsius,False,False
+sensor_46_min,58,0.0,0,0,-25.0,52.9,28.26213914310528,sensor_46,Water temperature flow TT1,Celsius,False,False
+sensor_46_std,58,0.0,0,0,0.0,21.634,0.5103596183846564,sensor_46,Water temperature flow TT1,Celsius,False,False
+sensor_47_avg,58,0.0,0,0,0.0,50.621,49.669912812882785,sensor_47,Mains frequency OS-side,Hz,False,False
+sensor_47_max,58,0.0,0,0,0.0,84.3,49.69884599756647,sensor_47,Mains frequency OS-side,Hz,False,False
+sensor_47_min,58,0.0,0,0,-0.0299,50.56,49.6320431069148,sensor_47,Mains frequency OS-side,Hz,False,False
+sensor_47_std,58,0.0,0,0,0.0,25.084,0.01391789892241812,sensor_47,Mains frequency OS-side,Hz,False,False
+sensor_48_avg,58,9.036326030643186e-05,0,0,-327.4,182.32,2.784306143719437,sensor_48,Hydraulic pressure Aggregate System pressure,bar,False,False
+sensor_48_max,58,9.036326030643186e-05,0,0,-327.4,183.6,84.00134309505819,sensor_48,Hydraulic pressure Aggregate System pressure,bar,False,False
+sensor_48_min,58,9.036326030643186e-05,0,0,-327.4,181.8,-0.9818160017358843,sensor_48,Hydraulic pressure Aggregate System pressure,bar,False,False
+sensor_48_std,58,9.036326030643186e-05,0,0,0.0,139.15,13.889724389177017,sensor_48,Hydraulic pressure Aggregate System pressure,bar,False,False
+sensor_49_avg,58,4.518163015321593e-05,0,0,-71.6,188.8,157.65955619505792,sensor_49,Hydraulic pressure azimuth circuit A,bar,False,False
+sensor_49_max,58,4.518163015321593e-05,0,0,-71.6,189.3,161.42758886696296,sensor_49,Hydraulic pressure azimuth circuit A,bar,False,False
+sensor_49_min,58,4.518163015321593e-05,0,0,-128.7,188.6,101.81687669052825,sensor_49,Hydraulic pressure azimuth circuit A,bar,False,False
+sensor_49_std,58,4.518163015321593e-05,0,0,0.0,118.78,10.094334539528182,sensor_49,Hydraulic pressure azimuth circuit A,bar,False,False
+sensor_50_avg,58,4.518163015321593e-05,0,0,-109.2,191.39,157.74997996603065,sensor_50,Hydraulic pressure azimuth circuit B,bar,False,False
+sensor_50_max,58,4.518163015321593e-05,0,0,-109.2,202.9,161.51882430395182,sensor_50,Hydraulic pressure azimuth circuit B,bar,False,False
+sensor_50_min,58,4.518163015321593e-05,0,0,-321.8,191.2,101.85754058328355,sensor_50,Hydraulic pressure azimuth circuit B,bar,False,False
+sensor_50_std,58,4.518163015321593e-05,0,0,0.0,225.8,10.195872017626652,sensor_50,Hydraulic pressure azimuth circuit B,bar,False,False
+sensor_51_avg,58,4.518163015321593e-05,0,0,-91.8,215.97,162.97312911447534,sensor_51,Hydraulic pressure azimuth memory A,bar,False,False
+sensor_51_max,58,4.518163015321593e-05,0,0,-91.8,216.6,164.62053527812432,sensor_51,Hydraulic pressure azimuth memory A,bar,False,False
+sensor_51_min,58,4.518163015321593e-05,0,0,-262.7,215.7,155.0921487407562,sensor_51,Hydraulic pressure azimuth memory A,bar,False,False
+sensor_51_std,58,4.518163015321593e-05,0,0,0.0,185.91,1.195297379409801,sensor_51,Hydraulic pressure azimuth memory A,bar,False,False
+sensor_52_avg,58,4.518163015321593e-05,0,0,-291.9,202.13,160.45022239192946,sensor_52,Hydraulic pressure azimuth memory B,bar,False,False
+sensor_52_max,58,4.518163015321593e-05,0,0,-291.9,225.4,162.93464505059944,sensor_52,Hydraulic pressure azimuth memory B,bar,False,False
+sensor_52_min,58,4.518163015321593e-05,0,0,-291.9,201.8,151.04036740349522,sensor_52,Hydraulic pressure azimuth memory B,bar,False,False
+sensor_52_std,58,4.518163015321593e-05,0,0,0.0,204.69,1.2363946031242,sensor_52,Hydraulic pressure azimuth memory B,bar,False,False
+sensor_53_avg,58,4.518163015321593e-05,0,0,-100.84,182.05,143.62376597349476,sensor_53,Hydraulic pressure locking memory ,bar,False,False
+sensor_53_max,58,4.518163015321593e-05,0,0,-93.7,185.4,152.88957440188116,sensor_53,Hydraulic pressure locking memory ,bar,False,False
+sensor_53_min,58,4.518163015321593e-05,0,0,-205.9,179.4,137.11316520832185,sensor_53,Hydraulic pressure locking memory ,bar,False,False
+sensor_53_std,58,4.518163015321593e-05,0,0,0.0,116.33,4.2187827356014695,sensor_53,Hydraulic pressure locking memory ,bar,False,False
+sensor_54_avg,58,4.518163015321593e-05,0,0,-197.61,114.49,91.01549707580062,sensor_54,Hydraulic pressure rotor brake B,bar,False,False
+sensor_54_max,58,4.518163015321593e-05,0,0,-168.8,160.8,91.40573807580941,sensor_54,Hydraulic pressure rotor brake B,bar,False,False
+sensor_54_min,58,4.518163015321593e-05,0,0,-244.1,114.2,90.43593755503622,sensor_54,Hydraulic pressure rotor brake B,bar,False,False
+sensor_54_std,58,4.518163015321593e-05,0,0,0.0,112.17,0.16276733923398615,sensor_54,Hydraulic pressure rotor brake B,bar,False,False
+sensor_55_avg,58,4.518163015321593e-05,0,0,-244.72,198.58,90.06692143880498,sensor_55,Hydraulic pressure rotor brake A,bar,False,False
+sensor_55_max,58,4.518163015321593e-05,0,0,-168.0,198.9,90.41372833857129,sensor_55,Hydraulic pressure rotor brake A,bar,False,False
+sensor_55_min,58,4.518163015321593e-05,0,0,-352.4,198.3,89.52603313688896,sensor_55,Hydraulic pressure rotor brake A,bar,False,False
+sensor_55_std,58,4.518163015321593e-05,0,0,0.0,158.06,0.13956659360927168,sensor_55,Hydraulic pressure rotor brake A,bar,False,False
+sensor_56_avg,58,4.518163015321593e-05,0,0,0.0,3793888.0,30.04734205012124,sensor_56,"ABB-LS Input K1, IL2",A,False,False
+sensor_56_max,58,4.518163015321593e-05,0,0,0.0,429496736.0,170.78129810178376,sensor_56,"ABB-LS Input K1, IL2",A,False,False
+sensor_56_min,58,4.518163015321593e-05,0,0,0.0,91.7,21.96733716306787,sensor_56,"ABB-LS Input K1, IL2",A,False,False
+sensor_56_std,58,4.518163015321593e-05,0,0,0.0,40191268.0,15.787988865958877,sensor_56,"ABB-LS Input K1, IL2",A,False,False
+sensor_57_avg,58,4.518163015321593e-05,0,0,0.0,3937054.0,29.942872501029182,sensor_57,"ABB-LS Input K1, IL3",A,False,False
+sensor_57_max,58,4.518163015321593e-05,0,0,0.0,429496736.0,170.59487683056628,sensor_57,"ABB-LS Input K1, IL3",A,False,False
+sensor_57_min,58,4.518163015321593e-05,0,0,0.0,89.4,21.851490621877932,sensor_57,"ABB-LS Input K1, IL3",A,False,False
+sensor_57_std,58,4.518163015321593e-05,0,0,0.0,40935688.0,16.00539019608458,sensor_57,"ABB-LS Input K1, IL3",A,False,False
+sensor_58_avg,58,4.518163015321593e-05,0,0,0.0,4095738.0,19175.051326206656,sensor_58,"ABB-LS Input K4, UL1",V,False,False
+sensor_58_max,58,4.518163015321593e-05,0,0,0.0,429496736.0,19342.338114341044,sensor_58,"ABB-LS Input K4, UL1",V,False,False
+sensor_58_min,58,4.518163015321593e-05,0,0,0.0,19552.0,19135.710614397525,sensor_58,"ABB-LS Input K4, UL1",V,False,False
+sensor_58_std,58,4.518163015321593e-05,0,0,0.0,41664796.0,39.23161759684367,sensor_58,"ABB-LS Input K4, UL1",V,False,False
+sensor_59_avg,58,4.518163015321593e-05,0,0,0.0,4167307.0,19177.909373493123,sensor_59,"ABB-LS Input K4, UL2",V,False,False
+sensor_59_max,58,4.518163015321593e-05,0,0,0.0,429496736.0,19345.21593593583,sensor_59,"ABB-LS Input K4, UL2",V,False,False
+sensor_59_min,58,4.518163015321593e-05,0,0,0.0,19573.0,19136.64432860202,sensor_59,"ABB-LS Input K4, UL2",V,False,False
+sensor_59_std,58,4.518163015321593e-05,0,0,0.0,42025152.0,39.41953627793857,sensor_59,"ABB-LS Input K4, UL2",V,False,False
+sensor_60_avg,58,4.518163015321593e-05,0,0,0.0,4382090.0,19179.24786916343,sensor_60,"ABB-LS Input K4, UL3",V,False,False
+sensor_60_max,58,4.518163015321593e-05,0,0,0.0,429496736.0,19346.431249278317,sensor_60,"ABB-LS Input K4, UL3",V,False,False
+sensor_60_min,58,4.518163015321593e-05,0,0,0.0,19584.0,19139.02958240874,sensor_60,"ABB-LS Input K4, UL3",V,False,False
+sensor_60_std,58,4.518163015321593e-05,0,0,0.0,43087424.0,39.701871946368236,sensor_60,"ABB-LS Input K4, UL3",V,False,False
+sensor_61_avg,58,9.036326030643186e-05,0,0,0.0,1041.4,999.5531807949423,sensor_61,Nacelle air pressure,hPa,False,False
+sensor_61_max,58,9.036326030643186e-05,0,0,0.0,1041.5,999.6667864611051,sensor_61,Nacelle air pressure,hPa,False,False
+sensor_61_min,58,9.036326030643186e-05,0,0,0.0,1041.3,999.2892482791775,sensor_61,Nacelle air pressure,hPa,False,False
+sensor_61_std,58,9.036326030643186e-05,0,0,0.0,146.4,0.07520945931528582,sensor_61,Nacelle air pressure,hPa,False,False
+sensor_62_avg,58,9.036326030643186e-05,0,0,0.0,76.994,34.6324679547942,sensor_62,Temperature Axis 1,Celsius,False,False
+sensor_62_max,58,9.036326030643186e-05,0,0,0.0,77.2,34.72837675345671,sensor_62,Temperature Axis 1,Celsius,False,False
+sensor_62_min,58,9.036326030643186e-05,0,0,0.0,76.9,34.52157197331031,sensor_62,Temperature Axis 1,Celsius,False,False
+sensor_62_std,58,9.036326030643186e-05,0,0,0.0,25.047,0.05630379876919138,sensor_62,Temperature Axis 1,Celsius,False,False
+sensor_63_avg,58,9.036326030643186e-05,0,0,0.0,77.084,34.956594217264204,sensor_63,Temperature Axis 2,Celsius,False,False
+sensor_63_max,58,9.036326030643186e-05,0,0,0.0,85.6,35.051355383124644,sensor_63,Temperature Axis 2,Celsius,False,False
+sensor_63_min,58,9.036326030643186e-05,0,0,0.0,76.9,34.84856243535933,sensor_63,Temperature Axis 2,Celsius,False,False
+sensor_63_std,58,9.036326030643186e-05,0,0,0.0,26.726,0.05507970841408188,sensor_63,Temperature Axis 2,Celsius,False,False
+sensor_64_avg,58,0.00013554489045964778,0,0,0.0,2119.2,106.80464202417295,sensor_64,Temperature Axis 3,Celsius,False,False
+sensor_64_max,58,0.00013554489045964778,0,0,0.0,2119.2,106.92422681868163,sensor_64,Temperature Axis 3,Celsius,False,False
+sensor_64_min,58,0.00013554489045964778,0,0,0.0,2119.2,106.60707762628724,sensor_64,Temperature Axis 3,Celsius,False,False
+sensor_64_std,58,0.00013554489045964778,0,0,0.0,1059.7,0.0839482370813229,sensor_64,Temperature Axis 3,Celsius,False,False
+sensor_65_avg,58,9.06770216269403e-05,0,0,0.0,45.111,28.73433365684013,sensor_65,Hub temperature,Celsius,False,False
+sensor_65_max,58,9.06770216269403e-05,0,0,0.0,45.2,28.930865931122522,sensor_65,Hub temperature,Celsius,False,False
+sensor_65_min,58,9.06770216269403e-05,0,0,0.0,45.1,28.523074593791293,sensor_65,Hub temperature,Celsius,False,False
+sensor_65_std,58,9.06770216269403e-05,0,0,0.0,17.571,0.11399884942703557,sensor_65,Hub temperature,Celsius,False,False
+sensor_66_avg,58,4.518163015321593e-05,0,0,0.0,128.49,58.99386303304182,sensor_66,Internal consumption current L1,A,False,False
+sensor_66_max,58,4.518163015321593e-05,0,0,0.0,854.0,166.75262159428075,sensor_66,Internal consumption current L1,A,False,False
+sensor_66_min,58,4.518163015321593e-05,0,0,0.0,114.0,52.9707812256824,sensor_66,Internal consumption current L1,A,False,False
+sensor_66_std,58,4.518163015321593e-05,0,0,0.0,59.548,10.208574429681656,sensor_66,Internal consumption current L1,A,False,False
+sensor_67_avg,58,4.518163015321593e-05,0,0,0.0,131.22,55.47330399931973,sensor_67,Internal consumption current L2,A,False,False
+sensor_67_max,58,4.518163015321593e-05,0,0,0.0,742.0,209.3616463423818,sensor_67,Internal consumption current L2,A,False,False
+sensor_67_min,58,4.518163015321593e-05,0,0,0.0,108.0,49.143891795147276,sensor_67,Internal consumption current L2,A,False,False
+sensor_67_std,58,4.518163015321593e-05,0,0,0.0,63.31,10.812910549697019,sensor_67,Internal consumption current L2,A,False,False
+sensor_68_avg,58,4.518163015321593e-05,0,0,0.0,127.81,58.34955535931688,sensor_68,Internal consumption current L3,A,False,False
+sensor_68_max,58,4.518163015321593e-05,0,0,0.0,823.0,178.5881640117076,sensor_68,Internal consumption current L3,A,False,False
+sensor_68_min,58,4.518163015321593e-05,0,0,0.0,113.0,52.14828433833533,sensor_68,Internal consumption current L3,A,False,False
+sensor_68_std,58,4.518163015321593e-05,0,0,0.0,81.365,10.325300046972192,sensor_68,Internal consumption current L3,A,False,False
+sensor_69_avg,58,4.518163015321593e-05,0,0,0.0,20.998,9.673563574241792,sensor_69,Internal consumption power L2,kW,False,False
+sensor_69_max,58,4.518163015321593e-05,0,0,0.0,102.3,25.941765069633057,sensor_69,Internal consumption power L2,kW,False,False
+sensor_69_min,58,4.518163015321593e-05,0,0,0.0,16.7,8.363242290692916,sensor_69,Internal consumption power L2,kW,False,False
+sensor_69_std,58,4.518163015321593e-05,0,0,0.0,11.399,1.7971938952466775,sensor_69,Internal consumption power L2,kW,False,False
+sensor_70_avg,58,4.518163015321593e-05,0,0,0.0,21.181,10.387859412041198,sensor_70,Internal consumption power L3,kW,False,False
+sensor_70_max,58,4.518163015321593e-05,0,0,0.0,119.0,22.420823711449543,sensor_70,Internal consumption power L3,kW,False,False
+sensor_70_min,58,4.518163015321593e-05,0,0,0.0,18.3,8.111340013969286,sensor_70,Internal consumption power L3,kW,False,False
+sensor_70_std,58,4.518163015321593e-05,0,0,0.0,11.594,1.7746828002392225,sensor_70,Internal consumption power L3,kW,False,False
+sensor_71_avg,58,4.518163015321593e-05,0,0,0.0,405.0,396.3793527144091,sensor_71,Internal consumption voltage L1,V,False,False
+sensor_71_max,58,4.518163015321593e-05,0,0,0.0,523.0,397.01779358090636,sensor_71,Internal consumption voltage L1,V,False,False
+sensor_71_min,58,4.518163015321593e-05,0,0,0.0,405.0,390.68228599255974,sensor_71,Internal consumption voltage L1,V,False,False
+sensor_71_std,58,4.518163015321593e-05,0,0,0.0,199.19,0.6481248345461802,sensor_71,Internal consumption voltage L1,V,False,False
+sensor_72_avg,58,4.518163015321593e-05,0,0,0.0,405.01,396.6818526664014,sensor_72,Internal consumption voltage L2,V,False,False
+sensor_72_max,58,4.518163015321593e-05,0,0,0.0,524.0,397.3252185760115,sensor_72,Internal consumption voltage L2,V,False,False
+sensor_72_min,58,4.518163015321593e-05,0,0,0.0,405.0,387.57637860402536,sensor_72,Internal consumption voltage L2,V,False,False
+sensor_72_std,58,4.518163015321593e-05,0,0,0.0,198.72,0.7016497212732257,sensor_72,Internal consumption voltage L2,V,False,False
+sensor_73_avg,58,4.518163015321593e-05,0,0,0.0,405.0,396.5624560836676,sensor_73,Internal consumption voltage L3,V,False,False
+sensor_73_max,58,4.518163015321593e-05,0,0,0.0,520.0,397.1987623439281,sensor_73,Internal consumption voltage L3,V,False,False
+sensor_73_min,58,4.518163015321593e-05,0,0,0.0,405.0,389.39673177717424,sensor_73,Internal consumption voltage L3,V,False,False
+sensor_73_std,58,4.518163015321593e-05,0,0,0.0,198.72,0.6679148679695462,sensor_73,Internal consumption voltage L3,V,False,False
+sensor_74_avg,58,9.036326030643186e-05,0,0,0.0,228.01,184.95319838630522,sensor_74,Hydraulic oil tank level,L,False,False
+sensor_74_max,58,9.036326030643186e-05,0,0,0.0,229.0,185.62796123316832,sensor_74,Hydraulic oil tank level,L,False,False
+sensor_74_min,58,9.036326030643186e-05,0,0,0.0,228.0,184.31303658034523,sensor_74,Hydraulic oil tank level,L,False,False
+sensor_74_std,58,9.036326030643186e-05,0,0,0.0,61.963,0.32166336376883997,sensor_74,Hydraulic oil tank level,L,False,False
+sensor_75_avg,58,0.0,0,0,-6792.2,6976.0,2400.929106451905,sensor_75,Maximum reactive power HV converter,kvar,False,False
+sensor_75_max,58,0.0,0,0,-6783.0,6976.0,2473.4355063605694,sensor_75,Maximum reactive power HV converter,kvar,False,False
+sensor_75_min,58,0.0,0,0,-7593.0,6976.0,2325.6879056933876,sensor_75,Maximum reactive power HV converter,kvar,False,False
+sensor_75_std,58,0.0,0,0,0.0,4871.1,33.19430365036195,sensor_75,Maximum reactive power HV converter,kvar,False,False
+sensor_76_avg,58,9.036326030643186e-05,0,0,-2.5,27.15,-0.7509039150282661,sensor_76,Min pitch angle,deg,True,False
+sensor_76_max,58,9.036326030643186e-05,0,0,-2.5,29.0,-0.12447862662417536,sensor_76,Min pitch angle,deg,True,False
+sensor_76_min,58,9.036326030643186e-05,0,0,-2.5,27.15,-1.2303028810912853,sensor_76,Min pitch angle,deg,True,False
+sensor_76_std,58,9.036326030643186e-05,0,0,0.0,10.496,0.2472992357338662,sensor_76,Min pitch angle,deg,True,False
+sensor_77_avg,58,4.518163015321593e-05,0,0,0.0,1.931,0.8125882926910392,sensor_77,Motor current generator cooler 1,A,False,False
+sensor_77_max,58,4.518163015321593e-05,0,0,0.0,3.92,0.8942683822237394,sensor_77,Motor current generator cooler 1,A,False,False
+sensor_77_min,58,4.518163015321593e-05,0,0,0.0,1.92,0.7803816510364632,sensor_77,Motor current generator cooler 1,A,False,False
+sensor_77_std,58,4.518163015321593e-05,0,0,0.0,1.152,0.01592773496136796,sensor_77,Motor current generator cooler 1,A,False,False
+sensor_78_avg,58,4.518163015321593e-05,0,1,0.0,1.92,0.7916515203677951,sensor_78,Motor current generator cooler 2,A,False,False
+sensor_78_max,58,4.518163015321593e-05,0,1,0.0,3.92,0.8755506320693619,sensor_78,Motor current generator cooler 2,A,False,False
+sensor_78_min,58,4.518163015321593e-05,0,1,0.0,1.92,0.7591257460326226,sensor_78,Motor current generator cooler 2,A,False,False
+sensor_78_std,58,4.518163015321593e-05,0,1,0.0,1.129,0.018009390986861593,sensor_78,Motor current generator cooler 2,A,False,False
+sensor_79_avg,58,4.518163015321593e-05,0,0,0.0,2.0,0.7961202966935592,sensor_79,Motor current generator cooler 3,A,False,False
+sensor_79_max,58,4.518163015321593e-05,0,0,0.0,3.92,0.8780527406407045,sensor_79,Motor current generator cooler 3,A,False,False
+sensor_79_min,58,4.518163015321593e-05,0,1,0.0,2.0,0.7538851242801989,sensor_79,Motor current generator cooler 3,A,False,False
+sensor_79_std,58,4.518163015321593e-05,0,0,0.0,1.176,0.01704361294286274,sensor_79,Motor current generator cooler 3,A,False,False
+sensor_80_avg,58,4.518163015321593e-05,0,0,0.0,2.0,0.81355237509225,sensor_80,Motor current generator cooler 4,A,False,False
+sensor_80_max,58,4.518163015321593e-05,0,0,0.0,3.92,0.8994565220119786,sensor_80,Motor current generator cooler 4,A,False,False
+sensor_80_min,58,4.518163015321593e-05,0,0,0.0,2.0,0.7721446994532776,sensor_80,Motor current generator cooler 4,A,False,False
+sensor_80_std,58,4.518163015321593e-05,0,0,0.0,1.177,0.017695310311415906,sensor_80,Motor current generator cooler 4,A,False,False
+sensor_81_avg,58,9.036326030643186e-05,0,1,0.0,5.381,0.02470228909568326,sensor_81,Motor current hydraulic pump A,A,False,False
+sensor_81_max,58,9.036326030643186e-05,0,1,0.0,10.78,1.8241176296139636,sensor_81,Motor current hydraulic pump A,A,False,False
+sensor_81_min,58,9.036326030643186e-05,0,57,0.0,2.75,0.0008607941138077499,sensor_81,Motor current hydraulic pump A,A,False,False
+sensor_81_std,58,9.036326030643186e-05,0,1,0.0,2.991,0.1401907082797799,sensor_81,Motor current hydraulic pump A,A,False,False
+sensor_82_avg,58,9.036326030643186e-05,0,1,0.0,3.311,0.03561149533959574,sensor_82,Motor current hydraulic pump B,A,False,False
+sensor_82_max,58,9.036326030643186e-05,0,1,0.0,10.78,2.4582050978584484,sensor_82,Motor current hydraulic pump B,A,False,False
+sensor_82_min,58,9.036326030643186e-05,0,58,0.0,0.0,0.0,sensor_82,Motor current hydraulic pump B,A,False,False
+sensor_82_std,58,9.036326030643186e-05,0,1,0.0,3.022,0.19180906961988775,sensor_82,Motor current hydraulic pump B,A,False,False
+sensor_83_avg,58,4.518163015321593e-05,0,0,0.0,4.795,0.616101187546125,sensor_83,Motor current water cooler fan 1,A,False,False
+sensor_83_max,58,4.518163015321593e-05,0,0,0.0,12.15,1.8193887810198457,sensor_83,Motor current water cooler fan 1,A,False,False
+sensor_83_min,58,4.518163015321593e-05,0,0,0.0,4.65,0.3795327004272367,sensor_83,Motor current water cooler fan 1,A,False,False
+sensor_83_std,58,4.518163015321593e-05,0,0,0.0,2.405,0.2578158367513944,sensor_83,Motor current water cooler fan 1,A,False,False
+sensor_84_avg,58,4.518163015321593e-05,0,0,0.0,4.834,0.6179552288803989,sensor_84,Motor current water cooler fan 2,A,False,False
+sensor_84_max,58,4.518163015321593e-05,0,0,0.0,12.15,2.1108573444803125,sensor_84,Motor current water cooler fan 2,A,False,False
+sensor_84_min,58,4.518163015321593e-05,0,0,0.0,4.83,0.35410837240884196,sensor_84,Motor current water cooler fan 2,A,False,False
+sensor_84_std,58,4.518163015321593e-05,0,0,0.0,2.442,0.30407171207207295,sensor_84,Motor current water cooler fan 2,A,False,False
+sensor_85_avg,58,4.518163015321593e-05,0,0,0.0,4.725,0.6128672757885806,sensor_85,Motor current water cooler fan 3,A,False,False
+sensor_85_max,58,4.518163015321593e-05,0,0,0.0,12.15,2.169082187843584,sensor_85,Motor current water cooler fan 3,A,False,False
+sensor_85_min,58,4.518163015321593e-05,0,0,0.0,4.65,0.3536628017892734,sensor_85,Motor current water cooler fan 3,A,False,False
+sensor_85_std,58,4.518163015321593e-05,0,0,0.0,2.369,0.3040769479810429,sensor_85,Motor current water cooler fan 3,A,False,False
+sensor_86_avg,58,4.518163015321593e-05,0,0,0.0,4.792,0.5922701467402491,sensor_86,Motor current water cooler fan 4,A,False,False
+sensor_86_max,58,4.518163015321593e-05,0,0,0.0,12.15,2.03711242764337,sensor_86,Motor current water cooler fan 4,A,False,False
+sensor_86_min,58,4.518163015321593e-05,0,1,0.0,4.65,0.34944483073694566,sensor_86,Motor current water cooler fan 4,A,False,False
+sensor_86_std,58,4.518163015321593e-05,0,0,0.0,2.925,0.2808811756038296,sensor_86,Motor current water cooler fan 4,A,False,False
+sensor_87_avg,58,4.518163015321593e-05,0,1,0.0,9.15,4.060233275609101,sensor_87,Motor current gear oil pump A,A,False,False
+sensor_87_max,58,4.518163015321593e-05,0,1,0.0,24.69,4.154932522579285,sensor_87,Motor current gear oil pump A,A,False,False
+sensor_87_min,58,4.518163015321593e-05,0,2,0.0,8.94,3.906508397259861,sensor_87,Motor current gear oil pump A,A,False,False
+sensor_87_std,58,4.518163015321593e-05,0,1,0.0,4.482,0.04256739266995336,sensor_87,Motor current gear oil pump A,A,False,False
+sensor_88_avg,58,4.518163015321593e-05,0,0,0.0,9.243,4.710855315984476,sensor_88,Motor current gear oil pump B,A,False,False
+sensor_88_max,58,4.518163015321593e-05,0,0,0.0,24.69,4.828128602142711,sensor_88,Motor current gear oil pump B,A,False,False
+sensor_88_min,58,4.518163015321593e-05,0,0,0.0,8.94,4.522731801648702,sensor_88,Motor current gear oil pump B,A,False,False
+sensor_88_std,58,4.518163015321593e-05,0,0,0.0,4.469,0.05773491364270761,sensor_88,Motor current gear oil pump B,A,False,False
+sensor_89_avg,58,4.518163015321593e-05,0,0,0.0,8.971,5.3388769920978785,sensor_89,Motor current gear oil pump C,A,False,False
+sensor_89_max,58,4.518163015321593e-05,0,0,0.0,24.69,5.464753410112106,sensor_89,Motor current gear oil pump C,A,False,False
+sensor_89_min,58,4.518163015321593e-05,0,0,0.0,8.94,5.133047491176633,sensor_89,Motor current gear oil pump C,A,False,False
+sensor_89_std,58,4.518163015321593e-05,0,0,0.0,4.458,0.05849532358411945,sensor_89,Motor current gear oil pump C,A,False,False
+sensor_90_avg,58,9.036326030643186e-05,0,0,-0.3682,29.42,0.35937224759386077,sensor_90,Nacelle vibration longitudinal 1,m/s^2,False,False
+sensor_90_max,58,9.036326030643186e-05,0,0,-0.3199,29.42,0.5930469605076866,sensor_90,Nacelle vibration longitudinal 1,m/s^2,False,False
+sensor_90_min,58,9.036326030643186e-05,0,0,-2.66,29.42,0.1222602845821326,sensor_90,Nacelle vibration longitudinal 1,m/s^2,False,False
+sensor_90_std,58,9.036326030643186e-05,0,0,0.0,14.54,0.060211440551918384,sensor_90,Nacelle vibration longitudinal 1,m/s^2,False,False
+sensor_91_avg,58,9.036326030643186e-05,0,0,-0.2942,29.42,0.4491419978298306,sensor_91,Nacelle vibration longitudinal 2,m/s^2,False,False
+sensor_91_max,58,9.036326030643186e-05,0,0,-0.2399,29.42,0.6904395907178503,sensor_91,Nacelle vibration longitudinal 2,m/s^2,False,False
+sensor_91_min,58,9.036326030643186e-05,0,0,-3.22,29.42,0.2055165208695238,sensor_91,Nacelle vibration longitudinal 2,m/s^2,False,False
+sensor_91_std,58,9.036326030643186e-05,0,0,0.0,14.636,0.06190247900119491,sensor_91,Nacelle vibration longitudinal 2,m/s^2,False,False
+sensor_92_avg,58,9.036326030643186e-05,0,0,-0.6692,29.42,0.0792304611955136,sensor_92,Nacelle vibration transverse 1,m/s^2,False,False
+sensor_92_max,58,9.036326030643186e-05,0,0,-0.62,29.42,0.3436479835561658,sensor_92,Nacelle vibration transverse 1,m/s^2,False,False
+sensor_92_min,58,9.036326030643186e-05,0,0,-5.62,29.42,-0.1879798596293265,sensor_92,Nacelle vibration transverse 1,m/s^2,False,False
+sensor_92_std,58,9.036326030643186e-05,0,0,0.0,14.838,0.06848239743470665,sensor_92,Nacelle vibration transverse 1,m/s^2,False,False
+sensor_93_avg,58,9.036326030643186e-05,0,0,-0.5347,29.42,0.18226328566658972,sensor_93,Nacelle vibration transverse 2,m/s^2,False,False
+sensor_93_max,58,9.036326030643186e-05,0,0,-0.4799,29.42,0.4554019288023778,sensor_93,Nacelle vibration transverse 2,m/s^2,False,False
+sensor_93_min,58,9.036326030643186e-05,0,0,-4.58,29.42,-0.09210018206076974,sensor_93,Nacelle vibration transverse 2,m/s^2,False,False
+sensor_93_std,58,9.036326030643186e-05,0,0,0.0,14.568,0.06960282059263573,sensor_93,Nacelle vibration transverse 2,m/s^2,False,False
+sensor_94_avg,58,4.518163015321593e-05,0,0,0.0,1248.8,694.8717518685331,sensor_94,gearbox oil level,L,False,False
+sensor_94_max,58,4.518163015321593e-05,0,0,0.0,1252.0,699.230954454859,sensor_94,gearbox oil level,L,False,False
+sensor_94_min,58,4.518163015321593e-05,0,0,0.0,1246.0,687.9855158092647,sensor_94,gearbox oil level,L,False,False
+sensor_94_std,58,4.518163015321593e-05,0,0,0.0,583.06,2.3227421396727697,sensor_94,gearbox oil level,L,False,False
+sensor_95_avg,58,4.518163015321593e-05,0,7,-1.2,4.454,0.004409745459041002,sensor_95,Pollution indicator filter pump 1,bar,False,False
+sensor_95_max,58,4.518163015321593e-05,0,8,-1.2,5.0,0.1585537252682153,sensor_95,Pollution indicator filter pump 1,bar,False,False
+sensor_95_min,58,4.518163015321593e-05,0,43,-1.2,2.1,5.428316104966695e-05,sensor_95,Pollution indicator filter pump 1,bar,False,False
+sensor_95_std,58,4.518163015321593e-05,0,6,0.0,2.5,0.02374103411618228,sensor_95,Pollution indicator filter pump 1,bar,False,False
+sensor_96_avg,58,4.518163015321593e-05,0,7,-1.2,0.9746,0.017499642515575814,sensor_96,Pollution indicator filter pump 2,bar,False,False
+sensor_96_max,58,4.518163015321593e-05,0,9,-1.2,1.8,0.22687923283145986,sensor_96,Pollution indicator filter pump 2,bar,False,False
+sensor_96_min,58,4.518163015321593e-05,0,47,-1.2,0.4,0.010187851114781585,sensor_96,Pollution indicator filter pump 2,bar,False,False
+sensor_96_std,58,4.518163015321593e-05,0,6,0.0,0.8195,0.03595058597574139,sensor_96,Pollution indicator filter pump 2,bar,False,False
+sensor_97_avg,58,4.518163015321593e-05,0,0,-1.03,4.43,0.9748591216733522,sensor_97,Pollution indicator gearbox filter A,bar,False,False
+sensor_97_max,58,4.518163015321593e-05,0,0,-1.03,4.5,0.9760063920461677,sensor_97,Pollution indicator gearbox filter A,bar,False,False
+sensor_97_min,58,4.518163015321593e-05,0,0,-1.03,4.43,0.9736754647956443,sensor_97,Pollution indicator gearbox filter A,bar,False,False
+sensor_97_std,58,4.518163015321593e-05,0,1,0.0,2.091,0.0004955857749250704,sensor_97,Pollution indicator gearbox filter A,bar,False,False
+sensor_98_avg,58,4.518163015321593e-05,0,0,-1.43,4.437,1.0462444003624733,sensor_98,Pollution indicator gearbox filter B,bar,False,False
+sensor_98_max,58,4.518163015321593e-05,0,0,-0.36,4.46,1.047105569577834,sensor_98,Pollution indicator gearbox filter B,bar,False,False
+sensor_98_min,58,4.518163015321593e-05,0,0,-2.46,4.39,1.0450132205854297,sensor_98,Pollution indicator gearbox filter B,bar,False,False
+sensor_98_std,58,4.518163015321593e-05,0,1,0.0,1.619,0.0005297093936853308,sensor_98,Pollution indicator gearbox filter B,bar,False,False
+sensor_99_avg,58,4.518163015321593e-05,0,0,-0.4499,4.589,1.031173712453624,sensor_99,Pollution indicator gearbox filter C,bar,False,False
+sensor_99_max,58,4.518163015321593e-05,0,0,-0.4499,4.67,1.0322840355733556,sensor_99,Pollution indicator gearbox filter C,bar,False,False
+sensor_99_min,58,4.518163015321593e-05,0,0,-1.45,4.55,1.0295558461709349,sensor_99,Pollution indicator gearbox filter C,bar,False,False
+sensor_99_std,58,4.518163015321593e-05,0,0,0.0,2.565,0.0006711282927600698,sensor_99,Pollution indicator gearbox filter C,bar,False,False
+sensor_100_avg,58,9.036326030643186e-05,0,0,-123.02,263.99,16.064814532415728,sensor_100,Position motor axis 1,deg,True,False
+sensor_100_max,58,9.036326030643186e-05,0,0,-123.02,300.73,17.602859933671137,sensor_100,Position motor axis 1,deg,True,False
+sensor_100_min,58,9.036326030643186e-05,0,0,-128.74,259.47,14.671966232747842,sensor_100,Position motor axis 1,deg,True,False
+sensor_100_std,58,9.036326030643186e-05,0,0,0.0,201.81,0.80198727661313,sensor_100,Position motor axis 1,deg,True,False
+sensor_101_avg,58,9.036326030643186e-05,0,0,-115.51,298.68,16.059850046032945,sensor_101,Position motor axis 2,deg,True,False
+sensor_101_max,58,9.036326030643186e-05,0,0,-115.24,304.51,17.600769095796224,sensor_101,Position motor axis 2,deg,True,False
+sensor_101_min,58,9.036326030643186e-05,0,0,-128.74,298.31,14.666655252242968,sensor_101,Position motor axis 2,deg,True,False
+sensor_101_std,58,9.036326030643186e-05,0,0,0.0,209.0,0.8009710540948298,sensor_101,Position motor axis 2,deg,True,False
+sensor_102_avg,58,9.036326030643186e-05,0,0,-115.93,290.87,16.054480063310205,sensor_102,Position motor axis 3,deg,True,False
+sensor_102_max,58,9.036326030643186e-05,0,0,-115.93,300.74,17.60833462543554,sensor_102,Position motor axis 3,deg,True,False
+sensor_102_min,58,9.036326030643186e-05,0,0,-128.74,279.85,14.647436082643415,sensor_102,Position motor axis 3,deg,True,False
+sensor_102_std,58,9.036326030643186e-05,0,0,0.0,199.57,0.802256993681531,sensor_102,Position motor axis 3,deg,True,False
+sensor_103_avg,58,0.00013554489045964778,0,0,-100.57,264.13,16.12286320903981,sensor_103,Position rotor blade axis 1,deg,True,False
+sensor_103_max,58,0.00013554489045964778,0,0,-100.57,300.73,17.655372501399565,sensor_103,Position rotor blade axis 1,deg,True,False
+sensor_103_min,58,0.00013554489045964778,0,0,-128.74,258.33,14.72918277304701,sensor_103,Position rotor blade axis 1,deg,True,False
+sensor_103_std,58,0.00013554489045964778,0,0,0.0,201.8,0.804128915895546,sensor_103,Position rotor blade axis 1,deg,True,False
+sensor_104_avg,58,9.036326030643186e-05,0,0,-115.39,298.82,16.12157746089553,sensor_104,Position rotor blade axis 2,deg,True,False
+sensor_104_max,58,9.036326030643186e-05,0,0,-115.13,304.26,17.652902293677013,sensor_104,Position rotor blade axis 2,deg,True,False
+sensor_104_min,58,9.036326030643186e-05,0,0,-128.74,298.44,14.731221703482563,sensor_104,Position rotor blade axis 2,deg,True,False
+sensor_104_std,58,9.036326030643186e-05,0,0,0.0,209.0,0.803134730837492,sensor_104,Position rotor blade axis 2,deg,True,False
+sensor_105_avg,58,9.036326030643186e-05,0,0,-121.67,290.91,16.17989660140678,sensor_105,Position rotor blade axis 3,deg,True,False
+sensor_105_max,58,9.036326030643186e-05,0,0,-121.67,300.74,17.712638489755395,sensor_105,Position rotor blade axis 3,deg,True,False
+sensor_105_min,58,9.036326030643186e-05,0,0,-128.74,279.96,14.788913792468296,sensor_105,Position rotor blade axis 3,deg,True,False
+sensor_105_std,58,9.036326030643186e-05,0,0,0.0,199.57,0.8037798596920844,sensor_105,Position rotor blade axis 3,deg,True,False
+sensor_106_avg,58,4.518163015321593e-05,0,0,-34.284,100.0,92.08104939472706,sensor_106,RM position bypass valve gearbox radiator,%,False,False
+sensor_106_max,58,4.518163015321593e-05,0,0,-24.99,100.0,92.19600231817337,sensor_106,RM position bypass valve gearbox radiator,%,False,False
+sensor_106_min,58,4.518163015321593e-05,0,0,-57.78,100.0,91.93370731702495,sensor_106,RM position bypass valve gearbox radiator,%,False,False
+sensor_106_std,58,4.518163015321593e-05,0,0,0.0,74.883,0.08166059814395518,sensor_106,RM position bypass valve gearbox radiator,%,False,False
+sensor_107_avg,58,4.518163015321593e-05,0,0,0.0,62.577,29.904356931771403,sensor_107,Internal consumption,kW,False,False
+sensor_108_avg,58,4.518163015321593e-05,0,0,0.0,20.398,9.842933882827444,sensor_108,Internal consumption power L1,kW,False,False
+sensor_108_max,58,4.518163015321593e-05,0,0,0.0,130.2,24.612111326291377,sensor_108,Internal consumption power L1,kW,False,False
+sensor_108_min,58,4.518163015321593e-05,0,0,0.0,16.5,8.60956503530602,sensor_108,Internal consumption power L1,kW,False,False
+sensor_108_std,58,4.518163015321593e-05,0,0,0.0,11.297,1.7703457290448172,sensor_108,Internal consumption power L1,kW,False,False
+sensor_107_max,58,4.518163015321593e-05,0,0,0.0,294.8,67.05323901032698,sensor_107,Internal consumption,kW,False,False
+sensor_107_min,58,4.518163015321593e-05,0,0,0.0,50.2,26.55299188071385,sensor_107,Internal consumption,kW,False,False
+sensor_107_std,58,4.518163015321593e-05,0,0,0.0,34.134,5.277807572375456,sensor_107,Internal consumption,kW,False,False
+sensor_109_avg,58,4.518163015321593e-05,0,0,-199.9,598.38,16.373684339621814,sensor_109,Pressure difference aeration 1st filter stage 1,Pa,False,False
+sensor_109_max,58,4.518163015321593e-05,0,0,-199.9,612.7,19.607177087391495,sensor_109,Pressure difference aeration 1st filter stage 1,Pa,False,False
+sensor_109_min,58,4.518163015321593e-05,0,0,-199.9,584.1,13.734566713000849,sensor_109,Pressure difference aeration 1st filter stage 1,Pa,False,False
+sensor_109_std,58,4.518163015321593e-05,0,0,0.0,238.15,1.0946423725569439,sensor_109,Pressure difference aeration 1st filter stage 1,Pa,False,False
+sensor_110_avg,58,4.518163015321593e-05,0,0,-199.9,650.05,18.64018026336433,sensor_110,Pressure difference aeration 1st filter stage 2,Pa,False,False
+sensor_110_max,58,4.518163015321593e-05,0,0,-199.9,665.7,21.917753820906984,sensor_110,Pressure difference aeration 1st filter stage 2,Pa,False,False
+sensor_110_min,58,4.518163015321593e-05,0,0,-199.9,639.5,15.916082194715267,sensor_110,Pressure difference aeration 1st filter stage 2,Pa,False,False
+sensor_110_std,58,4.518163015321593e-05,0,0,0.0,267.64,1.1299671171436891,sensor_110,Pressure difference aeration 1st filter stage 2,Pa,False,False
+sensor_111_avg,58,4.518163015321593e-05,0,0,-199.9,800.0,65.99175605417271,sensor_111,Pressure difference aeration 2nd filter stage A 1,Pa,False,False
+sensor_111_max,58,4.518163015321593e-05,0,0,-199.9,800.0,71.0178732115738,sensor_111,Pressure difference aeration 2nd filter stage A 1,Pa,False,False
+sensor_111_min,58,4.518163015321593e-05,0,0,-199.9,800.0,62.51181780186458,sensor_111,Pressure difference aeration 2nd filter stage A 1,Pa,False,False
+sensor_111_std,58,4.518163015321593e-05,0,0,0.0,377.61,1.356273977750807,sensor_111,Pressure difference aeration 2nd filter stage A 1,Pa,False,False
+sensor_112_avg,58,4.518163015321593e-05,0,0,-199.9,800.0,65.5108024975902,sensor_112,Pressure difference aeration 2nd filter stage A 2,Pa,False,False
+sensor_112_max,58,4.518163015321593e-05,0,0,-199.9,800.0,70.5413782848843,sensor_112,Pressure difference aeration 2nd filter stage A 2,Pa,False,False
+sensor_112_min,58,4.518163015321593e-05,0,0,-199.9,800.0,62.109489974967,sensor_112,Pressure difference aeration 2nd filter stage A 2,Pa,False,False
+sensor_112_std,58,4.518163015321593e-05,0,0,0.0,377.62,1.3386278474812612,sensor_112,Pressure difference aeration 2nd filter stage A 2,Pa,False,False
+sensor_113_avg,58,4.518163015321593e-05,0,0,-249.9,520.55,49.97168155819029,sensor_113,Pressure difference aeration 2nd filter stage B 1,Pa,False,False
+sensor_113_max,58,4.518163015321593e-05,0,0,-249.9,593.7,58.57957503420153,sensor_113,Pressure difference aeration 2nd filter stage B 1,Pa,False,False
+sensor_113_min,58,4.518163015321593e-05,0,0,-249.9,486.2,42.315067493893935,sensor_113,Pressure difference aeration 2nd filter stage B 1,Pa,False,False
+sensor_113_std,58,4.518163015321593e-05,0,0,0.0,216.81,2.3230098384620987,sensor_113,Pressure difference aeration 2nd filter stage B 1,Pa,False,False
+sensor_114_avg,58,4.518163015321593e-05,0,0,-249.9,481.54,52.51361514613153,sensor_114,Pressure difference aeration 2nd filter stage B 2,Pa,False,False
+sensor_114_max,58,4.518163015321593e-05,0,0,-249.9,568.7,60.7924967492231,sensor_114,Pressure difference aeration 2nd filter stage B 2,Pa,False,False
+sensor_114_min,58,4.518163015321593e-05,0,0,-249.9,464.9,45.21934618241904,sensor_114,Pressure difference aeration 2nd filter stage B 2,Pa,False,False
+sensor_114_std,58,4.518163015321593e-05,0,0,0.0,202.94,2.2336159605985832,sensor_114,Pressure difference aeration 2nd filter stage B 2,Pa,False,False
+sensor_115_avg,58,9.036326030643186e-05,0,0,-624.0,439.61,45.66218514256092,sensor_115,Pressure difference spinner 1,Pa,False,False
+sensor_115_max,58,9.036326030643186e-05,0,0,-624.0,468.0,51.842971174025244,sensor_115,Pressure difference spinner 1,Pa,False,False
+sensor_115_min,58,9.036326030643186e-05,0,0,-624.0,431.0,40.72328018154615,sensor_115,Pressure difference spinner 1,Pa,False,False
+sensor_115_std,58,9.036326030643186e-05,0,0,0.0,298.19,2.329530985004619,sensor_115,Pressure difference spinner 1,Pa,False,False
+sensor_116_avg,58,0.00013554489045964778,0,0,-624.0,405.1,53.22671324449965,sensor_116,Pressure difference spinner 2,Pa,False,False
+sensor_116_max,58,0.00013554489045964778,0,0,-624.0,442.0,59.570880759555955,sensor_116,Pressure difference spinner 2,Pa,False,False
+sensor_116_min,58,0.00013554489045964778,0,0,-624.0,391.0,48.16691634993398,sensor_116,Pressure difference spinner 2,Pa,False,False
+sensor_116_std,58,0.00013554489045964778,0,0,0.0,303.9,2.3919938275095523,sensor_116,Pressure difference spinner 2,Pa,False,False
+sensor_117_avg,58,4.518163015321593e-05,0,0,-3.99,10.44,4.237079067283507,sensor_117,Gearbox oil pressure input 1,bar,False,False
+sensor_117_max,58,4.518163015321593e-05,0,0,-3.99,11.02,4.308455978490062,sensor_117,Gearbox oil pressure input 1,bar,False,False
+sensor_117_min,58,4.518163015321593e-05,0,0,-3.99,10.39,4.151682666225708,sensor_117,Gearbox oil pressure input 1,bar,False,False
+sensor_117_std,58,4.518163015321593e-05,0,0,0.0,4.546,0.027757920383860393,sensor_117,Gearbox oil pressure input 1,bar,False,False
+sensor_118_avg,58,4.518163015321593e-05,0,0,-3.99,10.47,4.242316193890666,sensor_118,Gearbox oil pressure input 2,bar,False,False
+sensor_118_max,58,4.518163015321593e-05,0,0,-3.99,11.02,4.313625426671922,sensor_118,Gearbox oil pressure input 2,bar,False,False
+sensor_118_min,58,4.518163015321593e-05,0,0,-3.99,10.42,4.156952782153203,sensor_118,Gearbox oil pressure input 2,bar,False,False
+sensor_118_std,58,4.518163015321593e-05,0,0,0.0,4.544,0.027747341537098305,sensor_118,Gearbox oil pressure input 2,bar,False,False
+reactive_power_119_avg,58,4.518163015321593e-05,0,0,-0.53828,0.5761,0.020184280388516822,reactive_power_119,ABB-LS Reactive Power,kvar,False,False
+reactive_power_119_max,58,4.518163015321593e-05,0,0,-0.53188,0.6543800000000001,0.031213206890767217,reactive_power_119,ABB-LS Reactive Power,kvar,False,False
+reactive_power_119_min,58,4.518163015321593e-05,0,0,-1.2311,0.5697800000000001,0.009589175975095012,reactive_power_119,ABB-LS Reactive Power,kvar,False,False
+reactive_power_119_std,58,4.518163015321593e-05,0,0,0.0,0.38276,0.0040761981038044655,reactive_power_119,ABB-LS Reactive Power,kvar,False,False
+reactive_power_120_avg,58,0.0,0,0,-0.0898,0.53454,0.13099172663586994,reactive_power_120,Reactive power converter,kvar,False,False
+reactive_power_120_max,58,0.0,0,0,-0.0852,0.5986,0.1745233356844515,reactive_power_120,Reactive power converter,kvar,False,False
+reactive_power_120_min,58,0.0,0,0,-0.1814,0.505,0.08742062020572702,reactive_power_120,Reactive power converter,kvar,False,False
+reactive_power_120_std,58,0.0,0,0,0.0,0.26708000000000004,0.01913543253720582,reactive_power_120,Reactive power converter,kvar,False,False
+reactive_power_121_avg,58,0.0,0,0,-0.729,0.37212,-0.1544841473984794,reactive_power_121,Reactive power GS converter,kvar,False,False
+reactive_power_121_max,58,0.0,0,0,-0.7288,0.377,-0.1510499369339746,reactive_power_121,Reactive power GS converter,kvar,False,False
+reactive_power_121_min,58,0.0,0,0,-0.733,0.3708,-0.15858104272927168,reactive_power_121,Reactive power GS converter,kvar,False,False
+reactive_power_121_std,58,0.0,0,0,0.0,0.38024,0.001859388307734593,reactive_power_121,Reactive power GS converter,kvar,False,False
+reactive_power_122_avg,58,4.518163015321593e-05,0,0,-0.53142,0.5709,0.026628126405789532,reactive_power_122,Reactive power HV grid,kvar,False,False
+reactive_power_122_max,58,4.518163015321593e-05,0,0,-0.5312,0.5754,0.03064850762097928,reactive_power_122,Reactive power HV grid,kvar,False,False
+reactive_power_122_min,58,4.518163015321593e-05,0,0,-0.5354,0.5696,0.023145682637421117,reactive_power_122,Reactive power HV grid,kvar,False,False
+reactive_power_122_std,58,4.518163015321593e-05,0,0,0.0,0.38068,0.0015624180015826837,reactive_power_122,Reactive power HV grid,kvar,False,False
+sensor_123_avg,58,9.036326030643186e-05,0,0,-269.9,180.0,-6.974440777313508,sensor_123,Relative wind direction 1+2,deg,True,False
+sensor_123_max,58,9.036326030643186e-05,0,0,-166.5,180.0,33.75492098430801,sensor_123,Relative wind direction 1+2,deg,True,False
+sensor_123_min,58,9.036326030643186e-05,0,0,-331.7,180.0,-43.91763638899627,sensor_123,Relative wind direction 1+2,deg,True,False
+sensor_123_std,58,9.036326030643186e-05,0,0,0.0,175.98,12.652287479509535,sensor_123,Relative wind direction 1+2,deg,True,False
+sensor_124_avg,58,9.036326030643186e-05,0,0,-234.76,170.34,-0.43415364695774633,sensor_124,Relative wind direction Yaw,deg,True,False
+sensor_124_max,58,9.036326030643186e-05,0,0,-228.4,1130.8,7.767620822518049,sensor_124,Relative wind direction Yaw,deg,True,False
+sensor_124_min,58,9.036326030643186e-05,0,0,-242.0,168.7,-8.557173231230356,sensor_124,Relative wind direction Yaw,deg,True,False
+sensor_124_std,58,9.036326030643186e-05,0,0,0.0,297.02,4.256673035049052,sensor_124,Relative wind direction Yaw,deg,True,False
+sensor_125_avg,58,9.036326030643186e-05,0,0,-269.9,180.0,0.8982512718523109,sensor_125,Relative wind direction 1,deg,True,False
+sensor_125_max,58,9.036326030643186e-05,0,0,-269.9,180.0,43.82235761225512,sensor_125,Relative wind direction 1,deg,True,False
+sensor_125_min,58,9.036326030643186e-05,0,0,-299.9,180.0,-37.706285923206885,sensor_125,Relative wind direction 1,deg,True,False
+sensor_125_std,58,9.036326030643186e-05,0,0,0.0,224.92,12.596019047786402,sensor_125,Relative wind direction 1,deg,True,False
+sensor_126_avg,58,9.036326030643186e-05,0,0,-318.22,180.0,2.0975353998998383,sensor_126,Relative wind direction 2,deg,True,False
+sensor_126_max,58,9.036326030643186e-05,0,0,-269.9,180.0,47.15125472670802,sensor_126,Relative wind direction 2,deg,True,False
+sensor_126_min,58,9.036326030643186e-05,0,0,-363.5,180.0,-41.64452125777571,sensor_126,Relative wind direction 2,deg,True,False
+sensor_126_std,58,9.036326030643186e-05,0,0,0.0,224.97,13.310273833361364,sensor_126,Relative wind direction 2,deg,True,False
+sensor_127_avg,58,0.0,0,0,-0.0006,94.973,28.95721695202213,sensor_127,RMS current phase 1 HV grid,A,False,False
+sensor_127_max,58,0.0,0,0,0.0,341.0,37.03961832817928,sensor_127,RMS current phase 1 HV grid,A,False,False
+sensor_127_min,58,0.0,0,0,-17.0,88.0,21.46188803992048,sensor_127,RMS current phase 1 HV grid,A,False,False
+sensor_127_std,58,0.0,0,0,0.0,45.752,3.1395084979743566,sensor_127,RMS current phase 1 HV grid,A,False,False
+sensor_128_avg,58,0.0,0,0,-0.0006,96.163,29.13739268954949,sensor_128,RMS current phase 2 HV grid,A,False,False
+sensor_128_max,58,0.0,0,0,0.0,317.0,37.285577082371134,sensor_128,RMS current phase 2 HV grid,A,False,False
+sensor_128_min,58,0.0,0,0,-17.0,90.0,21.596492901463886,sensor_128,RMS current phase 2 HV grid,A,False,False
+sensor_128_std,58,0.0,0,0,0.0,46.528,3.1639167705739575,sensor_128,RMS current phase 2 HV grid,A,False,False
+sensor_129_avg,58,0.0,0,0,-0.0006,94.471,28.889138245591027,sensor_129,RMS current phase 3 HV grid,A,False,False
+sensor_129_max,58,0.0,0,0,0.0,185.0,36.978433929396175,sensor_129,RMS current phase 3 HV grid,A,False,False
+sensor_129_min,58,0.0,0,0,-16.0,87.0,21.407161790397396,sensor_129,RMS current phase 3 HV grid,A,False,False
+sensor_129_std,58,0.0,0,0,0.0,45.548,3.1413064490501816,sensor_129,RMS current phase 3 HV grid,A,False,False
+sensor_130_avg,58,0.0,0,0,0.0,986.13,354.7125380931971,sensor_130,Generator RMS current L1,A,False,False
+sensor_130_max,58,0.0,0,0,0.0,1547.0,417.60324096618405,sensor_130,Generator RMS current L1,A,False,False
+sensor_130_min,58,0.0,0,0,0.0,960.0,295.4524777103958,sensor_130,Generator RMS current L1,A,False,False
+sensor_130_std,58,0.0,0,0,0.0,481.37,27.877104633250667,sensor_130,Generator RMS current L1,A,False,False
+sensor_131_avg,58,0.0,0,0,0.0,986.27,354.85672460757877,sensor_131,Generator RMS current L2,A,False,False
+sensor_131_max,58,0.0,0,0,0.0,2913.0,417.50548956806364,sensor_131,Generator RMS current L2,A,False,False
+sensor_131_min,58,0.0,0,0,0.0,960.0,295.65355353521153,sensor_131,Generator RMS current L2,A,False,False
+sensor_131_std,58,0.0,0,0,0.0,481.63,27.862191276807767,sensor_131,Generator RMS current L2,A,False,False
+sensor_132_avg,58,0.0,0,0,0.0,985.59,354.5561004516594,sensor_132,Generator RMS current L3,A,False,False
+sensor_132_max,58,0.0,0,0,0.0,2323.0,417.17689235727624,sensor_132,Generator RMS current L3,A,False,False
+sensor_132_min,58,0.0,0,0,0.0,961.0,295.4333966294504,sensor_132,Generator RMS current L3,A,False,False
+sensor_132_std,58,0.0,0,0,0.0,481.23,27.838492285613167,sensor_132,Generator RMS current L3,A,False,False
+sensor_133_avg,58,9.036326030643186e-05,0,0,-3276.8,36.698,5.388679386654148,sensor_133,RMS line to line current axis 1,A,False,False
+sensor_133_max,58,9.036326030643186e-05,0,0,-3276.8,210.0,21.54829943825372,sensor_133,RMS line to line current axis 1,A,False,False
+sensor_133_min,58,9.036326030643186e-05,0,0,-3276.8,12.0,-0.5638989666905984,sensor_133,RMS line to line current axis 1,A,False,False
+sensor_133_std,58,9.036326030643186e-05,0,0,0.0,1638.5,4.129816397142255,sensor_133,RMS line to line current axis 1,A,False,False
+sensor_134_avg,58,9.036326030643186e-05,0,0,-3276.8,62.959,5.377898185103275,sensor_134,RMS line to line current axis 2,A,False,False
+sensor_134_max,58,9.036326030643186e-05,0,0,-3276.8,210.0,21.378376242920904,sensor_134,RMS line to line current axis 2,A,False,False
+sensor_134_min,58,9.036326030643186e-05,0,0,-3276.8,14.0,-0.6409356187681371,sensor_134,RMS line to line current axis 2,A,False,False
+sensor_134_std,58,9.036326030643186e-05,0,0,0.0,1633.8,4.149958863742482,sensor_134,RMS line to line current axis 2,A,False,False
+sensor_135_avg,58,9.036326030643186e-05,0,0,-1387.2,57.013,5.6508171042986675,sensor_135,RMS line to line current axis 3,A,False,False
+sensor_135_max,58,9.036326030643186e-05,0,0,0.0,210.0,21.923936787069856,sensor_135,RMS line to line current axis 3,A,False,False
+sensor_135_min,58,9.036326030643186e-05,0,0,-3276.8,14.0,-0.5073863745305707,sensor_135,RMS line to line current axis 3,A,False,False
+sensor_135_std,58,9.036326030643186e-05,0,0,0.0,1619.2,4.20438241011181,sensor_135,RMS line to line current axis 3,A,False,False
+sensor_136_avg,58,0.0,0,0,0.0,3453.1,2082.7697820472677,sensor_136,Generator RMS voltage L1-L2,V,False,False
+sensor_136_max,58,0.0,0,0,0.0,4380.0,2275.1976395108336,sensor_136,Generator RMS voltage L1-L2,V,False,False
+sensor_136_min,58,0.0,0,0,0.0,3411.0,1878.3856904757124,sensor_136,Generator RMS voltage L1-L2,V,False,False
+sensor_136_std,58,0.0,0,0,0.0,1717.4,93.40671431551714,sensor_136,Generator RMS voltage L1-L2,V,False,False
+sensor_137_avg,58,0.0,0,0,0.0,3454.1,2083.280668754424,sensor_137,Generator RMS voltage L2-L3,V,False,False
+sensor_137_max,58,0.0,0,0,0.0,4434.0,2274.7432475426212,sensor_137,Generator RMS voltage L2-L3,V,False,False
+sensor_137_min,58,0.0,0,0,0.0,3413.0,1879.52694456716,sensor_137,Generator RMS voltage L2-L3,V,False,False
+sensor_137_std,58,0.0,0,0,0.0,1716.6,93.37252607532281,sensor_137,Generator RMS voltage L2-L3,V,False,False
+sensor_138_avg,58,0.0,0,0,0.0,3452.0,2082.741818632434,sensor_138,Generator RMS voltage L3-L1,V,False,False
+sensor_138_max,58,0.0,0,0,0.0,4427.0,2274.320002346935,sensor_138,Generator RMS voltage L3-L1,V,False,False
+sensor_138_min,58,0.0,0,0,0.0,3410.0,1879.1549504006105,sensor_138,Generator RMS voltage L3-L1,V,False,False
+sensor_138_std,58,0.0,0,0,0.0,1717.2,93.33892304649065,sensor_138,Generator RMS voltage L3-L1,V,False,False
+sensor_139_avg,58,0.0,0,0,0.0,19642.0,19059.232322492044,sensor_139,RMS voltage phase 1 HV grid,V,False,False
+sensor_139_max,58,0.0,0,0,0.0,32767.0,19517.608981543304,sensor_139,RMS voltage phase 1 HV grid,V,False,False
+sensor_139_min,58,0.0,0,0,-5599.0,19328.0,18511.838961374728,sensor_139,RMS voltage phase 1 HV grid,V,False,False
+sensor_139_std,58,0.0,0,0,0.0,9642.5,161.4862710794268,sensor_139,RMS voltage phase 1 HV grid,V,False,False
+sensor_140_avg,58,0.0,0,0,0.0,19650.0,19061.91072493141,sensor_140,RMS voltage phase 2 HV grid,V,False,False
+sensor_140_max,58,0.0,0,0,0.0,32767.0,19526.295369886946,sensor_140,RMS voltage phase 2 HV grid,V,False,False
+sensor_140_min,58,0.0,0,0,-5111.0,19374.0,18504.291672523545,sensor_140,RMS voltage phase 2 HV grid,V,False,False
+sensor_140_std,58,0.0,0,0,0.0,9667.0,164.44950600319535,sensor_140,RMS voltage phase 2 HV grid,V,False,False
+sensor_141_avg,58,0.0,0,0,0.0,19652.0,19056.159120872093,sensor_141,RMS voltage phase 3 HV grid,V,False,False
+sensor_141_max,58,0.0,0,0,0.0,25794.0,19517.932256734573,sensor_141,RMS voltage phase 3 HV grid,V,False,False
+sensor_141_min,58,0.0,0,0,-5619.0,19356.0,18504.463566662984,sensor_141,RMS voltage phase 3 HV grid,V,False,False
+sensor_141_std,58,0.0,0,0,0.0,9635.4,162.83546435200756,sensor_141,RMS voltage phase 3 HV grid,V,False,False
+sensor_142_avg,58,4.518163015321593e-05,0,37,0.0,50.002,5.5968438494040775,sensor_142,Rotational speed aerator A,Hz,False,False
+sensor_142_max,58,4.518163015321593e-05,0,37,0.0,55.995,6.053222453962859,sensor_142,Rotational speed aerator A,Hz,False,False
+sensor_142_min,58,4.518163015321593e-05,0,39,0.0,50.002,5.490230477202327,sensor_142,Rotational speed aerator A,Hz,False,False
+sensor_142_std,58,4.518163015321593e-05,0,37,0.0,25.002,0.16065131468795654,sensor_142,Rotational speed aerator A,Hz,False,False
+sensor_143_avg,58,4.518163015321593e-05,0,10,0.0,50.002,20.46313293456651,sensor_143,Rotational speed aerator B,Hz,False,False
+sensor_143_max,58,4.518163015321593e-05,0,10,0.0,55.995,22.871342146136545,sensor_143,Rotational speed aerator B,Hz,False,False
+sensor_143_min,58,4.518163015321593e-05,0,12,0.0,50.002,20.10258288473896,sensor_143,Rotational speed aerator B,Hz,False,False
+sensor_143_std,58,4.518163015321593e-05,0,10,0.0,25.012,0.4751332928667533,sensor_143,Rotational speed aerator B,Hz,False,False
+sensor_144_avg,58,4.518163015321593e-05,0,0,-5.5,21.66,8.709221096444548,sensor_144,Rotor speed 1,1/min,False,False
+sensor_144_max,58,4.518163015321593e-05,0,0,-5.5,21.66,9.461769959039747,sensor_144,Rotor speed 1,1/min,False,False
+sensor_144_min,58,4.518163015321593e-05,0,0,-5.5,21.66,7.90666646737739,sensor_144,Rotor speed 1,1/min,False,False
+sensor_144_std,58,4.518163015321593e-05,0,0,0.0,12.722,0.3733032444700206,sensor_144,Rotor speed 1,1/min,False,False
+sensor_145_avg,58,4.518163015321593e-05,0,0,-5.5,14.909,7.4494649166675035,sensor_145,Rotor speed 2,1/min,False,False
+sensor_145_max,58,4.518163015321593e-05,0,0,-5.5,16.83,8.12076500352056,sensor_145,Rotor speed 2,1/min,False,False
+sensor_145_min,58,4.518163015321593e-05,0,0,-5.5,14.78,6.729600427770136,sensor_145,Rotor speed 2,1/min,False,False
+sensor_145_std,58,4.518163015321593e-05,0,2,0.0,7.365,0.33041090586358546,sensor_145,Rotor speed 2,1/min,False,False
+sensor_146_avg,58,4.518163015321593e-05,0,0,-54.16,150.44,80.3885704169951,sensor_146,Rotor speed gearbox main shaft 1,1/min,False,False
+sensor_146_max,58,4.518163015321593e-05,0,0,-54.16,194.35,87.59399456233339,sensor_146,Rotor speed gearbox main shaft 1,1/min,False,False
+sensor_146_min,58,4.518163015321593e-05,0,0,-54.16,149.61,72.81529514278668,sensor_146,Rotor speed gearbox main shaft 1,1/min,False,False
+sensor_146_std,58,4.518163015321593e-05,0,0,0.0,73.42,3.5514815282561107,sensor_146,Rotor speed gearbox main shaft 1,1/min,False,False
+sensor_147_avg,58,4.518163015321593e-05,0,0,-54.99,150.48,75.39997459177808,sensor_147,Rotor speed gearbox main shaft 2,1/min,False,False
+sensor_147_max,58,4.518163015321593e-05,0,0,-54.99,219.95,82.3652845896695,sensor_147,Rotor speed gearbox main shaft 2,1/min,False,False
+sensor_147_min,58,4.518163015321593e-05,0,0,-54.99,149.76,68.13558088617731,sensor_147,Rotor speed gearbox main shaft 2,1/min,False,False
+sensor_147_std,58,4.518163015321593e-05,0,2,0.0,73.51,3.4098496147150668,sensor_147,Rotor speed gearbox main shaft 2,1/min,False,False
+sensor_148_avg,58,9.036326030643186e-05,0,0,-117.88,177.35,-2.2559914380604287,sensor_148,RPM motor axis 1,1/min,False,False
+sensor_148_max,58,9.036326030643186e-05,0,0,-97.0,3276.7,130.24153655677964,sensor_148,RPM motor axis 1,1/min,False,False
+sensor_148_min,58,9.036326030643186e-05,0,0,-3002.0,68.0,-117.69774605927235,sensor_148,RPM motor axis 1,1/min,False,False
+sensor_148_std,58,9.036326030643186e-05,0,0,0.0,582.73,26.262060053789828,sensor_148,RPM motor axis 1,1/min,False,False
+sensor_149_avg,58,9.036326030643186e-05,0,0,-2666.9,3276.7,-2.4391586693497778,sensor_149,RPM motor axis 2,1/min,False,False
+sensor_149_max,58,9.036326030643186e-05,0,0,-102.0,3276.7,129.98110205482033,sensor_149,RPM motor axis 2,1/min,False,False
+sensor_149_min,58,9.036326030643186e-05,0,0,-3276.7,3276.7,-117.54506297987854,sensor_149,RPM motor axis 2,1/min,False,False
+sensor_149_std,58,9.036326030643186e-05,0,0,0.0,1803.2,26.26252001529411,sensor_149,RPM motor axis 2,1/min,False,False
+sensor_150_avg,58,9.036326030643186e-05,0,0,-127.41,2451.7,-2.3911068020187973,sensor_150,RPM motor axis 3,1/min,False,False
+sensor_150_max,58,9.036326030643186e-05,0,0,-109.0,3276.7,130.23221008520017,sensor_150,RPM motor axis 3,1/min,False,False
+sensor_150_min,58,9.036326030643186e-05,0,0,-3191.0,2451.7,-117.77978618518989,sensor_150,RPM motor axis 3,1/min,False,False
+sensor_150_std,58,9.036326030643186e-05,0,0,0.0,1250.9,26.309910253265922,sensor_150,RPM motor axis 3,1/min,False,False
+sensor_151_avg,58,4.518163015321593e-05,0,0,0.0,64.0,52.30163082461456,sensor_151,Temperature 1 planetary bearing A1,Celsius,False,False
+sensor_151_max,58,4.518163015321593e-05,0,0,0.0,64.0,52.37581079588527,sensor_151,Temperature 1 planetary bearing A1,Celsius,False,False
+sensor_151_min,58,4.518163015321593e-05,0,0,0.0,64.0,52.221730490694675,sensor_151,Temperature 1 planetary bearing A1,Celsius,False,False
+sensor_151_std,58,4.518163015321593e-05,0,0,0.0,25.378,0.04901104709393685,sensor_151,Temperature 1 planetary bearing A1,Celsius,False,False
+sensor_152_avg,58,4.518163015321593e-05,0,0,-3276.7,72.759,55.975548215056705,sensor_152,Temperature 1 planetary bearing A2,Celsius,False,False
+sensor_152_max,58,4.518163015321593e-05,0,0,-3276.7,72.8,56.12057692645604,sensor_152,Temperature 1 planetary bearing A2,Celsius,False,False
+sensor_152_min,58,4.518163015321593e-05,0,0,-3276.7,72.7,55.82275694447931,sensor_152,Temperature 1 planetary bearing A2,Celsius,False,False
+sensor_152_std,58,4.518163015321593e-05,0,0,0.0,1554.2,0.09124966426021779,sensor_152,Temperature 1 planetary bearing A2,Celsius,False,False
+sensor_153_avg,58,4.518163015321593e-05,0,0,-3276.7,64.073,51.554977629375905,sensor_153,Temperature 1 planetary bearing B1,Celsius,False,False
+sensor_153_max,58,4.518163015321593e-05,0,0,-3276.7,64.1,51.65105817648742,sensor_153,Temperature 1 planetary bearing B1,Celsius,False,False
+sensor_153_min,58,4.518163015321593e-05,0,0,-3276.7,64.0,51.45783095784363,sensor_153,Temperature 1 planetary bearing B1,Celsius,False,False
+sensor_153_std,58,4.518163015321593e-05,0,0,0.0,1646.0,0.06329513597774955,sensor_153,Temperature 1 planetary bearing B1,Celsius,False,False
+sensor_154_avg,58,4.518163015321593e-05,0,0,0.0,74.903,57.781350539944874,sensor_154,Temperature 1 planetary bearing B2,Celsius,False,False
+sensor_154_max,58,4.518163015321593e-05,0,0,0.0,75.0,57.94086191618931,sensor_154,Temperature 1 planetary bearing B2,Celsius,False,False
+sensor_154_min,58,4.518163015321593e-05,0,0,0.0,74.9,57.61407998513959,sensor_154,Temperature 1 planetary bearing B2,Celsius,False,False
+sensor_154_std,58,4.518163015321593e-05,0,0,0.0,26.452,0.0995028323259048,sensor_154,Temperature 1 planetary bearing B2,Celsius,False,False
+sensor_155_avg,58,4.518163015321593e-05,0,0,0.0,65.633,53.6312344985491,sensor_155,Temperature 1 planetary bearing C1,Celsius,False,False
+sensor_155_max,58,4.518163015321593e-05,0,0,0.0,65.7,53.70988257893336,sensor_155,Temperature 1 planetary bearing C1,Celsius,False,False
+sensor_155_min,58,4.518163015321593e-05,0,0,0.0,65.6,53.54678957462083,sensor_155,Temperature 1 planetary bearing C1,Celsius,False,False
+sensor_155_std,58,4.518163015321593e-05,0,0,0.0,25.055,0.05186140407632024,sensor_155,Temperature 1 planetary bearing C1,Celsius,False,False
+sensor_156_avg,58,4.518163015321593e-05,0,0,0.0,75.1,57.46723016091663,sensor_156,Temperature 1 planetary bearing C2,Celsius,False,False
+sensor_156_max,58,4.518163015321593e-05,0,0,0.0,75.1,57.63778004463143,sensor_156,Temperature 1 planetary bearing C2,Celsius,False,False
+sensor_156_min,58,4.518163015321593e-05,0,0,0.0,75.1,57.28881609994628,sensor_156,Temperature 1 planetary bearing C2,Celsius,False,False
+sensor_156_std,58,4.518163015321593e-05,0,0,0.0,26.208,0.10618202009920326,sensor_156,Temperature 1 planetary bearing C2,Celsius,False,False
+sensor_157_avg,58,4.518163015321593e-05,0,0,0.0,64.5,52.88848568587559,sensor_157,Temperature 1 planetary bearing D1,Celsius,False,False
+sensor_157_max,58,4.518163015321593e-05,0,0,0.0,64.6,52.963547225722564,sensor_157,Temperature 1 planetary bearing D1,Celsius,False,False
+sensor_157_min,58,4.518163015321593e-05,0,0,0.0,64.5,52.80768530325774,sensor_157,Temperature 1 planetary bearing D1,Celsius,False,False
+sensor_157_std,58,4.518163015321593e-05,0,0,0.0,25.323,0.04971404722697766,sensor_157,Temperature 1 planetary bearing D1,Celsius,False,False
+sensor_158_avg,58,4.518163015321593e-05,0,0,0.0,74.406,56.48282843634374,sensor_158,Temperature 1 planetary bearing D2,Celsius,False,False
+sensor_158_max,58,4.518163015321593e-05,0,0,0.0,74.5,56.66147276177662,sensor_158,Temperature 1 planetary bearing D2,Celsius,False,False
+sensor_158_min,58,4.518163015321593e-05,0,0,0.0,74.3,56.29616826775844,sensor_158,Temperature 1 planetary bearing D2,Celsius,False,False
+sensor_158_std,58,4.518163015321593e-05,0,0,0.0,26.311,0.11061512677157645,sensor_158,Temperature 1 planetary bearing D2,Celsius,False,False
+sensor_159_avg,58,4.518163015321593e-05,0,0,0.0,63.958,52.29207362177251,sensor_159,Temperature 2 planetary bearing A1,Celsius,False,False
+sensor_159_max,58,4.518163015321593e-05,0,0,0.0,64.0,52.36577625547852,sensor_159,Temperature 2 planetary bearing A1,Celsius,False,False
+sensor_159_min,58,4.518163015321593e-05,0,0,0.0,63.9,52.212741952286045,sensor_159,Temperature 2 planetary bearing A1,Celsius,False,False
+sensor_159_std,58,4.518163015321593e-05,0,0,0.0,25.331,0.04873569949344084,sensor_159,Temperature 2 planetary bearing A1,Celsius,False,False
+sensor_160_avg,58,4.518163015321593e-05,0,0,0.0,73.1,55.965754470987065,sensor_160,Temperature 2 planetary bearing A2,Celsius,False,False
+sensor_160_max,58,4.518163015321593e-05,0,0,0.0,73.1,56.11013422688228,sensor_160,Temperature 2 planetary bearing A2,Celsius,False,False
+sensor_160_min,58,4.518163015321593e-05,0,0,0.0,73.1,55.814523757825555,sensor_160,Temperature 2 planetary bearing A2,Celsius,False,False
+sensor_160_std,58,4.518163015321593e-05,0,0,0.0,26.311,0.09040680488058961,sensor_160,Temperature 2 planetary bearing A2,Celsius,False,False
+sensor_161_avg,58,4.518163015321593e-05,0,0,0.0,64.069,52.54996187596329,sensor_161,Temperature 2 planetary bearing B1,Celsius,False,False
+sensor_161_max,58,4.518163015321593e-05,0,0,0.0,64.1,52.62678845758007,sensor_161,Temperature 2 planetary bearing B1,Celsius,False,False
+sensor_161_min,58,4.518163015321593e-05,0,0,0.0,64.0,52.46760503321,sensor_161,Temperature 2 planetary bearing B1,Celsius,False,False
+sensor_161_std,58,4.518163015321593e-05,0,0,0.0,24.794,0.050926383436168024,sensor_161,Temperature 2 planetary bearing B1,Celsius,False,False
+sensor_162_avg,58,4.518163015321593e-05,0,0,0.0,75.1,57.81070999989959,sensor_162,Temperature 2 planetary bearing B2,Celsius,False,False
+sensor_162_max,58,4.518163015321593e-05,0,0,0.0,75.1,57.969813949956574,sensor_162,Temperature 2 planetary bearing B2,Celsius,False,False
+sensor_162_min,58,4.518163015321593e-05,0,0,0.0,75.1,57.64380061198773,sensor_162,Temperature 2 planetary bearing B2,Celsius,False,False
+sensor_162_std,58,4.518163015321593e-05,0,0,0.0,26.529,0.09931166482375857,sensor_162,Temperature 2 planetary bearing B2,Celsius,False,False
+sensor_163_avg,58,4.518163015321593e-05,0,0,0.0,65.582,53.58074341824516,sensor_163,Temperature 2 planetary bearing C1,Celsius,False,False
+sensor_163_max,58,4.518163015321593e-05,0,0,0.0,65.6,53.659025344274475,sensor_163,Temperature 2 planetary bearing C1,Celsius,False,False
+sensor_163_min,58,4.518163015321593e-05,0,0,0.0,65.5,53.49669167666565,sensor_163,Temperature 2 planetary bearing C1,Celsius,False,False
+sensor_163_std,58,4.518163015321593e-05,0,0,0.0,25.007,0.051689284566763895,sensor_163,Temperature 2 planetary bearing C1,Celsius,False,False
+sensor_164_avg,58,4.518163015321593e-05,0,0,0.0,75.0,57.49523241351093,sensor_164,Temperature 2 planetary bearing C2,Celsius,False,False
+sensor_164_max,58,4.518163015321593e-05,0,0,0.0,75.0,57.66585482486307,sensor_164,Temperature 2 planetary bearing C2,Celsius,False,False
+sensor_164_min,58,4.518163015321593e-05,0,0,0.0,75.0,57.316789342426965,sensor_164,Temperature 2 planetary bearing C2,Celsius,False,False
+sensor_164_std,58,4.518163015321593e-05,0,0,0.0,26.118,0.10623054657808993,sensor_164,Temperature 2 planetary bearing C2,Celsius,False,False
+sensor_165_avg,58,4.518163015321593e-05,0,0,0.0,64.6,52.901798084212324,sensor_165,Temperature 2 planetary bearing D1,Celsius,False,False
+sensor_165_max,58,4.518163015321593e-05,0,0,0.0,64.6,52.977007096346654,sensor_165,Temperature 2 planetary bearing D1,Celsius,False,False
+sensor_165_min,58,4.518163015321593e-05,0,0,0.0,64.6,52.820875891749964,sensor_165,Temperature 2 planetary bearing D1,Celsius,False,False
+sensor_165_std,58,4.518163015321593e-05,0,0,0.0,25.308,0.049765690249614684,sensor_165,Temperature 2 planetary bearing D1,Celsius,False,False
+sensor_166_avg,58,4.518163015321593e-05,0,0,0.0,73.766,56.49196179344034,sensor_166,Temperature 2 planetary bearing D2,Celsius,False,False
+sensor_166_max,58,4.518163015321593e-05,0,0,0.0,73.8,56.67106729480337,sensor_166,Temperature 2 planetary bearing D2,Celsius,False,False
+sensor_166_min,58,4.518163015321593e-05,0,0,0.0,73.7,56.30490333832027,sensor_166,Temperature 2 planetary bearing D2,Celsius,False,False
+sensor_166_std,58,4.518163015321593e-05,0,0,0.0,26.311,0.11086162914748453,sensor_166,Temperature 2 planetary bearing D2,Celsius,False,False
+sensor_167_avg,58,4.518163015321593e-05,0,0,0.0,42.8,19.71805303496212,sensor_167,Air temp. transformer container,Celsius,False,False
+sensor_167_max,58,4.518163015321593e-05,0,0,0.0,42.8,19.827325735364255,sensor_167,Air temp. transformer container,Celsius,False,False
+sensor_167_min,58,4.518163015321593e-05,0,0,0.0,42.8,19.603762607499487,sensor_167,Air temp. transformer container,Celsius,False,False
+sensor_167_std,58,4.518163015321593e-05,0,0,0.0,3.866,0.06264179571206956,sensor_167,Air temp. transformer container,Celsius,False,False
+sensor_168_avg,58,4.518163015321593e-05,0,0,0.0,83.549,60.5068804245508,sensor_168,Temperature of axial bearing 1,Celsius,False,False
+sensor_168_max,58,4.518163015321593e-05,0,0,0.0,83.7,60.99475314026518,sensor_168,Temperature of axial bearing 1,Celsius,False,False
+sensor_168_min,58,4.518163015321593e-05,0,0,0.0,83.5,59.994630642310995,sensor_168,Temperature of axial bearing 1,Celsius,False,False
+sensor_168_std,58,4.518163015321593e-05,0,0,0.0,23.334,0.292389297870845,sensor_168,Temperature of axial bearing 1,Celsius,False,False
+sensor_169_avg,58,4.518163015321593e-05,0,0,0.0,83.963,60.52761744459979,sensor_169,Temperature of axial bearing 2,Celsius,False,False
+sensor_169_max,58,4.518163015321593e-05,0,0,0.0,84.2,61.02507401963983,sensor_169,Temperature of axial bearing 2,Celsius,False,False
+sensor_169_min,58,4.518163015321593e-05,0,0,0.0,83.8,60.005192325553374,sensor_169,Temperature of axial bearing 2,Celsius,False,False
+sensor_169_std,58,4.518163015321593e-05,0,0,0.0,23.462,0.2969329055736569,sensor_169,Temperature of axial bearing 2,Celsius,False,False
+sensor_170_avg,58,9.036326030643186e-05,0,0,0.0,56.741,37.05060812680743,sensor_170,Control box temperature,Celsius,False,False
+sensor_170_max,58,9.036326030643186e-05,0,0,0.0,56.8,37.17112435233811,sensor_170,Control box temperature,Celsius,False,False
+sensor_170_min,58,9.036326030643186e-05,0,0,0.0,56.7,36.91105556336544,sensor_170,Control box temperature,Celsius,False,False
+sensor_170_std,58,9.036326030643186e-05,0,0,0.0,22.027,0.07170716250037655,sensor_170,Control box temperature,Celsius,False,False
+sensor_171_avg,58,4.518163015321593e-05,0,0,0.0,43.597,23.839377069349403,sensor_171,Temperature converter room,Celsius,False,False
+sensor_171_max,58,4.518163015321593e-05,0,0,0.0,43.6,24.1532788284376,sensor_171,Temperature converter room,Celsius,False,False
+sensor_171_min,58,4.518163015321593e-05,0,0,0.0,43.5,23.533072533599082,sensor_171,Temperature converter room,Celsius,False,False
+sensor_171_std,58,4.518163015321593e-05,0,0,0.0,3.445,0.2034943006759979,sensor_171,Temperature converter room,Celsius,False,False
+sensor_172_avg,58,0.0,0,0,0.0,52.318,24.455547322737406,sensor_172,Converter cabinet temperature,Celsius,False,False
+sensor_172_max,58,0.0,0,0,0.0,57.7,25.80793775351915,sensor_172,Converter cabinet temperature,Celsius,False,False
+sensor_172_min,58,0.0,0,0,-7.5,52.0,23.079231134159322,sensor_172,Converter cabinet temperature,Celsius,False,False
+sensor_172_std,58,0.0,0,0,0.0,10.33,0.28048234885489665,sensor_172,Converter cabinet temperature,Celsius,False,False
+sensor_173_avg,58,4.518163015321593e-05,0,0,0.0,1705.1,46.61736426134738,sensor_173,Generator temperature 1 cooling air inlet,Celsius,False,False
+sensor_173_max,58,4.518163015321593e-05,0,0,0.0,2006.1,47.57373344520476,sensor_173,Generator temperature 1 cooling air inlet,Celsius,False,False
+sensor_173_min,58,4.518163015321593e-05,0,0,0.0,103.0,45.29188441640268,sensor_173,Generator temperature 1 cooling air inlet,Celsius,False,False
+sensor_173_std,58,4.518163015321593e-05,0,0,0.0,950.0,0.6608498168492422,sensor_173,Generator temperature 1 cooling air inlet,Celsius,False,False
+sensor_174_avg,58,4.518163015321593e-05,0,0,0.0,257.56,45.4507669074789,sensor_174,Generator temperature 2 cooling air inlet,Celsius,False,False
+sensor_174_max,58,4.518163015321593e-05,0,0,0.0,602.2,46.43144388187984,sensor_174,Generator temperature 2 cooling air inlet,Celsius,False,False
+sensor_174_min,58,4.518163015321593e-05,0,0,-3.9,147.5,44.131971997419505,sensor_174,Generator temperature 2 cooling air inlet,Celsius,False,False
+sensor_174_std,58,4.518163015321593e-05,0,0,0.0,80.504,0.6651585413141922,sensor_174,Generator temperature 2 cooling air inlet,Celsius,False,False
+sensor_175_avg,58,0.00013554489045964778,0,0,0.0,66.502,30.91238975791288,sensor_175,Axis 3 cooling element temperature,Celsius,False,False
+sensor_175_max,58,0.00013554489045964778,0,0,0.0,67.0,31.677376750397904,sensor_175,Axis 3 cooling element temperature,Celsius,False,False
+sensor_175_min,58,0.00013554489045964778,0,0,0.0,66.1,30.193619991062864,sensor_175,Axis 3 cooling element temperature,Celsius,False,False
+sensor_175_std,58,0.00013554489045964778,0,0,0.0,21.914,0.20891734428425107,sensor_175,Axis 3 cooling element temperature,Celsius,False,False
+sensor_176_avg,58,4.518163015321593e-05,0,0,-1.38,69.203,21.737174524190838,sensor_176,Temperature cooling air exit,Celsius,False,False
+sensor_176_max,58,4.518163015321593e-05,0,0,-1.2,69.5,22.04609986491965,sensor_176,Temperature cooling air exit,Celsius,False,False
+sensor_176_min,58,4.518163015321593e-05,0,0,-1.6,69.0,21.36893057804977,sensor_176,Temperature cooling air exit,Celsius,False,False
+sensor_176_std,58,4.518163015321593e-05,0,0,0.0,14.84,0.18390929346543702,sensor_176,Temperature cooling air exit,Celsius,False,False
+sensor_177_avg,58,4.518163015321593e-05,0,0,-0.1058,852.03,27.462394323424725,sensor_177,Outside temperature,Celsius,False,False
+sensor_177_max,58,4.518163015321593e-05,0,0,0.0,852.4,28.107257407423678,sensor_177,Outside temperature,Celsius,False,False
+sensor_177_min,58,4.518163015321593e-05,0,0,-14.1,851.8,26.98163688481176,sensor_177,Outside temperature,Celsius,False,False
+sensor_177_std,58,4.518163015321593e-05,0,0,0.0,410.62,0.3215646715774624,sensor_177,Outside temperature,Celsius,False,False
+sensor_178_avg,58,9.036326030643186e-05,0,0,0.0,3076.0,22.198303678744644,sensor_178,Hydraulic oil tank temperature 1,Celsius,False,False
+sensor_178_max,58,9.036326030643186e-05,0,0,0.0,3265.0,22.24452688047877,sensor_178,Hydraulic oil tank temperature 1,Celsius,False,False
+sensor_178_min,58,9.036326030643186e-05,0,0,-1957.8,3076.0,22.149201530791554,sensor_178,Hydraulic oil tank temperature 1,Celsius,False,False
+sensor_178_std,58,9.036326030643186e-05,0,0,0.0,1093.3,0.030093512147425918,sensor_178,Hydraulic oil tank temperature 1,Celsius,False,False
+sensor_179_avg,58,9.036326030643186e-05,0,0,-52.4,507.25,22.205499438630273,sensor_179,Hydraulic oil tank temperature 2,Celsius,False,False
+sensor_179_max,58,9.036326030643186e-05,0,0,-52.4,2271.2,22.24988549814739,sensor_179,Hydraulic oil tank temperature 2,Celsius,False,False
+sensor_179_min,58,9.036326030643186e-05,0,0,-2268.1,466.2,22.15668654419665,sensor_179,Hydraulic oil tank temperature 2,Celsius,False,False
+sensor_179_std,58,9.036326030643186e-05,0,0,0.0,625.64,0.029310453212704212,sensor_179,Hydraulic oil tank temperature 2,Celsius,False,False
+sensor_180_avg,58,9.036326030643186e-05,0,0,0.0,3005.5,142.953471833517,sensor_180,Axis1 Motor temperature KTY84,Celsius,False,False
+sensor_180_max,58,9.036326030643186e-05,0,0,0.0,3276.7,143.86514631384992,sensor_180,Axis1 Motor temperature KTY84,Celsius,False,False
+sensor_180_min,58,9.036326030643186e-05,0,0,0.0,3005.5,142.15563971046,sensor_180,Axis1 Motor temperature KTY84,Celsius,False,False
+sensor_180_std,58,9.036326030643186e-05,0,0,0.0,1495.6,0.43250169838661895,sensor_180,Axis1 Motor temperature KTY84,Celsius,False,False
+sensor_181_avg,58,9.036326030643186e-05,0,0,0.0,2093.1,44.30539647868364,sensor_181,Axis2 Motor temperature KTY84,Celsius,False,False
+sensor_181_max,58,9.036326030643186e-05,0,0,0.0,3275.5,45.265095887849064,sensor_181,Axis2 Motor temperature KTY84,Celsius,False,False
+sensor_181_min,58,9.036326030643186e-05,0,0,0.0,2093.1,43.53698127422456,sensor_181,Axis2 Motor temperature KTY84,Celsius,False,False
+sensor_181_std,58,9.036326030643186e-05,0,0,0.0,1035.7,0.44424463978200407,sensor_181,Axis2 Motor temperature KTY84,Celsius,False,False
+sensor_182_avg,58,0.00013554489045964778,0,0,0.0,3005.7,128.43125966989717,sensor_182,Axis3 Motor temperature KTY84,Celsius,False,False
+sensor_182_max,58,0.00013554489045964778,0,0,0.0,3276.5,129.39029721618323,sensor_182,Axis3 Motor temperature KTY84,Celsius,False,False
+sensor_182_min,58,0.00013554489045964778,0,0,0.0,3005.7,127.55671763050475,sensor_182,Axis3 Motor temperature KTY84,Celsius,False,False
+sensor_182_std,58,0.00013554489045964778,0,0,0.0,1502.9,0.4703966366816623,sensor_182,Axis3 Motor temperature KTY84,Celsius,False,False
+sensor_183_avg,58,9.036326030643186e-05,0,0,0.0,139.67,50.07352389426794,sensor_183,Axis 1 Motor temperature PT100,Celsius,False,False
+sensor_183_max,58,9.036326030643186e-05,0,0,0.0,850.0,50.77836373118517,sensor_183,Axis 1 Motor temperature PT100,Celsius,False,False
+sensor_183_min,58,9.036326030643186e-05,0,0,0.0,139.0,49.366421084406916,sensor_183,Axis 1 Motor temperature PT100,Celsius,False,False
+sensor_183_std,58,9.036326030643186e-05,0,0,0.0,171.82,0.39405973328505156,sensor_183,Axis 1 Motor temperature PT100,Celsius,False,False
+sensor_184_avg,58,9.036326030643186e-05,0,0,0.0,850.0,49.86659891394256,sensor_184,Axis 2 Motor temperature PT100,Celsius,False,False
+sensor_184_max,58,9.036326030643186e-05,0,0,0.0,850.0,50.6220348758397,sensor_184,Axis 2 Motor temperature PT100,Celsius,False,False
+sensor_184_min,58,9.036326030643186e-05,0,0,0.0,850.0,49.11588371958751,sensor_184,Axis 2 Motor temperature PT100,Celsius,False,False
+sensor_184_std,58,9.036326030643186e-05,0,0,0.0,412.27,0.4217870687902278,sensor_184,Axis 2 Motor temperature PT100,Celsius,False,False
+sensor_185_avg,58,9.036326030643186e-05,0,0,0.0,755.65,49.944739012591754,sensor_185,Axis 3 Motor temperature PT100,Celsius,False,False
+sensor_185_max,58,9.036326030643186e-05,0,0,0.0,850.0,50.65633120876804,sensor_185,Axis 3 Motor temperature PT100,Celsius,False,False
+sensor_185_min,58,9.036326030643186e-05,0,0,0.0,129.4,49.23589891955939,sensor_185,Axis 3 Motor temperature PT100,Celsius,False,False
+sensor_185_std,58,9.036326030643186e-05,0,0,0.0,388.35,0.397476115208507,sensor_185,Axis 3 Motor temperature PT100,Celsius,False,False
+sensor_186_avg,58,4.518163015321593e-05,0,0,-1647.1,850.0,52.67153875692188,sensor_186,Gearbox oil temperature 1 ,Celsius,False,False
+sensor_186_max,58,4.518163015321593e-05,0,0,-1647.1,850.0,52.79662713304584,sensor_186,Gearbox oil temperature 1 ,Celsius,False,False
+sensor_186_min,58,4.518163015321593e-05,0,0,-2282.5,850.0,52.52879254168194,sensor_186,Gearbox oil temperature 1 ,Celsius,False,False
+sensor_186_std,58,4.518163015321593e-05,0,0,0.0,602.9,0.08347289983784081,sensor_186,Gearbox oil temperature 1 ,Celsius,False,False
+sensor_187_avg,58,4.518163015321593e-05,0,0,-2573.9,109.19,49.57489251934113,sensor_187,Gearbox oil temperature 2,Celsius,False,False
+sensor_187_max,58,4.518163015321593e-05,0,0,-2573.9,203.2,49.70763817417803,sensor_187,Gearbox oil temperature 2,Celsius,False,False
+sensor_187_min,58,4.518163015321593e-05,0,0,-2573.9,107.1,49.44055984451796,sensor_187,Gearbox oil temperature 2,Celsius,False,False
+sensor_187_std,58,4.518163015321593e-05,0,0,0.0,935.03,0.08087591751093194,sensor_187,Gearbox oil temperature 2,Celsius,False,False
+sensor_188_avg,58,4.518163015321593e-05,0,0,0.0,45.8,27.66092560288824,sensor_188,Oil temperature EB transformer,Celsius,False,False
+sensor_188_max,58,4.518163015321593e-05,0,0,0.0,45.8,27.678327934302942,sensor_188,Oil temperature EB transformer,Celsius,False,False
+sensor_188_min,58,4.518163015321593e-05,0,0,0.0,45.8,27.639976786888706,sensor_188,Oil temperature EB transformer,Celsius,False,False
+sensor_188_std,58,4.518163015321593e-05,0,0,0.0,3.375,0.01203645380973658,sensor_188,Oil temperature EB transformer,Celsius,False,False
+sensor_189_avg,58,4.518163015321593e-05,0,0,-3276.7,53.732,41.827559420042476,sensor_189,Gearbox oil inlet temperature 1,Celsius,False,False
+sensor_189_max,58,4.518163015321593e-05,0,0,-3276.7,54.2,44.317579680400826,sensor_189,Gearbox oil inlet temperature 1,Celsius,False,False
+sensor_189_min,58,4.518163015321593e-05,0,0,-3276.7,53.6,36.329261259394436,sensor_189,Gearbox oil inlet temperature 1,Celsius,False,False
+sensor_189_std,58,4.518163015321593e-05,0,0,0.0,1616.9,1.9810976917419307,sensor_189,Gearbox oil inlet temperature 1,Celsius,False,False
+sensor_190_avg,58,9.036326030643186e-05,0,0,0.0,53.51,44.83370734845214,sensor_190,Gearbox oil inlet temperature 2,Celsius,False,False
+sensor_190_max,58,9.036326030643186e-05,0,0,0.0,54.2,45.08633809958931,sensor_190,Gearbox oil inlet temperature 2,Celsius,False,False
+sensor_190_min,58,9.036326030643186e-05,0,0,0.0,53.5,44.57161085185111,sensor_190,Gearbox oil inlet temperature 2,Celsius,False,False
+sensor_190_std,58,9.036326030643186e-05,0,0,0.0,13.798,0.15713032482252054,sensor_190,Gearbox oil inlet temperature 2,Celsius,False,False
+sensor_191_avg,58,4.518163015321593e-05,0,0,0.0,70.092,36.266447393655206,sensor_191,Oil temperature 1 main transformer,Celsius,False,False
+sensor_191_max,58,4.518163015321593e-05,0,0,0.0,70.2,36.32523526886795,sensor_191,Oil temperature 1 main transformer,Celsius,False,False
+sensor_191_min,58,4.518163015321593e-05,0,0,0.0,69.9,36.20441620186057,sensor_191,Oil temperature 1 main transformer,Celsius,False,False
+sensor_191_std,58,4.518163015321593e-05,0,0,0.0,3.73,0.039216334211067995,sensor_191,Oil temperature 1 main transformer,Celsius,False,False
+sensor_192_avg,58,4.518163015321593e-05,0,0,0.0,69.836,36.10138057296661,sensor_192,Oil temperature 2 main transformer,Celsius,False,False
+sensor_192_max,58,4.518163015321593e-05,0,0,0.0,70.0,36.16128449647819,sensor_192,Oil temperature 2 main transformer,Celsius,False,False
+sensor_192_min,58,4.518163015321593e-05,0,0,0.0,69.6,36.03831584767079,sensor_192,Oil temperature 2 main transformer,Celsius,False,False
+sensor_192_std,58,4.518163015321593e-05,0,0,0.0,3.703,0.0400694604504812,sensor_192,Oil temperature 2 main transformer,Celsius,False,False
+sensor_193_avg,58,4.518163015321593e-05,0,0,-44.1,37.964,20.947862974177532,sensor_193,Temperature platform TBC200,Celsius,False,False
+sensor_193_max,58,4.518163015321593e-05,0,0,-44.1,38.0,21.056404691320218,sensor_193,Temperature platform TBC200,Celsius,False,False
+sensor_193_min,58,4.518163015321593e-05,0,0,-44.1,37.9,20.83340284506519,sensor_193,Temperature platform TBC200,Celsius,False,False
+sensor_193_std,58,4.518163015321593e-05,0,0,0.0,33.337,0.06361162284059703,sensor_193,Temperature platform TBC200,Celsius,False,False
+sensor_194_avg,58,9.036326030643186e-05,0,0,0.0,850.0,58.262499617615894,sensor_194,Axis 1 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_194_max,58,9.036326030643186e-05,0,0,0.0,850.8,58.33337984742291,sensor_194,Axis 1 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_194_min,58,9.036326030643186e-05,0,0,-3276.7,850.0,58.00804321385896,sensor_194,Axis 1 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_194_std,58,9.036326030643186e-05,0,0,0.0,1598.9,0.05592629353517958,sensor_194,Axis 1 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_195_avg,58,9.036326030643186e-05,0,0,0.0,850.0,58.36416052466261,sensor_195,Axis 2 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_195_max,58,9.036326030643186e-05,0,0,0.0,851.5,58.4357017027483,sensor_195,Axis 2 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_195_min,58,9.036326030643186e-05,0,0,0.0,850.0,58.27027828123588,sensor_195,Axis 2 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_195_std,58,9.036326030643186e-05,0,0,0.0,425.03,0.04621642246508149,sensor_195,Axis 2 Rotor bearing inner ring temperature,Celsius,False,False
+sensor_196_avg,58,4.518163015321593e-05,0,0,0.0,56.6,43.929067295430926,sensor_196,Rotor bearing temperature 1,Celsius,False,False
+sensor_196_max,58,4.518163015321593e-05,0,0,0.0,56.6,43.961327828874374,sensor_196,Rotor bearing temperature 1,Celsius,False,False
+sensor_196_min,58,4.518163015321593e-05,0,0,0.0,56.6,43.89303622349853,sensor_196,Rotor bearing temperature 1,Celsius,False,False
+sensor_196_std,58,4.518163015321593e-05,0,0,0.0,18.345,0.022140217452695208,sensor_196,Rotor bearing temperature 1,Celsius,False,False
+sensor_197_avg,58,4.518163015321593e-05,0,0,0.0,56.2,45.97002340074904,sensor_197,Rotor bearing temperature 2,Celsius,False,False
+sensor_197_max,58,4.518163015321593e-05,0,0,0.0,56.2,46.007028916294736,sensor_197,Rotor bearing temperature 2,Celsius,False,False
+sensor_197_min,58,4.518163015321593e-05,0,0,0.0,56.2,45.9290866748332,sensor_197,Rotor bearing temperature 2,Celsius,False,False
+sensor_197_std,58,4.518163015321593e-05,0,0,0.0,17.854,0.024515214189430035,sensor_197,Rotor bearing temperature 2,Celsius,False,False
+sensor_198_avg,58,4.518163015321593e-05,0,0,0.0,54.8,44.49524727454603,sensor_198,Rotor bearing temperature 3,Celsius,False,False
+sensor_198_max,58,4.518163015321593e-05,0,0,0.0,54.8,44.529705032205925,sensor_198,Rotor bearing temperature 3,Celsius,False,False
+sensor_198_min,58,4.518163015321593e-05,0,0,0.0,54.8,44.457017432111535,sensor_198,Rotor bearing temperature 3,Celsius,False,False
+sensor_198_std,58,4.518163015321593e-05,0,0,0.0,17.862,0.02316451054787712,sensor_198,Rotor bearing temperature 3,Celsius,False,False
+sensor_199_avg,58,4.518163015321593e-05,0,0,0.0,850.0,63.28534443167727,sensor_199,Temperature of stator winding U1,Celsius,False,False
+sensor_199_max,58,4.518163015321593e-05,0,0,0.0,850.0,63.59588157108647,sensor_199,Temperature of stator winding U1,Celsius,False,False
+sensor_199_min,58,4.518163015321593e-05,0,0,0.0,850.0,62.96956744792581,sensor_199,Temperature of stator winding U1,Celsius,False,False
+sensor_199_std,58,4.518163015321593e-05,0,0,0.0,396.99,0.17887021984994,sensor_199,Temperature of stator winding U1,Celsius,False,False
+sensor_200_avg,58,4.518163015321593e-05,0,0,0.0,850.0,82.661356989914,sensor_200,Temperature of stator winding U2,Celsius,False,False
+sensor_200_max,58,4.518163015321593e-05,0,0,0.0,850.5,85.46628764678418,sensor_200,Temperature of stator winding U2,Celsius,False,False
+sensor_200_min,58,4.518163015321593e-05,0,0,0.0,850.0,80.4464196960645,sensor_200,Temperature of stator winding U2,Celsius,False,False
+sensor_200_std,58,4.518163015321593e-05,0,0,0.0,401.52,1.5443583141721096,sensor_200,Temperature of stator winding U2,Celsius,False,False
+sensor_201_avg,58,4.518163015321593e-05,0,0,0.0,850.0,63.15086262657704,sensor_201,Temperature of stator winding V1,Celsius,False,False
+sensor_201_max,58,4.518163015321593e-05,0,0,0.0,850.0,63.464111237179125,sensor_201,Temperature of stator winding V1,Celsius,False,False
+sensor_201_min,58,4.518163015321593e-05,0,0,0.0,850.0,62.832900710136705,sensor_201,Temperature of stator winding V1,Celsius,False,False
+sensor_201_std,58,4.518163015321593e-05,0,0,0.0,371.79,0.17875208905450657,sensor_201,Temperature of stator winding V1,Celsius,False,False
+sensor_202_avg,58,4.518163015321593e-05,0,0,0.0,850.0,63.195127681525406,sensor_202,Temperature of stator winding V2,Celsius,False,False
+sensor_202_max,58,4.518163015321593e-05,0,0,0.0,850.0,63.507266601234015,sensor_202,Temperature of stator winding V2,Celsius,False,False
+sensor_202_min,58,4.518163015321593e-05,0,0,0.0,850.0,62.87885015086326,sensor_202,Temperature of stator winding V2,Celsius,False,False
+sensor_202_std,58,4.518163015321593e-05,0,0,0.0,381.07,0.1789851360154026,sensor_202,Temperature of stator winding V2,Celsius,False,False
+sensor_203_avg,58,4.518163015321593e-05,0,0,0.0,850.0,67.1582615610582,sensor_203,Temperature of stator winding W1,Celsius,False,False
+sensor_203_max,58,4.518163015321593e-05,0,0,0.0,850.2,67.49229944725309,sensor_203,Temperature of stator winding W1,Celsius,False,False
+sensor_203_min,58,4.518163015321593e-05,0,0,0.0,850.0,66.81431233589542,sensor_203,Temperature of stator winding W1,Celsius,False,False
+sensor_203_std,58,4.518163015321593e-05,0,0,0.0,388.29,0.19345805850783435,sensor_203,Temperature of stator winding W1,Celsius,False,False
+sensor_204_avg,58,4.518163015321593e-05,0,0,0.0,850.0,63.51057971027225,sensor_204,Temperature of stator winding W2,Celsius,False,False
+sensor_204_max,58,4.518163015321593e-05,0,0,0.0,850.0,63.82481025995672,sensor_204,Temperature of stator winding W2,Celsius,False,False
+sensor_204_min,58,4.518163015321593e-05,0,0,0.0,850.0,63.19173383554147,sensor_204,Temperature of stator winding W2,Celsius,False,False
+sensor_204_std,58,4.518163015321593e-05,0,0,0.0,393.49,0.1792285185529176,sensor_204,Temperature of stator winding W2,Celsius,False,False
+sensor_205_avg,58,4.518163015321593e-05,0,0,0.0,850.0,38.80681409146932,sensor_205,Temperature electrical cabinet ,Celsius,False,False
+sensor_205_max,58,4.518163015321593e-05,0,0,0.0,850.0,38.86710813833232,sensor_205,Temperature electrical cabinet ,Celsius,False,False
+sensor_205_min,58,4.518163015321593e-05,0,0,0.0,850.0,38.74171237329745,sensor_205,Temperature electrical cabinet ,Celsius,False,False
+sensor_205_std,58,4.518163015321593e-05,0,0,0.0,142.15,0.03847629344535537,sensor_205,Temperature electrical cabinet ,Celsius,False,False
+sensor_206_avg,58,4.518163015321593e-05,0,0,0.0,41.024,26.170251578290753,sensor_206,Temperature electrical cabinet 1,Celsius,False,False
+sensor_206_max,58,4.518163015321593e-05,0,0,0.0,41.1,26.247389952657553,sensor_206,Temperature electrical cabinet 1,Celsius,False,False
+sensor_206_min,58,4.518163015321593e-05,0,0,0.0,41.0,26.085411886819923,sensor_206,Temperature electrical cabinet 1,Celsius,False,False
+sensor_206_std,58,4.518163015321593e-05,0,0,0.0,3.327,0.04876633013198653,sensor_206,Temperature electrical cabinet 1,Celsius,False,False
+sensor_207_avg,58,4.518163015321593e-05,0,0,0.0,41.024,26.170251578290753,sensor_207,Temperature electrical cabinet 2,Celsius,False,False
+sensor_207_max,58,4.518163015321593e-05,0,0,0.0,41.1,26.247389952657553,sensor_207,Temperature electrical cabinet 2,Celsius,False,False
+sensor_207_min,58,4.518163015321593e-05,0,0,0.0,41.0,26.085411886819923,sensor_207,Temperature electrical cabinet 2,Celsius,False,False
+sensor_207_std,58,4.518163015321593e-05,0,0,0.0,3.327,0.04876633013198653,sensor_207,Temperature electrical cabinet 2,Celsius,False,False
+sensor_208_avg,58,9.036326030643186e-05,0,0,0.0,65.963,30.56085545065218,sensor_208,Axis 1 cooling element temperature,Celsius,False,False
+sensor_208_max,58,9.036326030643186e-05,0,0,0.0,66.5,31.308874630983343,sensor_208,Axis 1 cooling element temperature,Celsius,False,False
+sensor_208_min,58,9.036326030643186e-05,0,0,0.0,65.6,29.862397735944732,sensor_208,Axis 1 cooling element temperature,Celsius,False,False
+sensor_208_std,58,9.036326030643186e-05,0,0,0.0,21.515,0.199405733533573,sensor_208,Axis 1 cooling element temperature,Celsius,False,False
+sensor_209_avg,58,9.036326030643186e-05,0,0,0.0,66.881,30.879307882867334,sensor_209,Axis 2 cooling element temperature,Celsius,False,False
+sensor_209_max,58,9.036326030643186e-05,0,0,0.0,67.3,31.66481372817279,sensor_209,Axis 2 cooling element temperature,Celsius,False,False
+sensor_209_min,58,9.036326030643186e-05,0,0,0.0,66.5,30.150773240518532,sensor_209,Axis 2 cooling element temperature,Celsius,False,False
+sensor_209_std,58,9.036326030643186e-05,0,0,0.0,20.857,0.20237824684453104,sensor_209,Axis 2 cooling element temperature,Celsius,False,False
+sensor_210_avg,58,4.518163015321593e-05,0,0,0.0,39.857,22.723237444901024,sensor_210,Electrical cabinet temperature 3/4,Celsius,False,False
+sensor_210_max,58,4.518163015321593e-05,0,0,0.0,40.0,22.94736362689332,sensor_210,Electrical cabinet temperature 3/4,Celsius,False,False
+sensor_210_min,58,4.518163015321593e-05,0,0,0.0,39.8,22.504757652356833,sensor_210,Electrical cabinet temperature 3/4,Celsius,False,False
+sensor_210_std,58,4.518163015321593e-05,0,0,0.0,7.29,0.12968641681560542,sensor_210,Electrical cabinet temperature 3/4,Celsius,False,False
+sensor_211_avg,58,4.518163015321593e-05,0,0,0.0,100.0,91.76398057434723,sensor_211,Trigger bypass valve gearbox,%,False,False
+sensor_211_max,58,4.518163015321593e-05,0,0,0.0,100.0,91.85293391436188,sensor_211,Trigger bypass valve gearbox,%,False,False
+sensor_211_min,58,4.518163015321593e-05,0,0,0.0,100.0,91.66401838821686,sensor_211,Trigger bypass valve gearbox,%,False,False
+sensor_211_std,58,4.518163015321593e-05,0,0,0.0,48.139,0.0640858176926707,sensor_211,Trigger bypass valve gearbox,%,False,False
+sensor_212_avg,58,4.518163015321593e-05,0,0,0.0,26.4,25.760958929266216,sensor_212,24VDC power pack 1,V,False,False
+sensor_212_max,58,4.518163015321593e-05,0,0,0.0,26.4,25.78723328624609,sensor_212,24VDC power pack 1,V,False,False
+sensor_212_min,58,4.518163015321593e-05,0,0,0.0,26.4,25.74556512567336,sensor_212,24VDC power pack 1,V,False,False
+sensor_212_std,58,4.518163015321593e-05,0,0,0.0,12.826,0.008229970611786914,sensor_212,24VDC power pack 1,V,False,False
+sensor_213_avg,58,4.518163015321593e-05,0,0,0.0,26.477,25.902415979644754,sensor_213,24VDC power pack 2,V,False,False
+sensor_213_max,58,4.518163015321593e-05,0,1,0.0,26.5,25.92267112647286,sensor_213,24VDC power pack 2,V,False,False
+sensor_213_min,58,4.518163015321593e-05,0,0,0.0,26.4,25.882420600522373,sensor_213,24VDC power pack 2,V,False,False
+sensor_213_std,58,4.518163015321593e-05,0,0,0.0,12.87,0.008703751719489726,sensor_213,24VDC power pack 2,V,False,False
+sensor_214_avg,58,9.036326030643186e-05,0,0,0.0,212.28,178.36355282733913,sensor_214,Axis 1 voltage 1 battery 100%,V,False,False
+sensor_214_max,58,9.036326030643186e-05,0,0,0.0,298.9,178.6147546101979,sensor_214,Axis 1 voltage 1 battery 100%,V,False,False
+sensor_214_min,58,9.036326030643186e-05,0,0,0.0,210.2,177.530579368674,sensor_214,Axis 1 voltage 1 battery 100%,V,False,False
+sensor_214_std,58,9.036326030643186e-05,0,0,0.0,102.35,0.15412201228298306,sensor_214,Axis 1 voltage 1 battery 100%,V,False,False
+sensor_215_avg,58,9.036326030643186e-05,0,0,0.0,213.55,178.40183611333202,sensor_215,Axis 2 Voltage 1 battery 100%,V,False,False
+sensor_215_max,58,9.036326030643186e-05,0,0,0.0,230.6,178.65681839861833,sensor_215,Axis 2 Voltage 1 battery 100%,V,False,False
+sensor_215_min,58,9.036326030643186e-05,0,0,0.0,212.4,177.49144213960003,sensor_215,Axis 2 Voltage 1 battery 100%,V,False,False
+sensor_215_std,58,9.036326030643186e-05,0,0,0.0,105.31,0.15754883944888493,sensor_215,Axis 2 Voltage 1 battery 100%,V,False,False
+sensor_216_avg,58,9.036326030643186e-05,0,0,0.0,212.0,178.03196897890956,sensor_216,Axis 3 Voltage 1 battery 100%,V,False,False
+sensor_216_max,58,9.036326030643186e-05,0,0,0.0,231.1,178.28502231672172,sensor_216,Axis 3 Voltage 1 battery 100%,V,False,False
+sensor_216_min,58,9.036326030643186e-05,0,0,0.0,210.6,177.3332035603204,sensor_216,Axis 3 Voltage 1 battery 100%,V,False,False
+sensor_216_std,58,9.036326030643186e-05,0,0,0.0,102.3,0.15119891692355583,sensor_216,Axis 3 Voltage 1 battery 100%,V,False,False
+sensor_217_avg,58,9.036326030643186e-05,0,0,0.0,28.3,23.951579001916627,sensor_217,Voltage 24 VDC hub,V,False,False
+sensor_217_max,58,9.036326030643186e-05,0,0,0.0,28.3,24.03057419117573,sensor_217,Voltage 24 VDC hub,V,False,False
+sensor_217_min,58,9.036326030643186e-05,0,0,0.0,28.2,23.8281191007541,sensor_217,Voltage 24 VDC hub,V,False,False
+sensor_217_std,58,9.036326030643186e-05,0,0,0.0,13.3,0.04373760681400556,sensor_217,Voltage 24 VDC hub,V,False,False
+sensor_218_avg,58,9.036326030643186e-05,0,0,0.0,43.148,25.45766621344978,sensor_218,Voltage 24 VDC nacelle,V,False,False
+sensor_218_max,58,9.036326030643186e-05,0,0,0.0,45.9,25.488890151020694,sensor_218,Voltage 24 VDC nacelle,V,False,False
+sensor_218_min,58,9.036326030643186e-05,0,0,0.0,27.2,25.41119494873932,sensor_218,Voltage 24 VDC nacelle,V,False,False
+sensor_218_std,58,9.036326030643186e-05,0,0,0.0,12.522,0.019054955648967257,sensor_218,Voltage 24 VDC nacelle,V,False,False
+sensor_219_avg,58,9.036326030643186e-05,0,0,0.0,422.27,354.86717729907417,sensor_219,Axis 1 Voltage 2 Battery 100%,V,False,False
+sensor_219_max,58,9.036326030643186e-05,0,0,0.0,1024.1,355.3165713269036,sensor_219,Axis 1 Voltage 2 Battery 100%,V,False,False
+sensor_219_min,58,9.036326030643186e-05,0,0,0.0,418.5,353.2344919493493,sensor_219,Axis 1 Voltage 2 Battery 100%,V,False,False
+sensor_219_std,58,9.036326030643186e-05,0,0,0.0,204.21,0.2659041518767133,sensor_219,Axis 1 Voltage 2 Battery 100%,V,False,False
+sensor_220_avg,58,9.036326030643186e-05,0,0,0.0,415.95,354.8307556404008,sensor_220,Axis 2 Voltage 2 Battery 100%,V,False,False
+sensor_220_max,58,9.036326030643186e-05,0,0,0.0,1024.4,355.32764399180627,sensor_220,Axis 2 Voltage 2 Battery 100%,V,False,False
+sensor_220_min,58,9.036326030643186e-05,0,0,0.0,415.0,353.1045340725382,sensor_220,Axis 2 Voltage 2 Battery 100%,V,False,False
+sensor_220_std,58,9.036326030643186e-05,0,0,0.0,206.53,0.2751976592231572,sensor_220,Axis 2 Voltage 2 Battery 100%,V,False,False
+sensor_221_avg,58,9.036326030643186e-05,0,0,0.0,422.45,354.39146442371896,sensor_221,Axis 3 voltage 2 battery 100%,V,False,False
+sensor_221_max,58,9.036326030643186e-05,0,0,0.0,472.2,354.838606485154,sensor_221,Axis 3 voltage 2 battery 100%,V,False,False
+sensor_221_min,58,9.036326030643186e-05,0,0,0.0,419.6,352.94536884046556,sensor_221,Axis 3 voltage 2 battery 100%,V,False,False
+sensor_221_std,58,9.036326030643186e-05,0,0,0.0,203.9,0.27151010500030126,sensor_221,Axis 3 voltage 2 battery 100%,V,False,False
+sensor_222_avg,58,9.036326030643186e-05,0,0,0.0,209.99,176.50361259143833,sensor_222,Axis 1 Voltage battery 50%,V,False,False
+sensor_222_max,58,9.036326030643186e-05,0,0,0.0,819.1,176.77465752994806,sensor_222,Axis 1 Voltage battery 50%,V,False,False
+sensor_222_min,58,9.036326030643186e-05,0,0,0.0,208.2,175.65526206458546,sensor_222,Axis 1 Voltage battery 50%,V,False,False
+sensor_222_std,58,9.036326030643186e-05,0,0,0.0,102.75,0.1483996554903152,sensor_222,Axis 1 Voltage battery 50%,V,False,False
+sensor_223_avg,58,9.036326030643186e-05,0,0,0.0,210.51,176.4289261349459,sensor_223,Axis 2 Voltage battery 50%,V,False,False
+sensor_223_max,58,9.036326030643186e-05,0,0,0.0,819.1,176.73384262443642,sensor_223,Axis 2 Voltage battery 50%,V,False,False
+sensor_223_min,58,9.036326030643186e-05,0,0,0.0,210.3,175.5709186318268,sensor_223,Axis 2 Voltage battery 50%,V,False,False
+sensor_223_std,58,9.036326030643186e-05,0,0,0.0,102.05,0.15046751787345994,sensor_223,Axis 2 Voltage battery 50%,V,False,False
+sensor_224_avg,58,9.036326030643186e-05,0,0,0.0,210.45,176.35949008085734,sensor_224,Axis 3 Voltage battery 50%,V,False,False
+sensor_224_max,58,9.036326030643186e-05,0,0,0.0,316.4,176.62145762835252,sensor_224,Axis 3 Voltage battery 50%,V,False,False
+sensor_224_min,58,9.036326030643186e-05,0,0,0.0,209.0,175.5680481778861,sensor_224,Axis 3 Voltage battery 50%,V,False,False
+sensor_224_std,58,9.036326030643186e-05,0,0,0.0,102.2,0.15356763206152285,sensor_224,Axis 3 Voltage battery 50%,V,False,False
+sensor_225_avg,58,0.0,0,0,-0.4399,2.5,0.15251867827416213,sensor_225,Water conductivity QIT1,DL,False,False
+sensor_225_max,58,0.0,0,0,-0.4399,2.5,0.15759486215837668,sensor_225,Water conductivity QIT1,DL,False,False
+sensor_225_min,58,0.0,0,0,-0.4399,2.5,0.1488230689245768,sensor_225,Water conductivity QIT1,DL,False,False
+sensor_225_std,58,0.0,0,0,0.0,1.199,0.002247958606096508,sensor_225,Water conductivity QIT1,DL,False,False
+sensor_226_avg,58,0.0,0,0,-2.5,10.0,4.2785893280362055,sensor_226,Water pressure PT1,bar,False,False
+sensor_226_max,58,0.0,0,0,-2.5,10.0,4.348009226622271,sensor_226,Water pressure PT1,bar,False,False
+sensor_226_min,58,0.0,0,0,-2.5,10.0,4.212687322975864,sensor_226,Water pressure PT1,bar,False,False
+sensor_226_std,58,0.0,0,0,0.0,3.744,0.03298683043334204,sensor_226,Water pressure PT1,bar,False,False
+sensor_227_avg,58,0.0,0,0,-2.5,10.0,1.0626099581881665,sensor_227,Water pressure PT2,bar,False,False
+sensor_227_max,58,0.0,0,0,-2.5,10.0,1.125743813693548,sensor_227,Water pressure PT2,bar,False,False
+sensor_227_min,58,0.0,0,0,-2.5,10.0,1.005027163384305,sensor_227,Water pressure PT2,bar,False,False
+sensor_227_std,58,0.0,0,0,0.0,6.223,0.024692830020432138,sensor_227,Water pressure PT2,bar,False,False
+sensor_228_avg,58,4.518163015321593e-05,0,0,-1564.0,55.073,37.439312959681104,sensor_228,Cooling water temp. generator inlet 1,Celsius,False,False
+sensor_228_max,58,4.518163015321593e-05,0,0,0.0,55.7,38.44805302303865,sensor_228,Cooling water temp. generator inlet 1,Celsius,False,False
+sensor_228_min,58,4.518163015321593e-05,0,0,-1851.3,53.7,36.3068410275269,sensor_228,Cooling water temp. generator inlet 1,Celsius,False,False
+sensor_228_std,58,4.518163015321593e-05,0,0,0.0,905.48,0.6263143959570655,sensor_228,Cooling water temp. generator inlet 1,Celsius,False,False
+sensor_229_avg,58,4.518163015321593e-05,0,0,-2211.2,54.999,37.39593704502553,sensor_229,Cooling water temp. generator inlet 2,Celsius,False,False
+sensor_229_max,58,4.518163015321593e-05,0,0,0.0,55.6,38.40517563269691,sensor_229,Cooling water temp. generator inlet 2,Celsius,False,False
+sensor_229_min,58,4.518163015321593e-05,0,0,-2615.5,53.6,36.263635835923026,sensor_229,Cooling water temp. generator inlet 2,Celsius,False,False
+sensor_229_std,58,4.518163015321593e-05,0,0,0.0,1274.6,0.6263927708321828,sensor_229,Cooling water temp. generator inlet 2,Celsius,False,False
+sensor_230_avg,58,0.0,0,0,0.0,605.0,475.83099309358,sensor_230,Water flow,DL,False,False
+sensor_230_max,58,0.0,0,0,0.0,605.0,481.16676065900543,sensor_230,Water flow,DL,False,False
+sensor_230_min,58,0.0,0,0,0.0,605.0,470.3172047882488,sensor_230,Water flow,DL,False,False
+sensor_230_std,58,0.0,0,0,0.0,302.52,2.6474827774842367,sensor_230,Water flow,DL,False,False
+sensor_231_avg,58,9.036326030643186e-05,0,0,-2.49,5.06,3.426500828687154,sensor_231,Water pressure 1 cooling system,bar,False,False
+sensor_231_max,58,9.036326030643186e-05,0,0,-2.49,5.17,3.567729674179628,sensor_231,Water pressure 1 cooling system,bar,False,False
+sensor_231_min,58,9.036326030643186e-05,0,0,-2.49,5.06,3.3822126230683103,sensor_231,Water pressure 1 cooling system,bar,False,False
+sensor_231_std,58,9.036326030643186e-05,0,0,0.0,2.28,0.05290635951259677,sensor_231,Water pressure 1 cooling system,bar,False,False
+sensor_232_avg,58,4.518163015321593e-05,0,0,-3.467,5.068,3.4224030879588025,sensor_232,Water pressure 2 cooling system,bar,False,False
+sensor_232_max,58,4.518163015321593e-05,0,0,-2.49,5.17,3.563248471379909,sensor_232,Water pressure 2 cooling system,bar,False,False
+sensor_232_min,58,4.518163015321593e-05,0,0,-4.49,5.06,3.3790559569964405,sensor_232,Water pressure 2 cooling system,bar,False,False
+sensor_232_std,58,4.518163015321593e-05,0,0,0.0,3.216,0.05264046775140948,sensor_232,Water pressure 2 cooling system,bar,False,False
+sensor_233_avg,58,4.518163015321593e-05,0,0,-43.12,57.477,40.21937313334957,sensor_233,Cooling water temp. generator outlet 1,Celsius,False,False
+sensor_233_max,58,4.518163015321593e-05,0,0,0.0,61.7,40.94018340805374,sensor_233,Cooling water temp. generator outlet 1,Celsius,False,False
+sensor_233_min,58,4.518163015321593e-05,0,0,-58.0,57.4,39.51036610697486,sensor_233,Cooling water temp. generator outlet 1,Celsius,False,False
+sensor_233_std,58,4.518163015321593e-05,0,0,0.0,46.892,0.4258816634305954,sensor_233,Cooling water temp. generator outlet 1,Celsius,False,False
+sensor_234_avg,58,4.518163015321593e-05,0,0,-1468.4,57.553,40.23088565393324,sensor_234,Cooling water temp. generator outlet 2,Celsius,False,False
+sensor_234_max,58,4.518163015321593e-05,0,0,0.0,61.8,40.95191343436068,sensor_234,Cooling water temp. generator outlet 2,Celsius,False,False
+sensor_234_min,58,4.518163015321593e-05,0,0,-1740.9,57.5,39.521578654731485,sensor_234,Cooling water temp. generator outlet 2,Celsius,False,False
+sensor_234_std,58,4.518163015321593e-05,0,0,0.0,859.6,0.4262840369539679,sensor_234,Cooling water temp. generator outlet 2,Celsius,False,False
+wind_speed_236_avg,58,9.036326030643186e-05,0,0,-14.9,33.736,7.797437471351002,wind_speed_236,Wind speed 1+2,m/s,False,False
+wind_speed_236_max,58,9.036326030643186e-05,0,0,0.0,42.65,10.962630183742682,wind_speed_236,Wind speed 1+2,m/s,False,False
+wind_speed_236_min,58,9.036326030643186e-05,0,0,-14.9,26.65,4.260484640999508,wind_speed_236,Wind speed 1+2,m/s,False,False
+wind_speed_236_std,58,9.036326030643186e-05,0,0,0.0,12.04,1.0025042319558386,wind_speed_236,Wind speed 1+2,m/s,False,False
+wind_speed_235_avg,58,9.036326030643186e-05,0,0,-26.373,33.773,5.615819958749209,wind_speed_235,Wind speed 1,m/s,False,False
+wind_speed_235_max,58,9.036326030643186e-05,0,0,-14.9,59.3,8.801405380331914,wind_speed_235,Wind speed 1,m/s,False,False
+wind_speed_235_min,58,9.036326030643186e-05,0,0,-31.3,26.8,1.8511496720270308,wind_speed_235,Wind speed 1,m/s,False,False
+wind_speed_235_std,58,9.036326030643186e-05,0,0,0.0,16.567,0.9808902443103655,wind_speed_235,Wind speed 1,m/s,False,False
+wind_speed_237_avg,58,9.036326030643186e-05,0,0,-14.9,60.0,6.572815212962777,wind_speed_237,Wind speed 2,m/s,False,False
+wind_speed_237_max,58,9.036326030643186e-05,0,0,-14.9,60.0,9.936233803463484,wind_speed_237,Wind speed 2,m/s,False,False
+wind_speed_237_min,58,9.036326030643186e-05,0,0,-14.9,60.0,2.0999113530045985,wind_speed_237,Wind speed 2,m/s,False,False
+wind_speed_237_std,58,9.036326030643186e-05,0,0,0.0,37.216,1.1371544184410427,wind_speed_237,Wind speed 2,m/s,False,False

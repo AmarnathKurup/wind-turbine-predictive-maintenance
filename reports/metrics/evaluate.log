@@ -1,0 +1,16 @@
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\.venv\Lib\site-packages\sklearn\utils\_plotting.py:193: FutureWarning: `**kwargs` is deprecated and will be removed in 1.11. Pass all matplotlib arguments to `curve_kwargs` as a dictionary instead.
+  warnings.warn(
+[00:50:03] TEST @thr=0.178: PR-AUC=0.0432 ROC-AUC=0.5932 P=0.0420 R=0.0223 F1=0.0291 CM={'tn': 434795, 'fp': 8248, 'fn': 15886, 'tp': 362}
+[00:50:03] Event level: {'anomaly_events': 5, 'anomaly_events_detected': 1, 'anomaly_events_missed': 4, 'normal_events': 7, 'normal_events_with_false_alarm': 1, 'median_detection_delay_h': 619.0, 'median_lead_time_before_event_end_h': 953.3}
+exit_avg=0
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\metrics.py:65: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  w = windows.assign(pred=(proba >= threshold).astype(int), proba=proba)
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\evaluate.py:80: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  t = test.assign(pred=pred, proba=proba)
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\.venv\Lib\site-packages\sklearn\utils\_plotting.py:193: FutureWarning: `**kwargs` is deprecated and will be removed in 1.11. Pass all matplotlib arguments to `curve_kwargs` as a dictionary instead.
+  warnings.warn(
+C:\Users\91859\Downloads\sem3\Bigdata_project\wind_turbine_ml\wtpm\evaluate.py:141: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  twp = twin.assign(proba=model.predict_proba(twin[cols])[:, 1])
+[00:50:16] TEST @thr=0.107: PR-AUC=0.0611 ROC-AUC=0.7075 P=0.0613 R=0.1666 F1=0.0897 CM={'tn': 401624, 'fp': 41419, 'fn': 13541, 'tp': 2707}
+[00:50:16] Event level: {'anomaly_events': 5, 'anomaly_events_detected': 4, 'anomaly_events_missed': 1, 'normal_events': 7, 'normal_events_with_false_alarm': 5, 'median_detection_delay_h': 8.5, 'median_lead_time_before_event_end_h': 461.25}
+exit_selfref=0

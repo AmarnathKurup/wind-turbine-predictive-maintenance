@@ -1,0 +1,19 @@
+# Wind Turbine Predictive Maintenance - ML module (Member 1)
+# Verified on Python 3.14.0, Windows 11 x64 (2026-11-21).
+# Direct dependencies only, pinned to the versions that were installed and tested.
+
+# Core data / ML
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# Visualisation (EDA, evaluation figures)
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Testing
+pytest==9.2.0
+
+# Notebook kernel (run notebooks in VS Code / Jupyter)
+ipykernel==7.4.0

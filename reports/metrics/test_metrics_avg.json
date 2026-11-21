@@ -1,0 +1,371 @@
+{
+  "model_version": "rf-farmC-avg-v1",
+  "evaluated": "2026-11-22 00:50:01",
+  "test_fold": 0,
+  "test_turbines": [
+    13,
+    23,
+    33,
+    34,
+    44
+  ],
+  "test_events": {
+    "anomaly": 5,
+    "normal": 7
+  },
+  "record_level_at_cv_threshold": {
+    "n": 459291,
+    "positives": 16248,
+    "prevalence": 0.035376264721059196,
+    "threshold": 0.1775374057991335,
+    "pr_auc": 0.04323492982225714,
+    "roc_auc": 0.5931690236377444,
+    "accuracy": 0.947453792911248,
+    "precision": 0.042044134727061554,
+    "recall": 0.022279665189561794,
+    "f1": 0.02912543245635208,
+    "confusion_matrix": {
+      "tn": 434795,
+      "fp": 8248,
+      "fn": 15886,
+      "tp": 362
+    },
+    "classification_report": {
+      "normal": {
+        "precision": 0.9647511210812082,
+        "recall": 0.9813832968808897,
+        "f1-score": 0.9729961375100142,
+        "support": 443043.0
+      },
+      "anomaly": {
+        "precision": 0.042044134727061554,
+        "recall": 0.022279665189561794,
+        "f1-score": 0.02912543245635208,
+        "support": 16248.0
+      },
+      "accuracy": 0.947453792911248,
+      "macro avg": {
+        "precision": 0.5033976279041349,
+        "recall": 0.5018314810352257,
+        "f1-score": 0.5010607849831832,
+        "support": 459291.0
+      },
+      "weighted avg": {
+        "precision": 0.9321091944719732,
+        "recall": 0.947453792911248,
+        "f1-score": 0.9396055175855831,
+        "support": 459291.0
+      }
+    }
+  },
+  "record_level_at_0.5": {
+    "n": 459291,
+    "positives": 16248,
+    "prevalence": 0.035376264721059196,
+    "threshold": 0.5,
+    "pr_auc": 0.04323492982225714,
+    "roc_auc": 0.5931690236377444,
+    "accuracy": 0.9646237352789409,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": {
+      "tn": 443043,
+      "fp": 0,
+      "fn": 16248,
+      "tp": 0
+    },
+    "classification_report": {
+      "normal": {
+        "precision": 0.9646237352789409,
+        "recall": 1.0,
+        "f1-score": 0.9819933638763474,
+        "support": 443043.0
+      },
+      "anomaly": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 16248.0
+      },
+      "accuracy": 0.9646237352789409,
+      "macro avg": {
+        "precision": 0.4823118676394704,
+        "recall": 0.5,
+        "f1-score": 0.4909966819381737,
+        "support": 459291.0
+      },
+      "weighted avg": {
+        "precision": 0.9304989506634961,
+        "recall": 0.9646237352789409,
+        "f1-score": 0.9472541066815343,
+        "support": 459291.0
+      }
+    }
+  },
+  "event_level_summary": {
+    "anomaly_events": 5,
+    "anomaly_events_detected": 1,
+    "anomaly_events_missed": 4,
+    "normal_events": 7,
+    "normal_events_with_false_alarm": 1,
+    "median_detection_delay_h": 619.0,
+    "median_lead_time_before_event_end_h": 953.3
+  },
+  "event_level": [
+    {
+      "event_id": 4,
+      "asset_id": 34,
+      "event_label": "anomaly",
+      "window_rows": 2737,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0022,
+      "mean_probability": 0.0677,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 456.0
+    },
+    {
+      "event_id": 18,
+      "asset_id": 34,
+      "event_label": "anomaly",
+      "window_rows": 576,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0,
+      "mean_probability": 0.0539,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 95.8
+    },
+    {
+      "event_id": 29,
+      "asset_id": 13,
+      "event_label": "normal",
+      "window_rows": 2017,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0015,
+      "mean_probability": 0.1003,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 336.0
+    },
+    {
+      "event_id": 37,
+      "asset_id": 23,
+      "event_label": "normal",
+      "window_rows": 1729,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0012,
+      "mean_probability": 0.089,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 288.0
+    },
+    {
+      "event_id": 41,
+      "asset_id": 33,
+      "event_label": "normal",
+      "window_rows": 3970,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0063,
+      "mean_probability": 0.11,
+      "alarm": true,
+      "first_alarm": "2023-01-16 14:40:00",
+      "detection_delay_h": 9.7,
+      "lead_time_before_event_end_h": 651.8,
+      "event_duration_h": 661.5
+    },
+    {
+      "event_id": 44,
+      "asset_id": 44,
+      "event_label": "anomaly",
+      "window_rows": 9435,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0369,
+      "mean_probability": 0.1024,
+      "alarm": true,
+      "first_alarm": "2023-08-29 09:00:00",
+      "detection_delay_h": 619.0,
+      "lead_time_before_event_end_h": 953.3,
+      "event_duration_h": 1572.3
+    },
+    {
+      "event_id": 49,
+      "asset_id": 33,
+      "event_label": "anomaly",
+      "window_rows": 598,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0017,
+      "mean_probability": 0.1065,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 99.5
+    },
+    {
+      "event_id": 56,
+      "asset_id": 34,
+      "event_label": "normal",
+      "window_rows": 2008,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0,
+      "mean_probability": 0.0591,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 334.5
+    },
+    {
+      "event_id": 70,
+      "asset_id": 23,
+      "event_label": "anomaly",
+      "window_rows": 2902,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0024,
+      "mean_probability": 0.0798,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 483.5
+    },
+    {
+      "event_id": 75,
+      "asset_id": 44,
+      "event_label": "normal",
+      "window_rows": 2737,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0011,
+      "mean_probability": 0.0673,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 456.0
+    },
+    {
+      "event_id": 80,
+      "asset_id": 23,
+      "event_label": "normal",
+      "window_rows": 2065,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0,
+      "mean_probability": 0.0577,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 344.0
+    },
+    {
+      "event_id": 94,
+      "asset_id": 34,
+      "event_label": "normal",
+      "window_rows": 1441,
+      "window_gaps": 0,
+      "share_records_flagged": 0.0028,
+      "mean_probability": 0.0692,
+      "alarm": false,
+      "first_alarm": NaN,
+      "detection_delay_h": NaN,
+      "lead_time_before_event_end_h": NaN,
+      "event_duration_h": 240.0
+    }
+  ],
+  "error_analysis": {
+    "false_positives_by_label_source": {
+      "assumed_normal": 8211,
+      "normal_window": 37
+    },
+    "false_positive_rate_by_label_source": {
+      "assumed_normal": 0.0192,
+      "normal_window": 0.0023
+    },
+    "false_positives_by_status": {
+      "3": 4906,
+      "0": 1971,
+      "5": 1042,
+      "4": 329
+    },
+    "false_positives_by_turbine": {
+      "34": 3666,
+      "13": 1371,
+      "33": 1110,
+      "23": 1107,
+      "44": 994
+    },
+    "false_negatives_by_event": {
+      "44": 9087,
+      "70": 2895,
+      "4": 2731,
+      "49": 597,
+      "18": 576
+    },
+    "recall_by_status_inside_anomaly_windows": {
+      "0": 0.0001,
+      "3": 0.3596,
+      "4": 0.3913,
+      "5": 0.1687
+    },
+    "positives_by_status": {
+      "0": 15164,
+      "3": 826,
+      "5": 166,
+      "4": 92
+    }
+  },
+  "top20_impurity_importance": {
+    "sensor_225_avg": 0.03563,
+    "sensor_74_avg": 0.03168,
+    "sensor_227_avg": 0.02915,
+    "sensor_44_avg": 0.02314,
+    "sensor_186_avg": 0.02123,
+    "sensor_210_avg": 0.01922,
+    "sensor_212_avg": 0.0175,
+    "sensor_43_avg": 0.01689,
+    "sensor_110_avg": 0.01679,
+    "sensor_215_avg": 0.01665,
+    "sensor_109_avg": 0.0163,
+    "sensor_220_avg": 0.01624,
+    "sensor_226_avg": 0.016,
+    "sensor_15_avg": 0.01421,
+    "sensor_223_avg": 0.01366,
+    "sensor_112_avg": 0.01323,
+    "sensor_126_avg": 0.01293,
+    "sensor_111_avg": 0.01246,
+    "sensor_55_avg": 0.01241,
+    "sensor_213_avg": 0.01233
+  },
+  "top20_permutation_importance_pr_auc": {
+    "sensor_225_avg": 0.01,
+    "sensor_227_avg": 0.00934,
+    "sensor_94_avg": 0.00726,
+    "sensor_74_avg": 0.00537,
+    "sensor_10_avg": 0.00289,
+    "sensor_43_avg": 0.0027,
+    "sensor_226_avg": 0.00231,
+    "sensor_216_avg": 0.00229,
+    "sensor_92_avg": 0.00221,
+    "sensor_111_avg": 0.00212,
+    "sensor_167_avg": 0.00168,
+    "sensor_45_avg": 0.00165,
+    "reactive_power_122_avg": 0.00159,
+    "sensor_205_avg": 0.00159,
+    "sensor_213_avg": 0.00153,
+    "sensor_101_avg": 0.00152,
+    "sensor_230_avg": 0.00148,
+    "sensor_128_avg": 0.00144,
+    "sensor_13_avg": 0.00142,
+    "reactive_power_121_avg": 0.00141
+  }
+}
