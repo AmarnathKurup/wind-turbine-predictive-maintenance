@@ -41,7 +41,7 @@ CHECKPOINT_PATH = (
     "/home/uma_parvathy/spark_checkpoints/wind_turbine"
 )
 PREDICTIONS_FILE = PROJECT_ROOT / "dashboard" / "predictions.csv"
-
+ALARM_HISTORY_FILE = PROJECT_ROOT / "dashboard" / "alarm_history.csv"
 def load_message_schema():
     """Build a Spark schema using Member 1's model feature list."""
 
@@ -87,10 +87,11 @@ def predict_batch(batch_df, batch_id):
 
     records = batch_df.collect()
 
-    print(f"\nProcessing batch: {batch_id}")
+    print(f"\\nProcessing batch: {batch_id}")
     print(f"Records received: {len(records)}")
 
     prediction_results = []
+    alarm_events = []
 
     for row in records:
         record = row.asDict()
@@ -107,6 +108,15 @@ def predict_batch(batch_df, batch_id):
             result = process_prediction(model_record)
             prediction_results.append(result)
 
+            if result["alarm"] and result["consecutive_anomalies"] == 6:
+                alarm_events.append({
+                    "asset_id": result["asset_id"],
+                    "time_stamp": result["time_stamp"],
+                    "anomaly_probability": result["anomaly_probability"],
+                    "consecutive_anomalies": result["consecutive_anomalies"],
+                    "alarm": result["alarm"],
+                })
+
             print(
                 f"Asset: {result['asset_id']} | "
                 f"Time: {result['time_stamp']} | "
@@ -122,10 +132,7 @@ def predict_batch(batch_df, batch_id):
             )
 
     if prediction_results:
-        PREDICTIONS_FILE.parent.mkdir(
-            parents=True,
-            exist_ok=True,
-        )
+        PREDICTIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
 
         fieldnames = [
             "asset_id",
@@ -138,12 +145,7 @@ def predict_batch(batch_df, batch_id):
 
         file_exists = PREDICTIONS_FILE.exists()
 
-        with open(
-            PREDICTIONS_FILE,
-            "a",
-            newline="",
-            encoding="utf-8",
-        ) as file:
+        with open(PREDICTIONS_FILE, "a", newline="", encoding="utf-8") as file:
             writer = csv.DictWriter(
                 file,
                 fieldnames=fieldnames,
@@ -156,6 +158,30 @@ def predict_batch(batch_df, batch_id):
             writer.writerows(prediction_results)
 
         print(f"Saved {len(prediction_results)} predictions to dashboard CSV.")
+
+    if alarm_events:
+        ALARM_HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+        alarm_fieldnames = [
+            "asset_id",
+            "time_stamp",
+            "anomaly_probability",
+            "consecutive_anomalies",
+            "alarm",
+        ]
+
+        file_exists = ALARM_HISTORY_FILE.exists()
+
+        with open(ALARM_HISTORY_FILE, "a", newline="", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=alarm_fieldnames)
+
+            if not file_exists or ALARM_HISTORY_FILE.stat().st_size == 0:
+                writer.writeheader()
+
+            writer.writerows(alarm_events)
+
+        print(f"Saved {len(alarm_events)} alarm events to alarm history CSV.")
+
 
 def run_stream():
     """Read, parse, and transform SCADA messages from Kafka."""
