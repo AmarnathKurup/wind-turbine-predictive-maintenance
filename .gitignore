@@ -38,3 +38,17 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# --- Kafka / Spark runtime ---
+spark_checkpoints/
+checkpoint/
+.sparkStaging/
+spark-warehouse/
+
+# --- Generated dashboard output ---
+dashboard/predictions.csv
+
+# --- Local CARE dataset archives ---
+*.zip
+CARE_To_Compare/
+

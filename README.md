@@ -179,3 +179,96 @@ Seeds fixed (`RANDOM_STATE=42`, `FOLD_SEED=2`); deterministic negative thinning;
 `data/processed/preprocessing_config.json`, fold assignment in `reports/metrics/fold_assignment.csv`, model
 parameters, feature order, threshold and library versions in `artifacts/model_metadata_*.json`.
 Dependencies pinned in `requirements.txt` (no MLflow, no FastAPI).
+---
+
+## 10. Big Data Streaming Integration (Member 2 and Member 3)
+
+This section extends the original ML project with a Kafka-based streaming pipeline, Spark Structured Streaming, and a Streamlit monitoring dashboard.
+
+### 10.1 Streaming Architecture
+
+CARE SCADA Dataset ZIP → SCADA Generator → Schema Validation → Kafka Producer → Kafka Topic → PySpark Structured Streaming → Random Forest Prediction → Alarm Tracking → Streamlit Dashboard
+
+### 10.2 Additional Technologies
+
+- Apache Kafka 4.4.0
+- PySpark Structured Streaming 4.3.0
+- kafka-python 2.2.15
+- Streamlit 1.67.0
+
+### 10.3 Streaming Components
+
+| Component | Responsibility |
+|---|---|
+| `generator/scada_generator.py` | Reads real SCADA records directly from the CARE dataset ZIP |
+| `schemas/message_schema.py` | Validates incoming messages against the 238 model features |
+| `producer/kafka_producer.py` | Publishes SCADA records to Kafka |
+| `consumer/kafka_consumer.py` | Consumes Kafka messages |
+| `streaming/data_transformer.py` | Prepares and validates records for prediction |
+| `streaming/prediction_client.py` | Connects the streaming pipeline to the local Random Forest model |
+| `streaming/spark_kafka_consumer.py` | Processes Kafka messages using Spark Structured Streaming |
+| `dashboard/app.py` | Displays prediction statistics, anomaly probabilities and alarms |
+
+### 10.4 Installation
+
+Install all project dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+The CARE dataset ZIP must remain outside the repository in the parent `bigdata` directory, as described in Section 2.
+
+### 10.5 Running the Streaming Pipeline
+
+Start the Kafka server and create the topic `wind-turbine-scada`.
+
+Start the producer:
+
+```bash
+python -m producer.kafka_producer
+```
+
+Start the Spark streaming application in another terminal:
+
+```bash
+python -m streaming.spark_kafka_consumer
+```
+
+Start the Streamlit dashboard:
+
+```bash
+streamlit run dashboard/app.py
+```
+
+Open `http://localhost:8501` to view the dashboard.
+
+### 10.6 Prediction and Alarm Integration
+
+The streaming application uses the existing `wtpm.predict` package and the trained `rf-farmC-avg-v1` model.
+
+Each SCADA record contains 238 model-compatible sensor features and the turbine identifiers.
+
+The alarm tracker raises an alarm after six consecutive anomalous records spaced at 10-minute intervals.
+
+Prediction results are saved to `dashboard/predictions.csv` for dashboard monitoring.
+
+### 10.7 Integration Testing
+
+Run the automated tests:
+
+```bash
+python -m pytest -v
+```
+
+The streaming integration tests cover message generation, ZIP-based dataset access, schema validation and invalid input handling.
+
+An actual SCADA record was successfully processed by the local Random Forest model during integration testing.
+
+### 10.8 Integration Notes
+
+- The original ML training, evaluation and preprocessing components remain part of the project.
+- The original model artifacts and methodology documentation are preserved.
+- The CARE dataset ZIP is not committed to GitHub.
+- Generated prediction CSV files and Spark checkpoints are excluded from version control.
+- The generator currently streams historical SCADA records and does not simulate artificial failure events.
